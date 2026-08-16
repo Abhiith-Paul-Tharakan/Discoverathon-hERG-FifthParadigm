@@ -1,0 +1,39 @@
+# hERG Channel Blockade -- Discoverathon 2026, Challenge 2 (final-model-only repo)
+# Pinned from the actual training environment (captured in the original project's
+# ML_Ensemble/environment/pip_freeze_full.txt, conda_env_base_full.yml, system_info.txt --
+# not included in this minimal repo, see README "Integrity & acknowledgments"),
+# pruned to only what model_code/ and external_validation/ actually import.
+# Developed on Python 3.13.11, Linux, CUDA 12.9.
+#
+# Install: pip install -r requirements.txt
+# GPU torch (recommended): see the note under "Deep learning" below.
+
+# ---- Core (required to run master_predict.py) -----------------------------------------------
+numpy==2.4.2
+pandas==3.0.1
+scipy==1.17.0
+scikit-learn==1.8.0
+joblib==1.5.3
+rdkit==2025.9.5
+tqdm==4.67.1
+python-dateutil==2.9.0.post0
+PyYAML==6.0.3
+
+# ---- Gradient-boosted model zoo (ML_Ensemble classifier/regressor ensemble members) -----------
+xgboost==3.2.0
+lightgbm==4.6.0
+catboost==1.2.10
+
+# ---- Deep learning (required: ft_chemberta_pure) -------------------------------------------
+# The plain PyPI `torch` wheel bundles a CUDA runtime this project's training environment
+# could not always use as-is -- install from PyTorch's own index for a matched CUDA build,
+# or drop the "+cu121" suffix for a CPU-only install:
+#   pip install torch==2.5.1+cu121 --index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1
+# Exact pinned version was not captured in the original environment snapshot -- install the
+# latest release compatible with torch==2.5.1 (developed/tested against the 4.4x series).
+transformers>=4.40
+
+# ---- Optional: feature-importance diagnostics (train_ml_ensemble_classifier.py --shap) --------
+# Only needed if retraining with SHAP output enabled; master_predict.py never imports it.
+shap==0.51.0

@@ -1,0 +1,958 @@
+source,generic_name,smiles,inchikey,risk_label,risk_scheme,cardiotox_binary
+DICTrank,trazodone hydrochloride,O=c1n(CCC[NH+]2CCN(c3cccc(Cl)c3)CC2)nc2ccccn12,PHLBKPHSAVXXEF-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,metformin hydrochloride,C[NH+](C)C([NH3+])=NC(N)=[NH2+],XZWYZXLIPXDOLR-UHFFFAOYSA-Q,most,DICTrank_concern,1.0
+DICTrank,flurbiprofen,CC(C(=O)[O-])c1ccc(-c2ccccc2)c(F)c1,SYTBZMRGLBWNTM-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,ketoprofen,CC(C(=O)[O-])c1cccc(C(=O)c2ccccc2)c1,DKYWVDODHFEZIM-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,methamphetamine hydrochloride,C[NH2+]C(C)Cc1ccccc1,MYWUZJCMWCOHBA-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,iohexol,CC(=O)N(CC(O)CO)c1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I,NTHXOOBQLCIOLC-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,iodixanol,CC(=O)N(CC(O)CN(C(C)=O)c1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I)c1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I,NBQNWMBBSKPBAY-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,sertraline,C[NH2+]C1CCC(c2ccc(Cl)c(Cl)c2)c2ccccc21,VGKDLMBJGBXTGI-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,praziquantel,O=C(C1CCCCC1)[NH+]1CC(=O)[NH+]2CCc3ccccc3C2C1,FSVJFNAIGNNGKK-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,cilostazol,O=C1CCc2cc(OCCCCc3nnnn3C3CCCCC3)ccc2N1,RRGUKTPIGVIEKM-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,thalidomide,O=C1CCC([NH+]2C(=O)c3ccccc3C2=O)C(=O)N1,UEJJHQNACJXSKW-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,estropipate,CC12CCC3c4ccc(OS(=O)(=O)[O-])cc4CCC3C1CCC2=O,JKKFKPJIXZFSSB-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,asciminib,O=C(Nc1ccc(OC(F)(F)Cl)cc1)c1cnc(N2CCC(O)C2)c(-c2cc[n-]n2)c1,HXOAPXMFCZMDDM-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,ziprasidone hcl,[O-]c1cc2cc(CC[NH+]3CCN(c4nsc5ccccc45)CC3)c(Cl)cc2[n-]1,UJBBPEACAGCYFF-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,procainamide hydrochloride,CC[NH+](CC)CCNC(=O)c1ccc(N)cc1,REQCZEXYDRLIBE-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,ibuprofen,CC(C)Cc1ccc(C(C)C(=O)[O-])cc1,HEFNNWSXXWATRW-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,sibutramine,CC(C)CC([NH+](C)C)C1(c2ccc(Cl)cc2)CCC1,UNAANXDKBXWMLN-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,propofol,CC(C)c1cccc(C(C)C)c1[O-],OLBCVFGFOZPWHH-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,lomefloxacin hydrochloride,CCn1cc(C(=O)[O-])c(=O)c2cc(F)c(N3CC[NH2+]C(C)C3)c(F)c21,ZEKZLJVOYLTDKK-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,doxapram hydrochloride,CC[NH+]1CC(CC[NH+]2CCOCC2)C(c2ccccc2)(c2ccccc2)C1=O,XFDJYSQDBULQSI-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,carfilzomib,CC(C)CC(NC(=O)C(CCc1ccccc1)NC(=O)C[NH+]1CCOCC1)C(=O)NC(Cc1ccccc1)C(=O)NC(CC(C)C)C(=O)C1(C)CO1,BLMPQMFVWMYDKT-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,bortezomib,CC(C)CC(NC(=O)C(Cc1ccccc1)NC(=O)c1cnccn1)B(O)O,GXJABQQUPOEUTA-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,degarelix,CC(=O)NC(Cc1ccc2ccccc2c1)C(=O)NC(Cc1ccc(Cl)cc1)C(=O)NC(Cc1cccnc1)C(=O)NC(CO)C(=O)NC(Cc1ccc(NC(O)c2cc(=O)[n-]c(=O)[n-]2)cc1)C(=O)NC(Cc1ccc(NC(N)=O)cc1)C(O)=NC(CC(C)C)C(O)=NC(CCCC[NH2+]C(C)C)C(=O)[NH+]1CCCC1C(O)=NC(C)C(N)=O,LWEDEMDGPBZYSZ-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,pregabalin,CC(C)CC(C[NH3+])CC(=O)[O-],AYXYPKUFHZROOJ-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,sunitinib malate,CC[NH+](CC)CC=NC(=O)c1c(C)[nH]c(Cc2c([O-])[n-]c3ccc(F)cc23)c1C,DHSQYMYKOXILPT-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,ritonavir,CC(C)c1nc(C[NH+](C)C(=O)NC(C(=O)NC(Cc2ccccc2)CC(O)C(Cc2ccccc2)NC(=O)OCc2cncs2)C(C)C)cs1,NCDNCNXCDXHOMX-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,probucol,CC(C)(Sc1cc(C(C)(C)C)c([O-])c(C(C)(C)C)c1)Sc1cc(C(C)(C)C)c([O-])c(C(C)(C)C)c1,FYPMFJGVHOHGLL-UHFFFAOYSA-L,most,DICTrank_concern,1.0
+DICTrank,hydrocodone bitartrate,COc1ccc2c3c1OC1C(=O)CCC4C(C2)[NH+](C)CCC314,LLPOLZWFYMWNKH-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,phentermine,CC(C)([NH3+])Cc1ccccc1,DHHVAGZRUROJKS-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,mitoxantrone,[O-]c1ccc([O-])c2c([O-])c3c(NCC[NH2+]CCO)ccc(NCC=NCCO)c3c([O-])c12,YYJKSCIIZGQWEE-UHFFFAOYSA-K,most,DICTrank_concern,1.0
+DICTrank,chlorphentermine,CC(C)([NH3+])Cc1ccc(Cl)cc1,ZCKAMNXUHHNZLN-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,macimorelin acetate,CC(C)([NH3+])C(=O)NC(Cc1c[nH]c2ccccc12)C(=O)NC(Cc1c[nH]c2ccccc12)NC=O,UJVDJAPJQWZRFR-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,hydroxyzine hydrochloride,OCCOCC[NH+]1CC[NH+](C(c2ccccc2)c2ccc(Cl)cc2)CC1,ZQDWXGKKHFNSQK-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,albuterol,CC(C)(C)[NH2+]CC(O)c1ccc([O-])c(CO)c1,NDAUXUAQIAJITI-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,oxaliplatin,[NH3+]C1CCCCC1[NH3+],SSJXIUAHEKJCMH-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,asenapine maleate,C[NH+]1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,VSWBSWWIRNCQIJ-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,carbamazepine,NC(=O)N1c2ccccc2C=Cc2ccccc21,FFGPTBGBLSHEPO-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,saxagliptin,N#CC1CC2CC2[NH+]1C(=O)C([NH3+])C12CC3CC(CC(O)(C3)C1)C2,QGJUIPDUBHWZPV-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,eribulin mesylate,C=C1CC2CCC34CC5OC6C(OC7CCC(CC(=O)CC8C(CC9OC(CCC1O2)CC(C)C9=C)OC(CC(O)C[NH3+])C8OC)OC7C6O3)C5O4,UFNVPOGXISZXJD-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,diflunisal,O=C([O-])c1cc(-c2ccc(F)cc2F)ccc1[O-],HUPFGZXOMWLGNK-UHFFFAOYSA-L,most,DICTrank_concern,1.0
+DICTrank,crizotinib,CC(Oc1cc(-c2cnn(C3CC[NH2+]CC3)c2)c[n-]c1=N)c1c(Cl)ccc(F)c1Cl,XXOKUDUWIQQDEX-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,etelcalcetide,CC(=O)NC(CSSCC([NH3+])C(=O)[O-])C(=O)NC(C)C(=O)NC(CCC[NH+]=C(N)N)C(=O)NC(CCCNC(N)=[NH2+])C(=O)NC(CCCNC(N)=[NH2+])C(=O)NC(C)C(=O)NC(CCCNC(N)=[NH2+])C(N)=O,ANIAZGVDEUQPRI-UHFFFAOYSA-R,most,DICTrank_concern,1.0
+DICTrank,encorafenib,COC(=O)NC(C)CN=c1nc(-c2cn(C(C)C)nc2-c2cc(Cl)cc(NS(C)(=O)=O)c2F)cc[n-]1,NZJQFWQRQASSLO-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,dopamine hydrochloride,[NH3+]CCc1ccc([O-])c([O-])c1,VYFYYTLLBUKUHU-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,hydralazine hydrochloride,NN=c1[n-]ncc2ccccc12,CCEGPWRZSICLSD-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,dextran 40,O=C(C(O)CO)C(O)C(O)COC1OC(COC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O,BYMPKULJRANZCQ-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,anagrelide hydrochloride,[O-]c1cn2c(n1)Nc1ccc(Cl)c(Cl)c1C2,CUCMIJQKFCWAPD-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,rizatriptan benzoate,C[NH+](C)CCc1c[nH]c2ccc(Cn3cncn3)cc12,ULFRLSNUDGIQQP-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,eletriptan hydrobromide,C[NH+]1CCCC1Cc1c[nH]c2ccc(CCS(=O)(=O)c3ccccc3)cc12,PWVXXGRKLHYWKM-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,galantamine hydrobromide,COc1ccc2c3c1OC1CC(O)C=C(CC[NH+](C)C2)C31,FFQKTDKDUHFQKE-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,cyclophosphamide,O=P1([NH+](CCCl)CCCl)[NH2+]CCCO1,CMSMOCZEIVJLDB-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,abacavir,N=c1[n-]c(=NC2CC2)c2ncn(C3C=CC(CO)C3)c2[n-]1,FCQXMAZZBNODHL-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,nitroglycerin,O=[N+]([O-])OCC(CO[N+](=O)[O-])O[N+](=O)[O-],SNIOPGDIGTZGOP-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,triptorelin pamoate,CC(C)CC(NC(=O)C(Cc1c[nH]c2ccccc12)NC(=O)C(Cc1ccc([O-])cc1)NC(=O)C(CO)NC(=O)C(Cc1c[nH]c2ccccc12)NC(=O)C(Cc1cnc[n-]1)NC(=O)C1CCC(=O)N1)C(=O)NC(CCCNC(N)=[NH2+])C(=O)[NH+]1CCCC1C(=O)NCC(N)=O,QMTULUMEARBXCP-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,tofacitinib,CC1CC[NH+](C(=O)CC#N)CC1[NH+](C)c1ncnc2[nH]ccc12,UJLAWZDWDVHWOW-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,estradiol cypionate,CC12CCC3c4ccc([O-])cc4CCC3C1CCC2OC(=O)CCC1CCCC1,UOACKFBJUYNSLK-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,midodrine hydrochloride,COc1ccc(OC)c(C(O)CNC(=O)C[NH3+])c1,PTKSEFOSCHHMPD-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,octreotide acetate,CC(=O)C1NC(=O)C(CCCC[NH3+])NC(=O)C(Cc2c[nH]c3ccccc23)NC(=O)C(Cc2ccccc2)NC(=O)C(NC(=O)C([NH3+])Cc2ccccc2)CSSCC(C(=O)NC(CO)C(C)O)[NH2+]C1O,JDKKNQACNITFEA-UHFFFAOYSA-Q,most,DICTrank_concern,1.0
+DICTrank,nortriptyline hydrochloride,C[NH2+]CCC=C1c2ccccc2CCc2ccccc21,PHVGLTMQBUFIQQ-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,rosiglitazone maleate,CN(CCOc1ccc(Cc2sc(=O)[n-]c2[O-])cc1)c1ccccn1,HYYTYVGJWRWHHQ-UHFFFAOYSA-L,most,DICTrank_concern,1.0
+DICTrank,lorlatinib,CC1Oc2cc(c[n-]c2=N)-c2c(nn(C)c2C#N)C[NH+](C)C(=O)c2ccc(F)cc21,QKXVAZBBVWOYQS-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,bisoprolol fumarate,CC(C)[NH2+]CC(O)COc1ccc(COCCOC(C)C)cc1,VHYCDWMUTMEGQY-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,digoxin,CC1OC(OC2C(O)CC(OC3C(O)CC(OC4CCC5(C)C(CCC6C5CC(O)C5(C)C(c7coc([O-])c7)CCC65O)C4)OC3C)OC2C)CC(O)C1O,IJJIUSOIKBRXAK-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,naratriptan,CNS(=O)(=O)CCc1ccc2[nH]cc(C3CC[NH+](C)CC3)c2c1,AMKVXSZCKVJAGH-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,methylphenidate hydrochloride,COC(=O)C(c1ccccc1)C1CCCC[NH2+]1,DUGOZIWVEXMGBE-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,levofloxacin,CC1COc2c(N3CC[NH+](C)CC3)c(F)cc3c(=O)c(C(=O)[O-])cn1c23,GSDSWSVVBLHKDQ-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,oxybutynin chloride,CC[NH+](CC)CC#CCOC(=O)C(O)(c1ccccc1)C1CCCCC1,XIQVNETUBQGFHX-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,nicardipine hydrochloride,COC(=O)C1=C(C)N=C(C)C(C(=O)OCC[NH+](C)Cc2ccccc2)C1c1cccc([N+](=O)[O-])c1,UXVSDVSUISWXKD-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,alvimopan,CC1C[NH+](CC(Cc2ccccc2)C(=O)NCC(=O)[O-])CCC1(C)c1cccc([O-])c1,UPNUIXSCZBYVBB-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,gilteritinib,CCc1nc(C(N)=O)c(=Nc2ccc(N3CCC([NH+]4CC[NH+](C)CC4)CC3)c(OC)c2)[n-]c1[NH2+]C1CCOCC1,MGINEAWIAQSEAQ-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,capecitabine,CCCCCOC(=O)N=c1[n-]c(=O)n(C2OC(C)C(O)C2O)cc1F,GAGWJHPBXLXJQN-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,daunorubicin hydrochloride,COc1cccc2c([O-])c3c([O-])c4c(c([O-])c3c([O-])c12)=C(OC1CC([NH3+])C(O)C(C)O1)CC(O)(C(C)=O)C=4,FMKMZSSCGDCUTK-UHFFFAOYSA-K,most,DICTrank_concern,1.0
+DICTrank,iopamidol,CC(=O)C(O)Nc1c(I)c(C(=O)NC(CO)CO)c(I)c(C(=O)NC(CO)CO)c1I,KTYOXAWCLRIWLU-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,ivabradine,COc1cc2c(cc1OC)CC(=O)[NH+](CCC[NH+](C)CC1Cc3cc(OC)c(OC)cc31)CC2,ACRHBAYQBXXRTO-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,lorcaserin hydrochloride hemihydrate,CC1C[NH2+]CCc2ccc(Cl)cc21,XTTZERNUQAFMOF-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,diethylpropion hydrochloride er,CC[NH+](CC)C(C)C(=O)c1ccccc1,XXEPPPIWZFICOJ-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,sotalol,CC(C)[NH2+]CC(O)c1ccc(NS(C)(=O)=O)cc1,ZBMZVLHSJCTVON-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,etodolac,CCc1cccc2c3c([nH]c12)C(CC)(CC(=O)[O-])OCC3,NNYBQONXHNTVIJ-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,amlodipine,CCOC(=O)C1=C(COCC[NH3+])N=C(C)C(C(=O)OC)C1c1ccccc1Cl,YMDXSGBNCBQYGC-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,flumazenil,CCOC(=O)c1ncn2c1C[NH+](C)C(=O)c1cc(F)ccc1-2,OFBIFZUFASYYRE-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,erythromycin ethylsuccinate,CCOC(=O)CCC(=O)OC1C(OC2C(C)C(OC3CC(C)(OC)C(O)C(C)O3)C(C)C(=O)OC(CC)C(C)(O)C(O)C(C)C(=O)C(C)CC2(C)O)OC(C)CC1[NH+](C)C,NSYZCCDSJNWWJL-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,baricitinib,CCS(=O)(=O)[NH+]1CC(CC#N)(n2cc(-c3ncnc4[nH]ccc34)cn2)C1,XUZMWHLSFXCVMG-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,nintedanib,COC(=O)c1ccc2c(C(=Nc3ccc(N(C)C(=O)C[NH+]4CC[NH+](C)CC4)cc3)c3ccccc3)c([O-])[n-]c2c1,QQTOGMOZYHLMNY-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,minoxidil,N=c1[n-]c(N2CCCCC2)cc(N)[n+]1[O-],YDHADPNNRWIQJD-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,epirubicin hydrochloride,COc1cccc2c([O-])c3c([O-])c4c(c([O-])c3c([O-])c12)=C(OC1CC([NH3+])C(O)C(C)O1)CC(O)(C(=O)CO)C=4,OEMKXOUYUCIRSC-UHFFFAOYSA-K,most,DICTrank_concern,1.0
+DICTrank,etoricoxib,Cc1ccc(-c2ncc(Cl)cc2-c2ccc(S(C)(=O)=O)cc2)cn1,MNJVRJDLRVPLFE-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,lenalidomide,Nc1cccc2c1C[NH+](C1CCC(=O)NC1=O)C2=O,GOTYRUGSSMKFNF-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,remimazolam besylate,COC(=O)CCC1N=C(c2ccccn2)c2cc(Br)ccc2-n2c(C)cnc21,CYHWMBVXXDIZNZ-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,nilotinib,Cc1cn(-c2cc(NC(=O)c3ccc(C)c(N=c4nc(-c5cccnc5)cc[n-]4)c3)cc(C(F)(F)F)c2)cn1,VRINLHLQIBUGOU-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,pomalidomide,Nc1cccc2c1C(=O)[NH+](C1CCC(=O)NC1=O)C2=O,UVSMNLNDYGZFPF-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,azithromycin,CCC1OC(=O)C(C)C(OC2CC(C)(OC)C(O)C(C)O2)C(C)C(OC2OC(C)CC([NH+](C)C)C2O)C(C)(O)CC(C)C[NH+](C)C(C)C(O)C1(C)O,MQTOSJVFKKJCRP-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,idarubicin hydrochloride,CC(=O)C1(O)C=C(OC2CC([NH3+])C(O)C(C)O2)c2c(c([O-])c3c([O-])c4ccccc4c([O-])c3c2[O-])C1,FXOONYIMGKDSJO-UHFFFAOYSA-K,most,DICTrank_concern,1.0
+DICTrank,pioglitazone,CCc1ccc(CCOc2ccc(Cc3sc(=O)[n-]c3[O-])cc2)nc1,IUPRBLRWOFNLPB-UHFFFAOYSA-L,most,DICTrank_concern,1.0
+DICTrank,dexmedetomidine hydrochloride,Cc1cccc(C(C)c2c[n-]cn2)c1C,WXIAQRKAXQUKIA-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,alcohol,CCO,LFQSCWFLJHTTHZ-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,cabergoline,C=CC[NH+]1CC(C(=O)[NH+](CCC[NH+](C)C)C(=O)NCC)CC2c3cccc4[nH]cc(c34)CC21,KORNTPPJEAJQIU-UHFFFAOYSA-Q,most,DICTrank_concern,1.0
+DICTrank,tegaserod,CCCCC[NH+]=C(N)NN=Cc1c[nH]c2ccc(OC)cc12,IKBKZGMPCYNSLU-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,polidocanol,CCCCCCCCCCCCOCCO,SFNALCNOMXIBKG-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,paliperidone palmitate,CCCCCCCCCCCCCCCC(=O)OC1CCCn2c1nc(C)c(CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)c2=O,VOMKSBFLAZZBOW-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,cladribine,N=c1[n-]c(Cl)nc2c1ncn2C1CC(O)C(CO)O1,DCIYQJKXXIKZSI-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,ibrutinib,C=CC(=O)[NH+]1CCCC(n2nc(-c3ccc(Oc4ccccc4)cc3)c3c(=N)[n-]cnc32)C1,IWQDDWPVLNHTEM-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,testosterone undecanoate,CCCCCCCCCCC(=O)OC1CCC2C3CC=C4CC(=O)CCC4(C)C3CCC12C,JALPNXQHKNKLFK-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,fluphenazine decanoate,CCCCCCCCCC(=O)OCC[NH+]1CC[NH+](CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,VIQCGTZFEYDQMR-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,haloperidol decanoate,CCCCCCCCCC(=O)OC1(c2ccc(Cl)cc2)CC[NH+](CCCC(=O)c2ccc(F)cc2)CC1,GUTXTARXLVFHDK-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,eliglustat,CCCCCCCC(=O)NC(C[NH+]1CCCC1)C(O)c1ccc2c(c1)OCCO2,FJZZPCZKBUKGGU-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,adenosine,N=c1[n-]cnc2c1ncn2C1OC(CO)C(O)C1O,KBNMMSVPWARVDH-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,vemurafenib,CCCS(=O)(=O)Nc1ccc(F)c(C(=O)c2c[nH]c3ncc(-c4ccc(Cl)cc4)cc23)c1F,GPXBXXGIAQBQNI-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,ticagrelor,CCCSc1nc(=NC2CC2c2ccc(F)c(F)c2)c2nnn(C3CC(OCCO)C(O)C3O)c2[n-]1,RHAJTZZZNQJSMB-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,chloroquine phosphate,CC[NH+](CC)CCCC(C)N=c1cc[n-]c2cc(Cl)ccc12,JRBFWNQGPBKFFV-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,dexfenfluramine,CC[NH2+]C(C)Cc1cccc(C(F)(F)F)c1,DBGIVFWFUFKIQN-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,ripretinib,CCn1c(=O)c(-c2cc(NC(=O)Nc3ccccc3)c(F)cc2Br)cc2c[n-]c(=NC)cc21,ZWULBQHWMSRJOF-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,vardenafil hydrochloride,CCCc1nc(C)c2c(=O)[n-]c(-c3cc(S(=O)(=O)[NH+]4CC[NH+](CC)CC4)ccc3OCC)nn12,SECKRCOLJRRGGV-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,amisulpride,CC[NH+]1CCCC1CNC(=O)c1cc(S(=O)(=O)CC)c(N)cc1OC,NTJOBXMMWNYJFB-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,dasatinib,Cc1nc(=Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CC[NH+](CCO)CC2)[n-]1,SUFLMZDECAEWAC-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,trovafloxacin mesylate,[NH3+]C1C2CN(c3nc4c(cc3F)c(=O)c(C(=O)[O-])cn4-c3ccc(F)cc3F)CC12,WVPSKSLAZQPAKQ-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,lidoflazine,Cc1cccc(C)c1NC(=O)C[NH+]1CC[NH+](CCCC(c2ccc(F)cc2)c2ccc(F)cc2)CC1,ZBIAKUMOEKILTF-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,voclosporin,C=CC=CCC(C)C(O)C1C(=O)NC(CC)C(=O)[NH+](C)CC(=O)[NH+](C)C(CC(C)C)C(=O)NC(C(C)C)C(=O)[NH+](C)C(CC(C)C)C(=O)NC(C)C(=O)NC(C)C(=O)[NH+](C)C(CC(C)C)C(=O)[NH+](C)C(CC(C)C)C(=O)[NH+](C)C(C(C)C)C(=O)[NH+]1C,BICRTLVBTLFLRD-UHFFFAOYSA-U,most,DICTrank_concern,1.0
+DICTrank,posaconazole,CCC(C(C)O)n1ncn(-c2ccc(N3CCN(c4ccc(OCC5COC(Cn6cncn6)(c6ccc(F)cc6F)C5)cc4)CC3)cc2)c1=O,RAGOYPUPXAKGKH-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,panobinostat,Cc1[nH]c2ccccc2c1CC[NH2+]Cc1ccc(C=CC(O)=NO)cc1,FPOHNWQLNRZRFC-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,milrinone lactate,Cc1[n-]c(=O)c(C#N)cc1-c1ccncc1,PZQLJSXMNYUAPE-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,histrelin acetate,CCNC(=O)C1CCC[NH+]1C(=O)C(CCCNC(N)=[NH2+])NC(=O)C(CC(C)C)NC(=O)C(Cc1cn(Cc2ccccc2)cn1)NC(=O)C(Cc1ccc([O-])cc1)NC(=O)C(CO)NC(=O)C(Cc1c[nH]c2ccccc12)NC(=O)C(Cc1cnc[n-]1)NC(=O)C1CCC(=O)N1,GXIHFVSZMZIJDZ-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,goserelin,CC(C)CC(NC(=O)C(COC(C)(C)C)NC(=O)C(Cc1ccc([O-])cc1)NC(=O)C(CO)NC(=O)C(Cc1c[nH]c2ccccc12)NC(=O)C(Cc1cnc[n-]1)NC(=O)C1CCC(=O)N1)C(=O)NC(CCCNC(N)=[NH2+])C(=O)[NH+]1CCCC1C(=O)[N-][N-]C(N)=O,CWEYVNHLHUEGLH-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,fingolimod hcl,CCCCCCCCc1ccc(CCC([NH3+])(CO)CO)cc1,KKGQTZUTZRNORY-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,amphetamine,CC([NH3+])Cc1ccccc1,KWTSXDURSIMDCE-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,cenobamate,NC(=O)OC(Cn1ncnn1)c1ccccc1Cl,GFHAXPJGXSQLPT-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,ropinirole hydrochloride,CCC[NH+](CCC)CCc1cccc2[n-]c([O-])cc12,CNTCMSFWFCWQOF-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,clobutinol,CC(C[NH+](C)C)C(C)(O)Cc1ccc(Cl)cc1,KVHHQGIIZCJATJ-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,labetalol hydrochloride,CC(CCc1ccccc1)[NH2+]CC(O)c1ccc([O-])c(C(N)=O)c1,SGUAFYQXFOLMHL-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,benfluorex,CC(Cc1cccc(C(F)(F)F)c1)[NH2+]CCOC(=O)c1ccccc1,CJAVTWRYCDNHSM-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,ceritinib,Cc1cc(N=c2[n-]cc(Cl)c(=Nc3ccccc3S(=O)(=O)C(C)C)[n-]2)c(OC(C)C)cc1C1CC[NH2+]CC1,LJOAPMFCHUUDFG-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,atenolol,CC(C)[NH2+]CC(O)COc1ccc(CC(N)=O)cc1,METKIMKYRPQLGS-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,etonogestrel,C#CC1(O)CCC2C3CC=C4CC(=O)CCC4C3C(=C)CC21CC,BOMXWTHINLWJIE-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,methadone hydrochloride,CCC(=O)C(CC(C)[NH+](C)C)(c1ccccc1)c1ccccc1,USSIQXCVUWKGNF-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,fedratinib hydrochloride,Cc1c[n-]c(=Nc2ccc(OCC[NH+]3CCCC3)cc2)[n-]c1=Nc1cccc(S(=O)(=O)NC(C)(C)C)c1,GXWUXHNKQHQCKU-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,phentolamine mesylate,Cc1ccc(N(CC2=[NH+]CCN2)c2cccc([O-])c2)cc1,MRBDMNSDAVCSSF-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,ketorolac tromethamine,O=C(c1ccccc1)c1ccc2n1CCC2C(=O)[O-],OZWKMVRBQXNZKK-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,bosutinib monohydrate,COc1cc(N=c2c(C#N)c[n-]c3cc(OCCC[NH+]4CC[NH+](C)CC4)c(OC)cc23)c(Cl)cc1Cl,HESQGEMVUMWWCV-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,orciprenaline,CC(C)[NH2+]CC(O)c1cc([O-])cc([O-])c1,LMOINURANNBYCM-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,propranolol hydrochloride,CC(C)[NH2+]CC(O)COc1cccc2ccccc12,AQHHHDLHHXJYJD-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,sulindac,CC1=C(CC(=O)[O-])c2cc(F)ccc2C1=Cc1ccc([S+](C)O)cc1,MDMASFZZESWNHW-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,mefenamic acid,Cc1cccc(Nc2ccccc2C(=O)[O-])c1C,HYYBABOKPJLUIN-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,fenoprofen calcium,CC(C(=O)[O-])c1cccc(Oc2ccccc2)c1,RDJGLLICXDHJDY-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,succinylcholine chloride,C[N+](C)(C)CCOC(=O)CCC(=O)OCC[N+](C)(C)C,AXOIZCJOOAYSMI-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,lofexidine hydrochloride,CC(Oc1c(Cl)cccc1Cl)C1=[NH+]CCN1,KSMAGQUYOIHWFS-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,levomethadyl acetate,CCC(OC(C)=O)C(CC(C)[NH+](C)C)(c1ccccc1)c1ccccc1,XBMIVRRWGCYBTQ-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,ifosfamide,O=P1([NH2+]CCCl)OCCC[NH+]1CCCl,HOMGKSMUEGBAAB-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,esmolol hydrochloride,COC(=O)CCc1ccc(OCC(O)C[NH2+]C(C)C)cc1,AQNDDEOPVVGCPG-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,ixabepilone,CC(=Cc1csc(C)n1)C1CC2OC2(C)CCCC(C)C(O)C(C)C(=O)C(C)(C)C(O)CC(=O)N1,FABUFPQFXZVHFB-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,gemifloxacin mesylate,CON=C1CN(c2nc3c(cc2F)c(=O)c(C(=O)[O-])cn3C2CC2)CC1C[NH3+],ZRCVYEYHRGVLOC-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,perflutren,FC(F)(F)C(F)(F)C(F)(F)F,QYSGYZVSCZSLHT-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,ivosidenib,N#Cc1ccnc([NH+]2C(=O)CCC2C(=O)[NH+](c2cncc(F)c2)C(C(=O)NC2CC(F)(F)C2)c2ccccc2Cl)c1,WIJZXSAJMHAVGX-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,diclofenac potassium,O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl,DCOPUUMXTXDBNB-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,potassium acetate,CC(=O)[O-],QTBSBXVTEAMEQO-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,osimertinib,C=CC(=O)Nc1cc(N=c2nc(-c3cn(C)c4ccccc34)cc[n-]2)c(OC)cc1N(C)CC[NH+](C)C,IFXJDCQNWBHKNV-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,lithium,O=C([O-])CC(O)(CC(=O)[O-])C(=O)[O-],KRKNYBCHXYNGOX-UHFFFAOYSA-K,most,DICTrank_concern,1.0
+DICTrank,mirtazapine,C[NH+]1CC[NH+]2c3ncccc3Cc3ccccc3C2C1,RONZAEMNMFQXRA-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,astemizole,COc1ccc(CC[NH+]2CCC(N=c3[n-]c4ccccc4n3Cc3ccc(F)cc3)CC2)cc1,JQIUWUNSXNUXMB-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,tetrabenazine,COc1cc2c(cc1OC)C1CC(=O)C(CC(C)C)C[NH+]1CC2,MKJIEFSOBYUXJB-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,saquinavir mesylate,CC(C)(C)NC(=O)C1CC2CCCCC2C[NH+]1CC(O)C(Cc1ccccc1)NC(=O)C(CC(N)=O)NC(=O)c1ccc2ccccc2n1,QWAXKHKRTORLEM-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,entrectinib,C[NH+]1CCN(c2ccc(C(=O)N=c3[n-][n-]c4ccc(Cc5cc(F)cc(F)c5)cc34)c([NH2+]C3CCOCC3)c2)CC1,QBBRXKLMOLJOPZ-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,fluconazole,OC(Cn1cncn1)(Cn1cncn1)c1ccc(F)cc1F,RFHAOTPXVQNOHP-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,almotriptan,C[NH+](C)CCc1c[nH]c2ccc(CS(=O)(=O)[NH+]3CCCC3)cc12,WKEMJKQOLOHJLZ-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,efavirenz,O=C1Nc2ccc(Cl)cc2C(C#CC2CC2)(C(F)(F)F)O1,XPOQHMRABVBWPR-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,dabrafenib,CC(C)(C)c1nc(-c2cccc(NS(=O)(=O)c3c(F)cccc3F)c2F)c(-c2cc[n-]c(=N)n2)s1,LDUBVNZEYRHGFP-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,sugammadex,O=C([O-])CCSCC1OC2OC3C(CSCCC(=O)[O-])OC(OC4C(CSCCC(=O)[O-])OC(OC5C(CSCCC(=O)[O-])OC(OC6C(CSCCC(=O)[O-])OC(OC7C(CSCCC(=O)[O-])OC(OC8C(CSCCC(=O)[O-])OC(OC9C(CSCCC(=O)[O-])OC(OC1C(O)C2O)C(O)C9O)C(O)C8O)C(O)C7O)C(O)C6O)C(O)C5O)C(O)C4O)C(O)C3O,WHRODDIHRRDWEW-UHFFFAOYSA-F,most,DICTrank_concern,1.0
+DICTrank,oxaprozin,O=C([O-])CCc1nc(-c2ccccc2)c(-c2ccccc2)o1,OFPXSFXSNFPTHF-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,mobocertinib,C=CC(=O)Nc1cc(N=c2nc(-c3cn(C)c4ccccc34)c(C(=O)OC(C)C)c[n-]2)c(OC)cc1N(C)CC[NH+](C)C,OTJUFRYXANMCKK-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,lisdexamfetamine dimesylate,CC(Cc1ccccc1)NC(=O)C([NH3+])CCCC[NH3+],VOBHXZCDAVEXEY-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,technetium tc 99m sestamibi,[C-]#[N+]CC(C)(C)OC,LJJFNFYPZOHRHM-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,apalutamide,CNC(=O)c1ccc(N2C(=S)N(c3cnc(C#N)c(C(F)(F)F)c3)C(=O)C23CCC3)cc1F,HJBWBFZLDZWPHF-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,glasdegib,C[NH+]1CCC(NC(=O)Nc2ccc(C#N)cc2)CC1c1nc2ccccc2[n-]1,VMUGVEKIYJYNLB-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,tacrolimus; tacrolimus capsules,C=CCC1=CC(C)CC(C)CC(OC)C2OC(O)(C(=O)C(=O)[NH+]3CCCCC3C(=O)OC(C(C)=CC3CCC(O)C(OC)C3)C(C)C(O)CC1=O)C(C)CC2OC,SLUYGGAVUSVJOT-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,imatinib mesylate,Cc1ccc(NC(=O)c2ccc(C[NH+]3CC[NH+](C)CC3)cc2)cc1N=c1nc(-c2cccnc2)cc[n-]1,BQKIPLSYQNJNPQ-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,iloperidone,COc1cc(C(C)=O)ccc1OCCC[NH+]1CCC(c2noc3cc(F)ccc23)CC1,XMXHEBAFVSFQEX-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,dabigatran etexilate mesylate,CCCCCCOC(=O)[NH+]=C(N)c1ccc(NCc2nc3cc(C(=O)N(CCC(=O)OCC)c4ccccn4)ccc3n2C)cc1,KSGXQBZTULBEEQ-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,bromocriptine mesylate,CC(C)CC1C(=O)[NH+]2CCCC2C2(O)OC(NC(=O)C3=CC4c5cccc6[nH]c(Br)c(c56)CC4[NH+](C)C3)(C(C)C)C(=O)[NH+]12,NUEAMYZABAMKDO-UHFFFAOYSA-Q,most,DICTrank_concern,1.0
+DICTrank,upadacitinib,CCC1C[NH+](C(=O)NCC(F)(F)F)CC1c1cnc2cnc3[nH]ccc3n12,WYQFJHHDOKWSHR-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,pasireotide,[NH3+]CCCCC1NC(=O)C(Cc2c[nH]c3ccccc23)NC(=O)C(c2ccccc2)NC(=O)C2CC(OC(=O)NCC[NH3+])C[NH+]2C(=O)C(Cc2ccccc2)NC(=O)C(Cc2ccc(OCc3ccccc3)cc2)NC1=O,VMZMNAABQBOLAK-UHFFFAOYSA-Q,most,DICTrank_concern,1.0
+DICTrank,dipyridamole,OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1,IZEKFCXSFNUWAM-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,iothalamate meglumine,C[NH2+]CC(O)C(O)C(O)C(O)CO,MBBZMMPHUWSWHV-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,buflomedil,COc1cc(OC)c(C(=O)CCC[NH+]2CCCC2)c(OC)c1,OWYLAEYXIQKAOL-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,cobimetinib,O=C(c1ccc(F)c(F)c1Nc1ccc(I)cc1F)[NH+]1CC(O)(C2CCCC[NH2+]2)C1,BSMCAPRUBJMWDF-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,enzalutamide,CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F,WXCXUHSOUPDCQV-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,gadobenate dimeglumine,O=C([O-])C[NH+](CC[NH+](CC(=O)[O-])CC(=O)[O-])CC[NH+](CC(=O)[O-])C(COCc1ccccc1)C(=O)[O-],OEIYJWYTUDFZBH-UHFFFAOYSA-L,most,DICTrank_concern,1.0
+DICTrank,axitinib,CNC(=O)c1ccccc1Sc1ccc2c(C=Cc3ccccn3)[n-]nc2c1,ITTZVFNGFLEASL-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,lexiscan(r) (regadenoson),CNC(=O)c1cnn(-c2nc(=N)c3ncn(C4OC(CO)C(O)C4O)c3[n-]2)c1,KGWBGKKISFURIO-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,sumatriptan succinate,CNS(=O)(=O)Cc1ccc2[nH]cc(CC[NH+](C)C)c2c1,KQKPFRSPSRPDEB-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,tivozanib,COc1cc2nccc(Oc3ccc(NC(=O)N=c4cc(C)o[n-]4)c(Cl)c3)c2cc1OC,SPMVMDHWKHCIDT-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,ospemifene,OCCOc1ccc(C(=C(CCCl)c2ccccc2)c2ccccc2)cc1,LUMKNAVTFCDUIE-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,encainide,COc1ccc(C(=O)Nc2ccccc2CCC2CCCC[NH+]2C)cc1,PJWPNDMDCLXCOM-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,enasidenib mesylate,CC(C)(O)CN=c1[n-]c(-c2cccc(C(F)(F)F)n2)nc(=Nc2ccnc(C(F)(F)F)c2)[n-]1,RDZJFJUPDFZPQE-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,meloxicam,Cc1c[n-]c(=NC(=O)C2C(=O)c3ccccc3S(=O)(=O)[NH+]2C)s1,ZAHQBPYQBHTECE-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,droxidopa,[NH3+]C(C(=O)[O-])C(O)c1ccc([O-])c([O-])c1,QXWYKJLNLSIPIN-UHFFFAOYSA-L,most,DICTrank_concern,1.0
+DICTrank,hydroxychloroquine sulfate,CC[NH+](CCO)CCCC(C)N=c1cc[n-]c2cc(Cl)ccc12,FMQNHZWYWLQJHG-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,tetradecyl hydrogen sulfate (ester),CCCCC(CC)CCC(CC(C)C)OS(=O)(=O)[O-],GROJOWHVXQYQGN-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,sodium tetradecyl sulfate,CCCCCCCCCCCCCCOS(=O)(=O)[O-],URLJMZWTXZTZRR-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,testosterone enanthate,CCCCCCC(=O)OC1CCC2C3CC=C4CC(=O)CCC4(C)C3CCC12C,PMUAUPIVIPYXJB-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,tolmetin sodium,Cc1ccc(C(=O)c2ccc(CC(=O)[O-])n2C)cc1,UPSPUYADGBWSHF-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,mibefradil,COCC(=O)OC1(CC[NH+](C)CCCc2nc3ccccc3[n-]2)CCc2cc(F)ccc2C1C(C)C,QBXRKUKDJCCYQX-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,estradiol valerate,CCCCC(=O)OC1CCC2C3CCc4cc([O-])ccc4C3CCC12C,RSEPBGGWRJCQGY-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,metoprolol succinate,COCCc1ccc(OCC(O)C[NH2+]C(C)C)cc1,IUBSYMUCCVWXPE-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,lacosamide,COCC(NC(C)=O)C(=O)NCc1ccccc1,VPPJLAIAVCUEMN-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,testosterone cypionate,CC12CCC(=O)C=C1CCC1C2CCC2(C)C(OC(=O)CCC3CCCC3)CCC12,HPFVBGJFAYZEBE-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,estradiol,CC12CCC3c4ccc([O-])cc4CCC3C1CCC2O,VOXZDWNPVJITMN-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,toremifene citrate,C[NH+](C)CCOc1ccc(C(=C(CCCl)c2ccccc2)c2ccccc2)cc1,XFCLJVABOIYOMF-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,sitagliptin,[NH3+]C(CC(=O)[NH+]1CCn2c(nnc2C(F)(F)F)C1)Cc1cc(F)c(F)cc1F,MFFMDFFZMYYVKS-UHFFFAOYSA-P,most,DICTrank_concern,1.0
+DICTrank,rofecoxib,CS(=O)(=O)c1ccc(-c2coc([O-])c2-c2ccccc2)cc1,MRHFQRMJFYDYBV-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,progesterone,CC(=O)C1CCC2C3CC=C4CC(=O)CCC4(C)C3CCC12C,MNRHZPCIEGLWGK-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,zolmitriptan,C[NH+](C)CCc1c[nH]c2ccc(CC3COC(=O)N3)cc12,ULSDMUVEXKOYBU-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,atazanavir,COC(=O)NC(C(=O)[N-]N(Cc1ccc(-c2ccccn2)cc1)CC(O)C(Cc1ccccc1)NC(=O)C(NC(=O)OC)C(C)(C)C)C(C)(C)C,OHTXYYHRZZWCHY-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,lapatinib,CS(=O)(=O)CC[NH2+]Cc1ccc(-c2ccc3[n-]cnc(=Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1,NGQCUEMIBLPDMM-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,naproxen sodium,COc1ccc2cc(C(C)C(=O)[O-])ccc2c1,CMWTZPSULFXXJA-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,levothyroxine sodium anhydrous,[NH3+]C(Cc1cc(I)c(Oc2cc(I)c([O-])c(I)c2)c(I)c1)C(=O)[O-],XUIIKFGFIJCVMT-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,trametinib,CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,LIRYPHYGHXZJBZ-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,nabumetone,COc1ccc2cc(CCC(C)=O)ccc2c1,BLXXJMDCKKHMKV-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,ruxolitinib,N#CCC(C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1,HFNKQEVNSGCOJV-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,diatrizoate sodium,CC(=O)Nc1c(I)c(NC(C)=O)c(I)c(C(=O)[O-])c1I,YVPYQUNUQOZFHG-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,binimetinib,Cn1cnc2c(F)c(Nc3ccc(Br)cc3F)c(C(=O)[N-]OCCO)cc21,FNYWGRSDUNYXAS-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,edrophonium chloride,CC[N+](C)(C)c1cccc([O-])c1,VWLHWLSRQJQWRG-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,triclabendazole,CSc1nc2cc(Cl)c(Oc3cccc(Cl)c3Cl)cc2[n-]1,TVOFEQWRJLYLFV-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,terbutaline sulfate,CC(C)(C)[NH2+]CC(O)c1cc([O-])cc([O-])c1,XWTYSIMOBUGWOL-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,ribociclib,C[NH+](C)C(=O)c1cc2c[n-]c(=Nc3ccc(N4CC[NH2+]CC4)cn3)nc2n1C1CCCC1,IWABRNIUNKFPBZ-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,trabectedin,COc1cc2c(cc1[O-])CC[NH2+]C21CSC2c3c(OC(C)=O)c(C)c4c(c3C(COC1=O)[NH+]1C(O)C3Cc5cc(C)c(OC)c([O-])c5C(C21)[NH+]3C)OCO4,PKVRCIRHQMSYJX-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,frovatriptan succinate,C[NH2+]C1CCc2[nH]c3ccc(C(N)=O)cc3c2C1,XPSQPHWEGNHMSK-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,osilodrostat,N#Cc1ccc(C2CCc3cncn32)c(F)c1,USUZGMWDZDXMDG-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,meclofenamate sodium,Cc1ccc(Cl)c(Nc2ccccc2C(=O)[O-])c1Cl,SBDNJUWAMKYJOX-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,vandetanib,COc1cc2c(=Nc3ccc(Br)cc3F)[n-]cnc2cc1OCC1CC[NH+](C)CC1,ZACXGBVXXBILJD-UHFFFAOYSA-O,most,DICTrank_concern,1.0
+DICTrank,calcium gluconate,O=C(C(O)C(O)O)C(O)C(O)CO,UVZKQGXWWWXEKH-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,piroxicam,C[NH+]1C(C(=O)N=c2cccc[n-]2)C(=O)c2ccccc2S1(=O)=O,MNSCVRXKDINXEY-UHFFFAOYSA-N,most,DICTrank_concern,1.0
+DICTrank,indomethacin,COc1ccc2c(c1)c(CC(=O)[O-])c(C)n2C(=O)c1ccc(Cl)cc1,CGIGDMFJXJATDK-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,selumetinib,Cn1cnc2c(F)c(Nc3ccc(Br)cc3Cl)c(C(=O)[N-]OCCO)cc21,BHNCLQWUMIGPHE-UHFFFAOYSA-M,most,DICTrank_concern,1.0
+DICTrank,memantine hydrochloride,CC12CC3CC(C)(C1)CC([NH3+])(C3)C2,BUGYDGFZZOZRHP-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,avanafil,COc1ccc(CN=c2[n-]c([NH+]3CCCC3CO)ncc2C(=O)NCc2ncccn2)cc1Cl,HSHCPBXDBOIJHZ-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,valganciclovir,CC(C)C([NH3+])C(=O)OCC(CO)OCn1cnc2c(=O)[n-]c(=N)[n-]c21,RJCXDRJFPBUKHY-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,conivaptan hydrochloride,Cc1nc2c([n-]1)-c1ccccc1N(C(=O)c1ccc(NC(=O)c3ccccc3-c3ccccc3)cc1)CC2,SXMSLNDWBIHGAX-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,remifentanil hydrochloride,CCC(=O)N(c1ccccc1)C1(C(=O)OC)CC[NH+](CCC(=O)OC)CC1,ZTVQQQVZCWLTDF-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,ozanimod hydrochloride,CC(C)Oc1ccc(-c2nc(-c3cccc4c3CCC4[NH2+]CCO)no2)cc1C#N,XRVDGNKRPOAQTN-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,lomitapide mesylate,O=C(NC1CC[NH+](CCCCC2(C(=O)NCC(F)(F)F)c3ccccc3-c3ccccc32)CC1)c1ccccc1-c1ccc(C(F)(F)F)cc1,MBBCVAKAJPKAKM-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,promethazine hydrochloride,CC(CN1c2ccccc2Sc2ccccc21)[NH+](C)C,PWWVAXIEGOYWEE-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,dobutamine,CC(CCc1ccc([O-])cc1)[NH2+]CCc1ccc([O-])c([O-])c1,JRWZLRBJNMZMFE-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,tiagabine,Cc1ccsc1C(=CCC[NH+]1CCCC(C(=O)[O-])C1)c1sccc1C,PBJUNZJWGZTSKL-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,flavoxate hydrochloride,Cc1c(-c2ccccc2)oc2c(C(=O)OCC[NH+]3CCCCC3)cccc2c1=O,SPIUTQOUKAMGCX-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,carboprost tromethamine,CCCCCC(C)(O)C=CC1C(O)CC(O)C1CC=CCCCC(=O)[O-],DLJKPYFALUEJCK-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,mycophenilic acid,COc1c(CC=C(C)CCC(=O)[O-])c([O-])c2c([O-])occ2c1C,LTBQFJVKVMGOEG-UHFFFAOYSA-K,less,DICTrank_concern,1.0
+DICTrank,acitretin,COc1cc(C)c(C=CC(C)=CC=CC(C)=CC(=O)[O-])c(C)c1C,IHUNBGSDBOWDMA-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,brigatinib,COc1cc(N2CCC([NH+]3CC[NH+](C)CC3)CC2)ccc1N=c1[n-]cc(Cl)c(=Nc2ccccc2P(C)(C)=O)[n-]1,GUFMXUUDMSBXBR-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,mycophenolate mofetil,COc1c(CC=C(C)CCC(=O)OCC[NH+]2CCOCC2)c([O-])c2c([O-])occ2c1C,PGPPCCZSDRAQKA-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,rimantadine hydrochloride,CC([NH3+])C12CC3CC(CC(C3)C1)C2,UBCHPRBFMUDMNC-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,copanlisib,COc1c(OCCC[NH+]2CCOCC2)ccc2c3n(c(=NC(=O)c4cnc(=N)[n-]c4)nc12)CCN3,PDMIAYYYNACVPL-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,hydromorphone hydrochloride,C[NH+]1CCC23c4c5ccc([O-])c4OC2C(=O)CCC3C1C5,WVLOADHCBXTIJK-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,prasugrel,CC(=O)Oc1cc2c(s1)CC[NH+](C(C(=O)C1CC1)c1ccccc1F)C2,DTGLZDAWLRGWQN-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,ramipril,CCOC(=O)C(CCc1ccccc1)[NH2+]C(C)C(=O)[NH+]1C(C(=O)[O-])CC2CCCC21,HDACQVRGBOVJII-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,pemetrexed,N=c1[n-]c(=O)c2c(CCc3ccc(C(=O)NC(CCC(=O)[O-])C(=O)[O-])cc3)c[nH]c2[n-]1,MHOKZADPGPVIBF-UHFFFAOYSA-J,less,DICTrank_concern,1.0
+DICTrank,omeprazole,COc1ccc2[n-]c([S+](O)Cc3ncc(C)c(OC)c3C)nc2c1,QOFAHZLHNNZSDW-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,deferoxamine mesylate,CC(=O)N(O)CCCCCNC(=O)CCC(=O)N(O)CCCCCNC(=O)CCC(=O)N(O)CCCCC[NH3+],UBQYURCVBFRUQT-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,gemcitabine,N=c1ccn(C2OC(CO)C(O)C2(F)F)c(=O)[n-]1,SDUQYLNIPVEERB-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,azacitidine,N=c1ncn(C2OC(CO)C(O)C2O)c(=O)[n-]1,NMUSYJAQQFHJEW-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,zaleplon,CCN(C(C)=O)c1cccc(-c2ccnc3c(C#N)cnn23)c1,HUNXMJYCHXQEGX-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,felodipine,CCOC(=O)C1=C(C)N=C(C)C(C(=O)OC)C1c1cccc(Cl)c1Cl,HAQDEJPEAKWAAM-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,decitabine,N=c1ncn(C2CC(O)C(CO)O2)c(=O)[n-]1,XAUDJQYHKZQPEU-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,cefpodoxime proxetil,COC=C1CSC2C(=NC(=O)C([NH2+]OC)c3csc(=N)[n-]3)C(=O)[NH+]2C1C(=O)OC(C)OC(=O)OC(C)C,IHZVHXHFPCYJPA-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,nimodipine,COCCOC(=O)C1=C(C)N=C(C)C(C(=O)OC(C)C)C1c1cccc([N+](=O)[O-])c1,SVMHYHIZWOJKDL-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,cefuroxime axetil,CON=C(C(=O)NC1C(=O)[NH+]2C(C(=O)OC(C)OC(C)=O)=C(COC(N)=O)CSC12)c1ccco1,KEJCWVGMRLCZQQ-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,neostigmine methylsulfate,C[NH+](C)C(=O)Oc1cccc([N+](C)(C)C)c1,ALWKGYPQUAPLQC-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,safinamide mesylate,CC([NH2+]Cc1ccc(OCc2cccc(F)c2)cc1)C(N)=O,NEMGRZFTLSKBAP-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,busulfan,CS(=O)(=O)OCCCCOS(C)(=O)=O,COVZYZSDYWQREU-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,rasagiline,C#CC[NH2+]C1CCc2ccccc21,RUOKEQAAGRXIBM-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,bumetanide,CCCCNc1cc(C(=O)[O-])cc(S(N)(=O)=O)c1Oc1ccccc1,MAEIEVLCKWDQJH-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,macitentan,CCCNS(=O)(=O)N=c1[n-]cnc(OCCOc2ncc(Br)cn2)c1-c1ccc(Br)cc1,DKEBXIOIVXWDIC-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,etomidate,CCOC(=O)c1cncn1C(C)c1ccccc1,NPUKDXXFDDZOKR-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,icosapent ethyl,CCC=CCC=CCC=CCC=CCC=CCCCC(=O)OCC,SSQPWTVBQMWLSZ-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,repaglinide,CCOc1cc(CC(=O)NC(CC(C)C)c2ccccc2N2CCCCC2)ccc1C(=O)[O-],FAEKWTJYAYMJKF-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,erdafitinib,COc1cc(OC)cc(N(CC[NH2+]C(C)C)c2ccc3ncc(-c4cnn(C)c4)nc3c2)c1,OLAHOMJCDNXHFI-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,selegiline hydrochloride,C#CC[NH+](C)C(C)Cc1ccccc1,MEZLKOACVSPNER-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,cevimeline,CC1OC2(CS1)C[NH+]1CCC2CC1,WUTYZMFRCNBCHQ-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,benzphetamine hydrochloride,CC(Cc1ccccc1)[NH+](C)Cc1ccccc1,YXKTVDFXDRQTKV-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,venlafaxine hydrochloride,COc1ccc(C(C[NH+](C)C)C2(O)CCCCC2)cc1,PNVNVHUZROJLTJ-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,nalmefene hydrochloride,C=C1CCC2(O)C3Cc4ccc([O-])c5c4C2(CC[NH+]3CC2CC2)C1O5,WJBLNOPPDWQMCH-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,apixaban,COc1ccc(-n2nc(C(N)=O)c3c2C(=O)N(c2ccc(N4CCCCC4=O)cc2)CC3)cc1,QNZCBYKSOIHPEH-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,nalbuphine hydrochloride,[O-]c1ccc2c3c1OC1C(O)CCC4(O)C(C2)[NH+](CC2CCC2)CCC314,NETZHAKZCGBWSS-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,naltrexone hydrochloride,O=C1CCC2(O)C3Cc4ccc([O-])c5c4C2(CC[NH+]3CC2CC2)C1O5,DQCKKXVULJGBQN-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,naloxone hydrochloride,C=CC[NH+]1CCC23c4c5ccc([O-])c4OC2C(=O)CCC3(O)C1C5,UZHSEJADLWPNLE-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,lurasidone hydrochloride,[O-]c1c2c(c([O-])n1CC1CCCCC1C[NH+]1CCN(c3nsc4ccccc34)CC1)C1CCC2C1,XNAWUDONOGZGEH-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,bosentan,COc1ccccc1Oc1c(OCCO)[n-]c(-c2ncccn2)nc1=NS(=O)(=O)c1ccc(C(C)(C)C)cc1,UJGUMHQLVYROSG-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,aminosalicylic acid,Nc1ccc(C(=O)[O-])c([O-])c1,WUBBRNOQWQTFEX-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,methocarbamol,COc1ccccc1OCC(O)COC(N)=O,GNXFOGHNGIVQEH-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,tinidazole,CCS(=O)(=O)CCn1c([N+](=O)[O-])cnc1C,HJLSLZFTEKNLFI-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,tetrofosmin,CCOCCP(CCOCC)CCP(CCOCC)CCOCC,QCWJONLQSHEGEJ-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,candesartan cilexetil,CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[n-]n2)cc1,LVUPDYIQDZQHFN-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,cefdinir,C=CC1=C(C(=O)[O-])[NH+]2C(=O)C(NC(=O)C(=NO)c3csc(=N)[n-]3)C2SC1,ZEVMSJNCMAHRQW-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,famotidine,NC(=[NH2+])N=c1[n-]c(CSCCC(=[NH2+])NS(N)(=O)=O)cs1,OGBSRHVLSSDCHK-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,molindone hydrochloride,CCc1c(C)[nH]c2c1C(=O)C(C[NH+]1CCOCC1)CC2,KLPWJLBORRMFGK-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,riociguat,COC(=O)N(C)c1c(N)[n-]c(-c2nn(Cc3ccccc3F)c3ncccc23)nc1=N,HUGLPXOQJVAVOE-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,tramadol hydrochloride,COc1cccc(C2(O)CCCCC2C[NH+](C)C)c1,TVYLLZQTGLZFBW-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,avapritinib,Cn1cc(-c2cc3c(N4CCN(c5ncc(C(C)([NH3+])c6ccc(F)cc6)cn5)CC4)ncnn3c2)cn1,DWYRIWUZIJHQKQ-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,deferiprone,Cc1c([O-])c(=O)ccn1C,TZXKOCQBRNJULO-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,letrozole,N#Cc1ccc(C(c2ccc(C#N)cc2)n2cncn2)cc1,HPJKCIUCZWXJDR-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,prazosin hydrochloride,COc1cc2[n-]c(N3CC[NH+](C(=O)c4ccco4)CC3)nc(=N)c2cc1OC,DFLPDBUVUOAVGX-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,pentoxifylline,CC(=O)CCCCn1c(=O)c2c(ncn2C)n(C)c1=O,BYPFEZZEUUWMEJ-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,theophylline,Cn1c(=O)c2[n-]cnc2n(C)c1=O,GUMTYTFCQLOVQF-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,temazepam,CN1C(=O)C(O)N=C(c2ccccc2)c2cc(Cl)ccc21,SEQDDYPDSLOBDC-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,procarbazine hydrochloride,C[NH2+][NH2+]Cc1ccc(C(=O)NC(C)C)cc1,WOAPPGRJCYRIAD-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,protriptyline hydrochloride,C[NH2+]CCCC1c2ccccc2C=Cc2ccccc21,BWPIARFWQZKAIA-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,cyproheptadine hydrochloride,C[NH+]1CCC(=C2c3ccccc3C=Cc3ccccc32)CC1,JJCFRYNCJDLXIK-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,lasmiditan,C[NH+]1CCC(C(=O)c2cccc(=NC(=O)c3c(F)cc(F)cc3F)[n-]2)CC1,XEDHVZKDSYZQBF-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,ketamine hydrochloride,C[NH2+]C1(c2ccccc2Cl)CCCCC1=O,YQEZLKZALYSWHR-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,mecamylamine hydrochloride,C[NH2+]C1(C)C2CCC(C2)C1(C)C,IMYZQPCYWPFTAG-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,ranitidine,C[NH+]=C(C[N+](=O)[O-])NCCSCc1ccc(C[NH+](C)C)o1,SYNOVMDJYWJCON-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,eszopiclone,C[NH+]1CC[NH+](C(=O)Oc2c3nccnc3c([O-])n2-c2ccc(Cl)cn2)CC1,QCTRMDIJRRVPPY-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,oxymorphone hydrochloride,C[NH+]1CCC23c4c5ccc([O-])c4OC2C(=O)CCC3(O)C1C5,UQCNKQCJZOAFTQ-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,alosetron hydrochloride,Cc1[n-]cnc1C[NH+]1CCc2c(c3ccccc3n2C)C1=O,QPIMGCPPYUUAAD-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,polythiazide,C[NH+]1C(CSCC(F)(F)F)[NH2+]c2cc(Cl)c(S(N)(=O)=O)cc2S1(=O)=O,CYLWJCABXYDINA-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,prochlorperazine,C[NH+]1CC[NH+](CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1,WIKYUJGCLQQFNW-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,alfuzosin hydrochloride,COc1cc2[n-]c(N(C)CCCNC(=O)C3CCCO3)nc(=N)c2cc1OC,GEECLKXKUMUGAF-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,pexidartinib,FC(F)(F)c1ccc(CN=c2ccc(Cc3c[nH]c4ncc(Cl)cc34)c[n-]2)cn1,UULHOXKUQXGHHP-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,"melphalan usp, 2 mg",[NH3+]C(Cc1ccc(N(CCCl)CCCl)cc1)C(=O)[O-],SGDBTWWWUNNDEQ-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,carmustine,O=N[NH+](CCCl)C(=O)NCCCl,DLGOEMSEDOSKAD-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,cycloserine,[NH3+]C1CO[N-]C1=O,DYDCUQKUCUHJBH-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,desvenlafaxine,C[NH+](C)CC(c1ccc([O-])cc1)C1(O)CCCCC1,KYYIDSXMWOZKMP-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,amoxapine,Clc1ccc2c(c1)C(N1CC[NH2+]CC1)=[NH+]c1ccccc1O2,QWGDMFLQWFTERH-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,estazolam,Clc1ccc2c(c1)C(c1ccccc1)=NCc1nncn1-2,CDCHDCWJMGXXRH-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,guanfacine,NC(=[NH2+])NC(=O)Cc1c(Cl)cccc1Cl,INJOMKTZOLKMBF-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,iobenguane i-131,NC(=[NH2+])NCc1cccc(I)c1,PDWUPXJEEYOOTR-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,tizanidine hydrochloride,Clc1ccc2nsnc2c1NC1=[NH+]CCN1,XFYDIVBRZNQMJC-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,imipramine pamoate,O=C([O-])c1cc2ccccc2c(Cc2c([O-])c(C(=O)[O-])cc3ccccc23)c1[O-],WLJNZVDCPSBLRP-UHFFFAOYSA-J,less,DICTrank_concern,1.0
+DICTrank,darifenacin,NC(=O)C(c1ccccc1)(c1ccccc1)C1CC[NH+](CCc2ccc3c(c2)CCO3)C1,HXGBXQDTNZMWGS-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,zanubrutinib,C=CC(=O)[NH+]1CCC(C2CCNc3c(C(N)=O)c(-c4ccc(Oc5ccccc5)cc4)nn32)CC1,RNOAOAWBMHREKO-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,trihexyphenidyl hydrochloride,OC(CC[NH+]1CCCCC1)(c1ccccc1)C1CCCCC1,HWHLPVGTWGOCJO-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,thiothixene,C[NH+]1CC[NH+](CCC=C2c3ccccc3Sc3ccc(S(=O)(=O)[NH+](C)C)cc32)CC1,GFBKORZTTCHDGY-UHFFFAOYSA-Q,less,DICTrank_concern,1.0
+DICTrank,methotrexate sodium,CN(Cc1cnc2[n-]c(=N)[n-]c(=N)c2n1)c1ccc(C(=O)NC(CCC(=O)[O-])C(=O)[O-])cc1,CFTUWOOVULEXMX-UHFFFAOYSA-J,less,DICTrank_concern,1.0
+DICTrank,amantadine hydrochloride,[NH3+]C12CC3CC(CC(C3)C1)C2,DKNWSYNQZKUICI-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,amiloride hydrocloride,N=c1[n-]c(N)c(C(=O)NC(N)=[NH2+])nc1Cl,VRRIDMMBNBLSIP-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,vancomycin,C[NH2+]C(CC(C)C)C(=O)NC1C(=O)NC(CC(N)=O)C(=O)NC2C(=O)Nc3c([O-])[n-]c(c([O-])[n-]c(=C(O)O)c4cc([O-])cc([O-])c4c4cc3ccc4[O-])C(O)c3ccc(c(Cl)c3)Oc3cc2cc(c3OC2OC(CO)C(O)C(O)C2OC2CC(C)([NH3+])C(O)C(C)O2)Oc2ccc(cc2Cl)C1O,TXKZJFQJYXBOHS-UHFFFAOYSA-K,less,DICTrank_concern,1.0
+DICTrank,rufinamide,NC(=O)c1cn(Cc2c(F)cccc2F)nn1,POGQSBRIGCQNEG-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,terazosin,COc1cc2[n-]c(N3CC[NH+](C(=O)C4CCCO4)CC3)nc(=N)c2cc1OC,NNEFQPZDNAJKPZ-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,vericiguat,COC(=O)Nc1c(N)[n-]c(-c2nn(Cc3ccccc3F)c3ncc(F)cc23)nc1=N,NYJPKEOIQOABHJ-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,bendamustine hydrochloride,Cn1c(CCCC(=O)[O-])nc2cc(N(CCCl)CCCl)ccc21,YTKUWDBFDASYHO-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,moexipril hydrochloride,CCOC(=O)C(CCc1ccccc1)[NH2+]C(C)C(=O)[NH+]1Cc2cc(OC)c(OC)cc2CC1C(=O)[O-],UWWDHYUMIORJTA-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,alfentanil hydrochloride,CCC(=O)N(c1ccccc1)C1(COC)CC[NH+](CCn2nnn(CC)c2=O)CC1,IDBPHNDTYPBSNI-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,pralsetinib,COC1(C(=O)NC(C)c2ccc(-n3cc(F)cn3)nc2)CCC(c2nc(=Nc3cc(C)[n-]n3)cc(C)[n-]2)CC1,NZHLRDVCYHXVPF-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,procaine hydrochloride,CC[NH+](CC)CCOC(=O)c1ccc(N)cc1,MFDFERRIHVXMIY-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,rifabutin,COC1C=COC2(C)Oc3c(C)c([O-])c4c([O-])c(c5c(c4c3C2=O)=NC2(CC[NH+](CC(C)C)CC2)N=5)NC(=O)C(C)=CC=CC(C)C(O)C(C)C(O)C(C)C(OC(C)=O)C1C,AZFBLLCNOQPJGJ-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,dicyclomine hydrochloride,CC[NH+](CC)CCOC(=O)C1(C2CCCCC2)CCCCC1,CURUTKGFNZGFSE-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,rifapentine,COC1C=COC2(C)Oc3c(C)c([O-])c4c([O-])c(c(=C[NH2+][NH+]5CC[NH+](C6CCCC6)CC5)c([O-])c4c3C2=O)=NC(=O)C(C)=CC=CC(C)C(O)C(C)C(O)C(C)C(OC(C)=O)C1C,FIKBONIMGSBIMY-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,solriamfetol,NC(=O)OCC([NH3+])Cc1ccccc1,UCTRAOBQFUDCSR-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,flurazepam hydrochloride,CC[NH+](CC)CCN1C(=O)CN=C(c2ccccc2F)c2cc(Cl)ccc21,SAADBVWGJQAEFS-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,cortrosyn,CSCCC(N=C(O)C(CO)NC(=O)C(Cc1ccc([O-])cc1)NC(=O)C([NH3+])CO)C(=O)NC(CCC(=O)[O-])C(=O)NC(Cc1cnc[n-]1)C(=O)NC(Cc1ccccc1)C(=O)NC(CCCNC(N)=[NH2+])C(=O)NC(Cc1c[nH]c2ccccc12)C(O)=NCC(O)=NC(CCCC[NH3+])C(=O)[NH+]1CCCC1C(O)=NC(C(O)=NCC(O)=NC(CCCC[NH3+])C(O)=NC(CCCC[NH3+])C(O)=NC(CCCNC(N)=[NH2+])C(O)=NC(CCCNC(N)=[NH2+])C(=O)[NH+]1CCCC1C(O)=NC(C(O)=NC(CCCC[NH3+])C(O)=NC(C(O)=NC(Cc1ccc([O-])cc1)C(=O)[NH+]1CCCC1C(=O)[O-])C(C)C)C(C)C)C(C)C,CVLZMRXBQJTVQI-UHFFFAOYSA-T,less,DICTrank_concern,1.0
+DICTrank,moxidectin,CON=C1CC2(CC3CC(CC=C(C)CC(C)C=CC=C4COC5C(O)C(C)=CC(C(=O)O3)C45O)O2)OC(C(C)=CC(C)C)C1C,YZBLFMPOMVTDJY-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,ambrisentan,COC(c1ccccc1)(c1ccccc1)C(Oc1nc(C)cc(C)n1)C(=O)[O-],OUJTZYPIHDYQMC-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,prilocaine hydrochloride,CCC[NH2+]C(C)C(=O)Nc1ccccc1C,MVFGUOIZUNYYSO-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,sincalide,CSCCC(NC(=O)C(Cc1ccc(OS(=O)(=O)[O-])cc1)NC(=O)C([NH3+])CC(=O)[O-])C(=O)NCC(=O)NC(Cc1c[nH]c2ccccc12)C(=O)NC(CCSC)C(=O)NC(CC(=O)[O-])C(=O)NC(Cc1ccccc1)C(N)=O,IZTQOLKUZKXIRV-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,fenoldopam mesylate,[O-]c1ccc(C2C[NH2+]CCc3c2cc([O-])c([O-])c3Cl)cc1,TVURRHSHRRELCG-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,omacetaxine mepesuccinate,COC(=O)CC(O)(CCCC(C)(C)O)C(=O)OC1C(OC)=CC23CCC[NH+]2CCc2cc4c(cc2C13)OCO4,HYFHYPWGAURHIV-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,felbamate,NC(=O)OCC(COC(N)=O)c1ccccc1,WKGXYQFOCVYPAC-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,nifedipine,COC(=O)C1=C(C)N=C(C)C(C(=O)OC)C1c1ccccc1[N+](=O)[O-],OSUCQKNXQBPLDG-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,acebutolol hydrochloride,CCCC(=O)Nc1ccc(OCC(O)C[NH2+]C(C)C)c(C(C)=O)c1,GOEMGAFJFRBGGG-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,nefazodone hydrochloride,CCc1nn(CCC[NH+]2CCN(c3cccc(Cl)c3)CC2)c(=O)n1CCOc1ccccc1,VRBKIVRKKCLPHA-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,nisoldipine,COC(=O)C1=C(C)N=C(C)C(C(=O)OCC(C)C)C1c1ccccc1[N+](=O)[O-],PKICUDXEAPMDNG-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,irinotecan hydrochloride,CCc1c2c(nc3ccc(OC(=O)[NH+]4CCC([NH+]5CCCCC5)CC4)cc13)-c1cc3c(c(=O)n1C2)COC(=O)C3(O)CC,UWKQSNNFCGGAFS-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,isradipine,COC(=O)C1=C(C)N=C(C)C(C(=O)OC(C)C)C1c1cccc2nonc12,CNXVIBRFWKALQW-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,benazepril hydrochloride,CCOC(=O)C(CCc1ccccc1)[NH2+]C1CCc2ccccc2N(CC(=O)[O-])C1=O,XPCFTKFZXHTYIP-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,temsirolimus,COC1CC2CCC(C)C(O)(O2)C(=O)C(=O)[NH+]2CCCCC2C(=O)OC(C(C)CC2CCC(OC(=O)C(C)(CO)CO)C(OC)C2)CC(=O)C(C)=CC(C)C(O)C(OC)C(=O)C(C)CC(C)C=CC=CC=C1C,ZWYQUVBAZLHTHP-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,florbetapir f 18,CNc1ccc(C=Cc2ccc(OCCOCCOCCF)nc2)cc1,YNDIAUKFXKEXSV-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,ephedrine hydrochloride,C[NH2+]C(C)C(O)c1ccccc1,KWGRBVOPPLSCSI-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,imipramine hydrochloride,C[NH+](C)CCCN1c2ccccc2CCc2ccccc21,BCGWQEUPMDMJNV-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,clomipramine hydrochloride capsules,C[NH+](C)CCCN1c2ccccc2CCc2ccc(Cl)cc21,GDLIGKIOYRNHDA-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,cyclobenzaprine hydrochloride,C[NH+](C)CCC=C1c2ccccc2C=Cc2ccccc21,JURKNVYFZMSNLP-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,oxcarbazepine,NC(=O)N1c2ccccc2CC(=O)c2ccccc21,CTRLABGOLIVAIY-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,clonidine hydrochloride,Clc1cccc(Cl)c1NC1=[NH+]CCN1,GJSURZIOUXUGAL-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,cimetidine,C[NH+]=C(NC#N)NCCSCc1[n-]cnc1C,GKPMQZGLRFUHAN-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,nizatidine,C[NH+]=C(C[N+](=O)[O-])NCCSCc1csc(C[NH+](C)C)n1,XPZQPVYGEOEOKS-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,roflumilast,O=C(N=c1c(Cl)c[n-]cc1Cl)c1ccc(OC(F)F)c(OCC2CC2)c1,MNDBXUUTURYVHR-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,lonafarnib,NC(=O)[NH+]1CCC(CC(=O)[NH+]2CCC(C3c4ncc(Br)cc4CCc4cc(Cl)cc(Br)c43)CC2)CC1,DHMTURDWPRKSOA-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,flibanserin,O=c1[n-]c2ccccc2n1CC[NH+]1CCN(c2ccc(C(F)(F)F)cc2)CC1,CCIZQGRSEAHATK-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,berotralstat hydrochloride,N#Cc1cccc(C([NH2+]CC2CC2)c2ccc(F)c(NC(=O)c3cc(C(F)(F)F)nn3-c3cccc(C[NH3+])c3)c2)c1,UXNXMBYCBRBRFD-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,delafloxacin meglumine,N=c1[n-]c(-n2cc(C(=O)[O-])c(=O)c3cc(F)c(N4CC(O)C4)c(Cl)c32)c(F)cc1F,CRVJKCNEDZMYOG-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,trifluoperazine hydrochloride,C[NH+]1CC[NH+](CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,ZEWQUBUPAILYHI-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,bicisate dihydrochloride,CCOC(=O)C(CS)[NH2+]CC[NH2+]C(CS)C(=O)OCC,RZQNBTMGBODDSK-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,pramipexole dihydrochloride,CCC[NH2+]C1CCc2[n-]c(=N)sc2C1,XJJRTARXTIZBBZ-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,flutemetamol f-18,CNc1ccc(-c2nc3ccc([O-])cc3s2)cc1F,VVECGOCJFKTUAX-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,sapropterin dihydrochloride,CC(O)C(O)C1CNc2[n-]c(=N)[n-]c(=O)c2[NH2+]1,HCRZFRCXOGEEMQ-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,selinexor,O=C(C=Cn1cnc(-c2cc(C(F)(F)F)cc(C(F)(F)F)c2)n1)[N-]N=c1cncc[n-]1,WUTOXGBBDLINKC-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,eravacycline,C[NH+](C)C1C(=O)C(C(N)=O)C(=O)C2(O)C(=O)c3c(cc4c(F)cc(NC(O)C[NH+]5CCCC5)c([O-])c4c3[O-])CC12,UVLBVOSCXCUSGH-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,viloxazine hydrochloride,CCOc1ccccc1OCC1C[NH2+]CCO1,YWPHCCPCQOJSGZ-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,metoclopramide hydrochloride,CC[NH+](CC)CCNC(=O)c1cc(Cl)c(N)cc1OC,TTWJBBZEZQICBI-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,paricalcitol,CC(C=CC(C)C(C)(C)O)C1CCC2C(=CC=C3CC(O)CC(O)C3)CCCC21C,BPKAHTKRCLCHEA-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,fluvastatin,CC(C)n1c(C=CC(O)CC(O)CC(=O)[O-])c(-c2ccc(F)cc2)c2ccccc21,FJLGEFLZQAZZCD-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,pravastatin sodium,CCC(C)C(=O)OC1CC(O)C=C2C=CC(C)C(CCC(O)CC(O)CC(=O)[O-])C21,TUZYXOIXSAXUGO-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,penicillin g sodium,CC1(C)SC2C(NC(=O)Cc3ccccc3)C(=O)[NH+]2C1C(=O)[O-],JGSARLDLIJGVTE-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,oxacillin,Cc1onc(-c2ccccc2)c1C(=O)NC1C(=O)[NH+]2C1SC(C)(C)C2C(=O)[O-],UWYHMGVUTGAWSP-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,methohexital sodium,C=CCC1(C(C)C#CCC)C(=O)[N-]C(=O)N(C)C1=O,NZXKDOXHBHYTKP-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,fosinopirl sodium; fosinopril sodium,CCC(=O)OC(OP(=O)(CCCCc1ccccc1)CC(=O)[NH+]1CC(C2CCCCC2)CC1C(=O)[O-])C(C)C,BIDNLKIUORFRQP-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,pentobarbital sodium,CCCC(C)C1(CC)C(=O)[N-]C(=O)[N-]C1=O,WEXRUCMBJFQVBZ-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,montelukast sodium,CC(C)(O)c1ccccc1CCC(SCC1(CC(=O)[O-])CC1)c1cccc(C=Cc2ccc3ccc(Cl)cc3n2)c1,UCHDWCPVSPXUMX-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,secobarbital sodium,C=CCC1(C(C)CCC)C(=O)[N-]C(=O)[N-]C1=O,KQPKPCNLIDLUMF-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,divalproex sodium,CCCC(CCC)C(=O)[O-],NIJJYAXOARWZEE-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,epoprostenol,CCCCCC(O)C=CC1C(O)CC2OC(=CCCCC(=O)[O-])CC21,KAQKFAOMNZTLHT-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,cefoxitin,COC1(NC(=O)Cc2cccs2)C(=O)[NH+]2C(C(=O)[O-])=C(COC(N)=O)CSC21,WZOZEZRFJCJXNZ-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,mesna,O=S(=O)([O-])CCS,ZNEWHQLOPFWXOF-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,sodium phenylbutyrate,O=C([O-])CCCc1ccccc1,OBKXEAXTFZPCHS-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,gadoterate meglumine,O=C([O-])C[NH+]1CC[NH+](CC(=O)[O-])CC[NH+](CC(=O)[O-])CC[NH+](CC(=O)[O-])CC1,WDLRUFUQRNWCPK-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,losartan potassium,CCCCc1nc(Cl)c(CO)n1Cc1ccc(-c2ccccc2-c2nn[n-]n2)cc1,MDMTUGIZSFHDIC-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,methylprednisolone sodium succinate,CC1=C2CC(=O)C=CC2(C)C2C(O)CC3(C)C(CCC3(O)C(=O)COC(=O)CCC(=O)[O-])C2C1,USWORSUDJQKUJO-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,hydrocortisone sodium succinate,CC12CCC(=O)C=C1CCC1C2C(O)CC2(C)C1CCC2(O)C(=O)COC(=O)CCC(=O)[O-],VWQWXZAWFPZJDA-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,nebivolol,OC(C[NH2+]CC(O)C1CCc2cc(F)ccc2O1)C1CCc2cc(F)ccc2O1,KOHIRBRYDXPAMZ-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,betiatide,O=C([O-])CNC(=O)CNC(=O)CNC(=O)CSC(=O)c1ccccc1,VDPYMEBVIDZKMD-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,risedronate sodium,O=[P-](=O)(O)C(O)(C[C+]1C=CC=[N+]=C1)[P-](=O)(=O)O,BVPYUOGGVTWBOM-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,loxapine,C[NH+]1CCN(C2=[NH+]c3ccccc3Oc3ccc(Cl)cc32)CC1,XJGVXQDUIWGIRW-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,olsalazine sodium,O=C([O-])c1cc(N=Nc2ccc([O-])c(C(=O)[O-])c2)ccc1[O-],QQBDLJCYGRGAKP-UHFFFAOYSA-J,less,DICTrank_concern,1.0
+DICTrank,liothyronine sodium,[NH3+]C(Cc1cc(I)c(Oc2ccc([O-])c(I)c2)c(I)c1)C(=O)[O-],AUYYCJSJGJYCDS-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,acyclovir,N=c1[n-]c(=O)c2ncn(COCCO)c2[n-]1,YKKVXQMCHARJRY-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,sulfasalazine,O=C([O-])c1cc(N=Nc2ccc(S(=O)(=O)N=c3cccc[n-]3)cc2)ccc1[O-],UABZGIZRSKANIE-UHFFFAOYSA-K,less,DICTrank_concern,1.0
+DICTrank,argatroban,CC1CNc2c(cccc2S(=O)(=O)NC(CCC[NH+]=C(N)N)C(=O)[NH+]2CCC(C)CC2C(=O)[O-])C1,KXNPVXPOPUZYGB-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,suvorexant,Cc1ccc(-n2nccn2)c(C(=O)[NH+]2CCN(c3nc4cc(Cl)ccc4o3)CCC2C)c1,JYTNQNCOQXFQPK-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,methyldopa,CC([NH3+])(Cc1ccc([O-])c([O-])c1)C(=O)[O-],CJCSPKMFHVPWAR-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,methyltestosterone,CC12CCC(=O)C=C1CCC1C2CCC2(C)C1CCC2(C)O,GCKMFJBGXUYNAG-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,prednisolone,CC12C=CC(=O)C=C1CCC1C2C(O)CC2(C)C1CCC2(O)C(=O)CO,OIGNJSKKLXVSLS-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,exemestane,C=C1CC2C(CCC3(C)C(=O)CCC23)C2(C)C=CC(=O)C=C12,BFYIZQONLCFLEV-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,danazol,C#CC1(O)CCC2C3CCC4=Cc5oncc5CC4(C)C3CCC21C,POZRVZJJTULAOH-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,lamotrigine,N=c1[n-]nc(-c2cccc(Cl)c2Cl)c(=N)[n-]1,PQOPTIDLXVRWOA-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,silodosin,CC(Cc1cc2c(c(C(N)=O)c1)N(CCCO)CC2)[NH2+]CCOc1ccccc1OCC(F)(F)F,PNCPYILNMDWPEY-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,deoxycholic acid,CC(CCC(=O)[O-])C1CCC2C3CCC4CC(O)CCC4(C)C3CC(O)C12C,KXGVEGMKQFWNSR-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,captopril,CC(CS)C(=O)[NH+]1CCCC1C(=O)[O-],FAKRSMQSSFJEIM-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,enalaprilat,CC([NH2+]C(CCc1ccccc1)C(=O)[O-])C(=O)[NH+]1CCCC1C(=O)[O-],LZFZMUMEGBBDTC-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,aztreonam,CC1C(=NC(=O)C([NH2+]OC(C)(C)C(=O)[O-])c2csc(=N)[n-]2)C(=O)N1S(=O)(=O)[O-],WRPDSYKZQIJLOK-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,bleomycin,Cc1c(C(=O)NC(C(=O)NC(C)C(O)C(C)C(=O)NC(C(=O)NCCc2nc(-c3nc(C(=O)NCCC[S+](C)C)cs3)cs2)C(C)O)C(OC2OC(CO)C(O)C(O)C2OC2OC(CO)C(O)C(OC(N)=O)C2O)c2c[n-]cn2)[n-]c(C(CC(N)=O)[NH2+]CC([NH3+])C(N)=O)nc1=N,OYVAGSVQBOHSSS-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,pentostatin,OCC1OC(n2cnc3c2[NH+]=CNCC3O)CC1O,FPVKHBSQESCIEP-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,ertapenem sodium,CC(O)C1C(=O)[NH+]2C(C(=O)[O-])=C(SC3C[NH2+]C(C(=O)Nc4cccc(C(=O)[O-])c4)C3)C(C)C12,JUZNIMUFDBIJCM-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,repository corticotropin,CSCCC(N=C(O)C(CO)N=C(O)C(Cc1ccc([O-])cc1)NC(=O)C([NH3+])CO)C(=O)NC(CCC(=O)[O-])C(=O)NC(Cc1cnc[n-]1)C(=O)NC(Cc1ccccc1)C(=O)NC(CCCNC(N)=[NH2+])C(=O)NC(Cc1c[nH]c2ccccc12)C(O)=NCC(O)=NC(CCCC[NH3+])C(=O)[NH+]1CCCC1C(O)=NC(C(O)=NCC(O)=NC(CCCC[NH3+])C(O)=NC(CCCC[NH3+])C(O)=NC(CCCNC(N)=[NH2+])C(O)=NC(CCCNC(N)=[NH2+])C(=O)[NH+]1CCCC1C(O)=NC(C(O)=NC(CCCC[NH3+])C(O)=NC(C(O)=NC(Cc1ccc([O-])cc1)C(=O)[NH+]1CCCC1C(O)=NC(CC(N)=O)C(O)=NCC(O)=NC(C)C(O)=NC(CCC(=O)[O-])C(O)=NC(CC(=O)[O-])C(O)=NC(CCC(=O)[O-])C(O)=NC(CO)C(O)=NC(C)C(O)=NC(CCC(=O)[O-])C(O)=NC(C)C(O)=NC(Cc1ccccc1)C(=O)[NH+]1CCCC1C(O)=NC(CC(C)C)C(O)=NC(CCC(=O)[O-])C(O)=NC(Cc1ccccc1)C(=O)[O-])C(C)C)C(C)C)C(C)C,WYUCYMGOOWKWGD-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,ganciclovir sodium,N=c1[n-]c(=O)c2ncn(COC(CO)CO)c2[n-]1,ZWDINQFCWZKPRQ-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,nitrofurantoin,O=c1[n-]c([O-])cn1N=Cc1ccc([N+](=O)[O-])o1,SRBLIRXITMQCOS-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,clonazepam,O=C1C=NC(c2ccccc2Cl)c2cc([N+](=O)[O-])ccc2N1,GUSMEDHRIBVVJG-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,cisatracurium besylate,COc1ccc(CC2c3cc(OC)c(OC)cc3CC[N+]2(C)CCC(=O)OCCCCCOC(=O)CC[N+]2(C)CCc3cc(OC)c(OC)cc3C2Cc2ccc(OC)c(OC)c2)cc1OC,YXSLJKQTIDHPOT-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,hydroxocobalamin,CC1=C2N=C(C=C3N=C(C(C)C4=NC(C(CC(N)=O)C4(C)CCC(=O)NCC(C)OP([O])(=O)OC4C(CO)OC([n+]5c[n-]c6cc(C)c(C)cc65)C4O)C4(C)N=C1C(CCC(N)=O)C4(C)CC(N)=O)C(CCC(N)=O)C3(C)C)C(CCC(=N)O)C2(C)CC(N)=O,CFONZKVQMQUGPQ-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,niacin,O=C([O-])c1cccnc1,PVNIIMVLHYAWGP-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,ferric carboxymaltose; ferric carboxymaltose injection,O=C(C(O)C(O)O)C(OC1OC(CO)C(OC2OC(CO)C(OC3OC(CO)C(O)C(O)C3O)C(O)C2O)C(O)C1O)C(O)CO,QMCWLAKIHIEULI-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,venofer (iron sucrose),OCC1OC(OC2(CO)OC(CO)C(O)C2O)C(O)C(O)C1O,CZMRCDWAGMRECN-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,ferric derisomaltose,OCC(O)C(O)C(O)C(O)COC1OC(COC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O,KMNMNIBWPCHYPW-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,colestipol hydrochloride,[NH3+]CC[NH2+]CC[NH2+]CC[NH2+]CC[NH3+],FAGUFWYHJQFNRV-UHFFFAOYSA-S,less,DICTrank_concern,1.0
+DICTrank,carbidopa,CC(Cc1ccc([O-])c([O-])c1)([NH2+]N)C(=O)[O-],TZFNLOMSOLWIDK-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,darolutamide,CC(=O)c1cc(C(O)[NH2+]C(C)Cn2ccc(-c3ccc(C#N)c(Cl)c3)n2)[n-]n1,NSXSXGZUWARMPT-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,lutetium lu 177 dotatate,CC(O)C(NC(=O)C1CSSCC(NC(=O)C(Cc2ccccc2)NC(=O)C[NH+]2CC[NH+](CC(=O)[O-])CC[NH+](CC(=O)[O-])CC[NH+](CC(=O)[O-])CC2)C(=O)NC(Cc2ccc([O-])cc2)C(=O)NC(Cc2c[nH]c3ccccc23)C(=O)NC(CCCC[NH3+])C(=O)NC(C(C)O)C(=O)N1)C(=O)[O-],QVFLVLMYXXNJDT-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,mirabegron,N=c1[n-]c(CC(=O)Nc2ccc(CC[NH2+]CC(O)c3ccccc3)cc2)cs1,LJFRMVAJWZUQPP-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,dimercaprol,OCC(S)CS,WQABCVAJNWAXTE-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,tranylcypromine sulfate,[NH3+]C1CC1c1ccccc1,AELCINSCMGFISI-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,gadoteridol,CC(O)C[NH+]1CC[NH+](CC(=O)[O-])CC[NH+](CC(=O)[O-])CC[NH+](CC(=O)[O-])CC1,IQUHNCOJRJBMSU-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,gadodiamide,CNC(=O)C[NH+](CC[NH+](CC[NH+](CC(=O)[O-])CC(=O)NC)CC(=O)[O-])CC(=O)[O-],RZESKRXOCXWCFX-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,gadopentetate dimeglumine,O=C([O-])C[NH+](CC[NH+](CC(=O)[O-])CC(=O)[O-])CC[NH+](CC(=O)[O-])CC(=O)[O-],QPCDCPDFJACHGM-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,gadobutrol,O=C([O-])C[NH+]1CC[NH+](CC(=O)[O-])CC[NH+](C(CO)C(O)CO)CC[NH+](CC(=O)[O-])CC1,JZNZSKXIEDHOBD-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,lactitol,OCC(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO,VQHSOMBJVWLPSR-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,codeine sulfate,COc1ccc2c3c1OC1C(O)C=CC4C(C2)[NH+](C)CCC341,OROGSEYTTFOCAN-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,vinblastine sulfate,CCC1(O)CC2C[NH+](CCc3c([nH]c4ccccc34)C(C(=O)OC)(c3cc4c(cc3OC)[NH+](C)C3C(O)(C(=O)OC)C(OC(C)=O)C5(CC)C=CC[NH+]6CCC43C65)C2)C1,JXLYSJRDGCGARV-UHFFFAOYSA-Q,less,DICTrank_concern,1.0
+DICTrank,calcitriol,C=C1C(=CC=C2CCCC3(C)C2CCC3C(C)CCCC(C)(C)O)CC(O)CC1O,GMRQFYUYWCNGIN-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,calcifediol,C=C1CCC(O)CC1=CC=C1CCCC2(C)C1CCC2C(C)CCCC(C)(C)O,JWUBBDSIWDLEOM-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,deflazacort,CC(=O)OCC(=O)C12N=C(C)OC1CC1C3CC=C4CC(=O)C=CC4(C)C3C(O)CC12C,CHSYXJNUOMUPOG-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,eplerenone,COC(=O)C1=CC2CC(=O)CCC2(C)C23OC2CC2(C)C(CCC24CCC(=O)O4)C13,NGPJYMSGYPTHBB-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,isavuconazonium sulfate,C[NH2+]CC(=O)OCc1cccnc1N(C)C(=O)OC(C)[n+]1cnn(CC(O)(c2cc(F)ccc2F)C(C)c2nc(-c3ccc(C#N)cc3)cs2)c1,RSWOJTICKMKTER-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,dexamethasone,CC1CC2C3CC=C4CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)CO,GJFCONYVAUNLKB-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,anidulafungin,CCCCCOc1ccc(-c2ccc(-c3ccc(C(=O)NC4CC(O)C(O)NC(=O)C5C(O)C(C)C[NH+]5C(=O)C(C(C)O)NC(=O)C(C(O)C(O)c5ccc([O-])cc5)NC(=O)C5CC(O)C[NH+]5C(=O)C(C(C)O)NC4=O)cc3)cc2)cc1,JHVAMHSQVVQIOT-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,indinavir sulfate,CC(C)(C)NC(=O)C1C[NH+](Cc2cccnc2)CC[NH+]1CC(O)CC(Cc1ccccc1)C(=O)NC1c2ccccc2CC1O,CBVCZFGXHXORBI-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,micafungin sodium,CCCCCOc1ccc(-c2cc(-c3ccc(C(=O)NC4CC(O)C(O)NC(=O)C5C(O)C(C)C[NH+]5C(=O)C(C(O)CC(N)=O)NC(=O)C(C(O)C(O)c5ccc([O-])c(OS(=O)(=O)[O-])c5)NC(=O)C5CC(O)C[NH+]5C(=O)C(C(C)O)NC4=O)cc3)no2)cc1,PIEUQSKUWLMALL-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,acetylcholine chloride,CC(=O)OCC[N+](C)(C)C,OIPILFWXSMYKGL-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,phenelzine sulfate,N[NH2+]CCc1ccccc1,RMUCZJUITONUFY-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,methscopolamine bromide,C[N+]1(C)C2CC(OC(=O)C(CO)c3ccccc3)CC1C1OC12,LZCOQTDXKCNBEE-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,methylnaltrexone bromide,C[N+]1(CC2CC2)CCC23c4c5ccc([O-])c4OC2C(=O)CCC3(O)C1C5,JVLBPIPGETUEET-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,glycopyrrolate,C[N+]1(C)CCC(OC(=O)C(O)(c2ccccc2)C2CCCC2)C1,ANGKOCUUWGHLCE-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,rocuronium,C=CC[N+]1(C2CC3C4CCC5CC(O)C([NH+]6CCOCC6)CC5(C)C4CCC3(C)C2OC(C)=O)CCCC1,YXRDKMPIGHSVRX-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,propantheline bromide,CC(C)[N+](C)(CCOC(=O)C1c2ccccc2Oc2ccccc21)C(C)C,VVWYOYDLCMFIEM-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,clopidogrel,COC(=O)C(c1ccccc1Cl)[NH+]1CCc2sccc2C1,GKTWGGQPFAXNFI-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,umeclidinium,OC(c1ccccc1)(c1ccccc1)C12CC[N+](CCOCc3ccccc3)(CC1)CC2,FVTWTVQXNAJTQP-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,morphine sulfate,C[NH+]1CCC23c4c5ccc([O-])c4OC2C(O)C=CC3C1C5,BQJCRHHNABKAKU-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,acamprosate calcium,CC(=O)NCCCS(=O)(=O)[O-],AFCGFAGUEYAMAO-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,vincristine sulfate,CCC1(O)CC2C[NH+](CCc3c([nH]c4ccccc34)C(C(=O)OC)(c3cc4c(cc3OC)[NH+](C=O)C3C(O)(C(=O)OC)C(OC(C)=O)C5(CC)C=CC[NH+]6CCC43C65)C2)C1,OGWKCGZFUXNPDA-UHFFFAOYSA-Q,less,DICTrank_concern,1.0
+DICTrank,trospium chloride,O=C(OC1CC2CCC(C1)[N+]21CCCC1)C(O)(c1ccccc1)c1ccccc1,OYYDSUSKLWTMMQ-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,pralidoxime chloride,C[NH+]1C=CC=CC1=C=NO,KVBGNKVVUDLETI-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,bethanechol chloride,CC(C[N+](C)(C)C)OC(=N)O,NZUPCNDJBJXXRF-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,primaquine phosphate,COc1cc([NH2+]C(C)CCC[NH3+])c2ncccc2c1,INDBQLZJXZLFIT-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,docetaxel anhydrous,CC(=O)OC12COC1CC(O)C1(C)C(=O)C(=O)C3C(C)C(OC(=O)C(O)C(NC(=O)OC(C)(C)C)c4ccccc4)CC(O)(C(OC(=O)c4ccccc4)C21)C3(C)C,ROQZUJKOMJECOM-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,aprepitant,CC(OC1OCC[NH+](Cc2n[n-]c(=O)[n-]2)C1c1ccc(F)cc1)c1cc(C(F)(F)F)cc(C(F)(F)F)c1,ULFPRSVQLXNLFG-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,tolterodine tartrate,Cc1ccc([O-])c(C(CC[NH+](C(C)C)C(C)C)c2ccccc2)c1,OOGJQPCLVADCPB-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,meropenem,CC(O)C1C(=O)[NH+]2C(C(=O)[O-])=C(SC3C[NH2+]C(C(=O)[NH+](C)C)C3)C(C)C12,DMJNNHOOLUXYBV-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,oxytocin,CCC(C)C1NC(=O)C(Cc2ccc([O-])cc2)NC(=O)C([NH3+])CSSCC(C(=O)[NH+]2CCCC2C(=O)NC(CC(C)C)C(=O)NCC(N)=O)NC(=O)C(CC(N)=O)NC(=O)C(CCC(N)=O)NC1=O,XNOPRXBHLZRZKH-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,calcitonin salmon,CC(C)CC(N=C(O)C(CCC(=O)[O-])N=C(O)C(CCC(=N)O)N=C(O)C(CO)N=C(O)C(CC(C)C)N=C(O)C(CCCC[NH3+])N=C(O)CN=C(O)C(CC(C)C)N=C(O)C(N=C(O)C1CSSCC([NH3+])C(=O)NC(CO)C(=O)NC(CC(N)=O)C(=O)NC(CC(C)C)C(=O)NC(CO)C(O)=NC(C(C)O)C(O)=N1)C(C)C)C(=O)NC(Cc1cnc[n-]1)C(O)=NC(CCCC[NH3+])C(O)=NC(CC(C)C)C(O)=NC(CCC(N)=O)C(O)=NC(C(O)=NC(Cc1ccc([O-])cc1)C(=O)[NH+]1CCCC1C(O)=NC(CCCNC(N)=[NH2+])C(O)=NC(C(O)=NC(CC(N)=O)C(O)=NC(C(O)=NCC(O)=NC(CO)C(O)=NCC(O)=NC(C(=O)[NH+]1CCCC1C(N)=O)C(C)O)C(C)O)C(C)O)C(C)O,WADFUPGDAZBZKV-UHFFFAOYSA-Q,less,DICTrank_concern,1.0
+DICTrank,plazomicin,C[NH2+]C1C(O)C(OC2C(NC(=O)C(O)CC[NH3+])CC([NH3+])C(OC3OC(C[NH2+]CCO)=CCC3[NH3+])C2O)OCC1(C)O,IYDYFVUFSPQPPV-UHFFFAOYSA-S,less,DICTrank_concern,1.0
+DICTrank,lumateperone,C=C1C2=C(C)[NH+](C)CC[NH+]2C2CC[NH+](CCCC(=O)c3ccc(F)cc3)CC12,CXRGLNIJXKCICO-UHFFFAOYSA-Q,less,DICTrank_concern,1.0
+DICTrank,oritavancin,C[NH2+]C(CC(C)C)C(=O)NC1C(=O)NC(CC(N)=O)C(=O)NC2C(=O)Nc3c([O-])[n-]c(c([O-])[n-]c(=C(O)O)c4cc([O-])cc([O-])c4c4cc3ccc4[O-])C(OC3CC(C)([NH3+])C(O)C(C)O3)c3ccc(c(Cl)c3)Oc3cc2cc(c3OC2OC(CO)C(O)C(O)C2OC2CC(C)([NH2+]Cc3ccc(-c4ccc(Cl)cc4)cc3)C(O)C(C)O2)Oc2ccc(cc2Cl)C1O,IUDLNKSJTZNQNH-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,rydapt,COC1(C)C([NH+](C)C(=O)c2ccccc2)C2OC1(C)n1c3ccccc3c3c4c(c5c6ccccc6n2c5c31)C(=O)NC4,IIQIEMHSDLLZQA-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,isosorbide mononitrate,O=[N+]([O-])OC1COC2C(O)COC12,YWXYYJSYQOXTPL-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,isosorbide dinitrate,O=[N+]([O-])OC1COC2C(O[N+](=O)[O-])COC12,MOYKHGMNXAOIAT-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,perphenazine,OCC[NH+]1CC[NH+](CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1,RGCVKNLCSQQDEP-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,trandolapril,CCOC(=O)C(CCc1ccccc1)[NH2+]C(C)C(=O)[NH+]1C(C(=O)[O-])CC2CCCCC21,VXFJYXUZANRPDJ-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,eptifibatide,NC(=[NH2+])NCCCCC1NC(=O)CCSSCC(C(N)=O)NC(=O)C2CCC[NH+]2C(=O)C(Cc2c[nH]c3ccccc23)NC(=O)C(CC(=O)[O-])NC(=O)CNC1=O,CZKPOZZJODAYPZ-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,paclitaxel,CC(=O)OC1=C2C(C)C(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)CC(O)(C(OC(=O)c3ccccc3)C3C4(OC(C)=O)COC4CC(O)C3(C)C1=O)C2(C)C,NDUAXKHGCJIYEQ-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,dronabinol,CCCCCc1cc([O-])c2c(c1)OC(C)(C)C1CCC(C)=CC21,CYQFCXCEBYINGO-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,nabilone,CCCCCCC(C)(C)c1cc([O-])c2c(c1)OC(C)(C)C1CCC(=O)CC21,GECBBEABIDMGGL-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,mifepristone,CC#CC1(O)CCC2C3=C(C4=C(CC3)CC(=O)CC4)C(c3ccc(N(C)C)cc3)CC21C,BHZCGCMWEVHUBA-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,spironolactone,CC(=O)SC1C=C2CC(=O)CCC2(C)C2CCC3(C)C(CCC34CCC(=O)O4)C12,RRQQBPFUONLKTL-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,sirolimus,COC1CC2CCC(C)C(O)(O2)C(=O)C(=O)[NH+]2CCCCC2C(=O)OC(C(C)CC2CCC(O)C(OC)C2)CC(=O)C(C)=CC(C)C(O)C(OC)C(=O)C(C)CC(C)C=CC=CC=C1C,DVSZTYJRXBBIFA-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,everolimus,COC1CC2CCC(C)C(O)(O2)C(=O)C(=O)[NH+]2CCCCC2C(=O)OC(C(C)CC2CCC(OCCO)C(OC)C2)CC(=O)C(C)=CC(C)C(O)C(OC)C(=O)C(C)CC(C)C=CC=CC=C1C,SXIBUDLORNYMST-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,fludrocortisone acetate,CC(=O)OCC(=O)C1(O)CCC2C3CC=C4CC(=O)CCC4(C)C3(F)C(O)CC21C,CIGNZXWBHKAMIO-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,cortisone acetate,CC(=O)OCC(=O)C1(O)CCC2C3CC=C4CC(=O)CCC4(C)C3C(=O)CC21C,SLEIAHSDXRGERW-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,medroxyprogesterone acetate,CC(=O)OC1(C(C)=O)CCC2C3CC(C)=C4CC(=O)CCC4(C)C3CCC21C,WYYCRMBIYYRAEW-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,megestrol acetate,CC(=O)OC1(C(C)=O)CCC2C3=CC(C)=C4CC(=O)CCC4(C)C3CCC21C,IMZOHRNGPZTCSG-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,amifampridine phosphate,N=c1cc[n-]cc1N,OXYWOLYFLLGOSL-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,dutasteride,CC12C=CC(=O)NC1CCC1C2CCC2(C)C(C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CCC12,JWJOTENAMICLJG-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,brexanolone,CC(=O)C1CCC2C3CCC4CC(O)CCC4(C)C3CCC12C,AURFZBICLPNKBZ-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,omadacycline,CN(C)c1cc(C[NH2+]CC(C)(C)C)c([O-])c2c1CC1CC3C([NH+](C)C)C(=O)C(C(N)=O)C(=O)C3(O)C(=O)C1C2=O,OVIWLBQFYMOVOF-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,oseltamivir phosphate,CCOC(=O)C1=CC(OC(CC)CC)C(NC(C)=O)C([NH3+])C1,VSZGPKBBMSAYNT-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,fesoterodine fumarate,CC(C)C(=O)Oc1ccc(CO)cc1C(CC[NH+](C(C)C)C(C)C)c1ccccc1,DCCSDBARQIPTGU-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,tolvaptan,Cc1ccccc1C(=O)Nc1ccc(C(=O)N2CCCC(O)c3cc(Cl)ccc32)c(C)c1,GYHCTFXIZSNGJT-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,fluvoxamine maleate,COCCCCC(=NOCC[NH3+])c1ccc(C(F)(F)F)cc1,CJOFXWAVKWHTFT-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,bivalirudin,CCC(C)C(N=C(O)C(CCC(=O)[O-])N=C(O)C(CCC(=O)[O-])N=C(O)C(Cc1ccccc1)N=C(O)C(CC(=O)[O-])N=C(O)CN=C(O)C(CC(=N)O)N=C(O)CN=C(O)CNC(=O)CNC(=O)CNC(=O)C1CCC[NH+]1C(=O)C(CCCNC(N)=[NH2+])NC(=O)C1CCC[NH+]1C(=O)C([NH3+])Cc1ccccc1)C(=O)[NH+]1CCCC1C(=O)NC(CCC(=O)[O-])C(=O)NC(CCC(=O)[O-])C(=O)NC(Cc1ccc([O-])cc1)C(=O)NC(CC(C)C)C(=O)[O-],OIRCOABEOLEUMC-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,angiotensin ii,CCC(C)C(NC(=O)C(Cc1ccc([O-])cc1)NC(=O)C(NC(=O)C(CCC[NH+]=C(N)N)NC(=O)C([NH3+])CC(=O)[O-])C(C)C)C(=O)NC(Cc1c[n-]cn1)C(=O)[NH+]1CCCC1C(=O)NC(Cc1ccccc1)C(=O)[O-],FXYLDFMNLNMYSH-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,enfuvirtide,CCC(C)C(N=C(O)C(CC(C)C)N=C(O)C(CO)N=C(O)C(Cc1cnc[n-]1)N=C(O)C(N=C(O)C(CC(C)C)N=C(O)C(CO)N=C(O)C(N=C(O)C(Cc1ccc([O-])cc1)N=C(C)O)C(C)O)C(C)CC)C(=O)NC(CCC(=O)[O-])C(=O)NC(CCC(=O)[O-])C(=O)NC(CO)C(=O)NC(CCC(=N)O)C(=O)NC(CC(=N)O)C(O)=NC(CCC(=N)O)C(O)=NC(CCC(=N)O)C(O)=NC(CCC(=O)[O-])C(O)=NC(CCCC[NH3+])C(O)=NC(CC(N)=O)C(O)=NC(CCC(=O)[O-])C(O)=NC(CCC(N)=O)C(O)=NC(CCC(=O)[O-])C(O)=NC(CC(C)C)C(O)=NC(CC(C)C)C(O)=NC(CCC(=O)[O-])C(O)=NC(CC(C)C)C(O)=NC(CC(=O)[O-])C(O)=NC(CCCC[NH3+])C(O)=NC(Cc1c[nH]c2ccccc12)C(O)=NC(C)C(O)=NC(CO)C(O)=NC(CC(C)C)C(O)=NC(Cc1c[nH]c2ccccc12)C(O)=NC(CC(N)=O)C(O)=NC(Cc1c[nH]c2ccccc12)C(O)=NC(Cc1ccccc1)C(N)=O,AYPIHYXSTVJTRL-UHFFFAOYSA-G,less,DICTrank_concern,1.0
+DICTrank,vosoritide,CCC(C)C1N=C(O)C(CCCNC(N)=[NH2+])N=C(O)C(CC(=O)[O-])N=C(O)C(CC(C)C)N=C(O)C(CCCC[NH3+])N=C(O)C(CC(C)C)N=C(O)CN=C(O)C(Cc2ccccc2)N=C(O)C(N=C(O)CN=C(O)C(CCCC[NH3+])N=C(O)C(CO)N=C(O)C(CC(C)C)N=C(O)CN=C(O)C(CCCC[NH3+])N=C(O)C(CCCC[NH3+])N=C(O)C(CC(=N)O)N=C(O)C(C)N=C(O)CN=C(O)C(CCCC[NH3+])N=C(O)C(Cc2ccc([O-])cc2)N=C(O)C(CCCC[NH3+])N=C(O)C(CCCNC(N)=[NH2+])N=C(O)C(C)N=C(O)C(CC(=N)O)N=C(O)C2CCC[NH+]2C(=O)C(Cc2cnc[n-]2)N=C(O)C(CCC(=O)[O-])N=C(O)C(CCC(=N)O)N=C(O)CN=C(O)C2CCC[NH2+]2)CSSCC(C(=O)[O-])N=C(O)CNC(=O)C(CC(C)C)NC(=O)CNC(=O)C(CO)NC(=O)C(CCSC)NC(=O)C(CO)NC(=O)CNC1=O,ACZDYEXGUWEMBF-UHFFFAOYSA-S,less,DICTrank_concern,1.0
+DICTrank,aminocaproic acid,[NH3+]CCCCCC(=O)[O-],SLXKOJJOQWFEFD-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,ivermectin,CCC(C)C1OC2(CCC1C)CC1CC(CC=C(C)C(OC3CC(OC)C(OC4CC(OC)C(O)C(C)O4)C(C)O3)C(C)C=CC=C3COC4C(O)C(C)=CC(C(=O)O1)C34O)O2,AZSNMRSAGSSBNP-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,edetate calcium disodium,O=C([O-])C[NH+](CC[NH+](CC(=O)[O-])CC(=O)[O-])CC(=O)[O-],KCXVZYZYPLLWCC-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,semaglutide,CCC(C)C(N=C(O)C(Cc1ccccc1)N=C(O)C(CCC(=O)[O-])N=C(O)C(CCCCN=C(O)COCCOCCN=C(O)COCCOCCN=C(O)CCC(N=C(O)CCCCCCCCCCCCCCCCC(=O)[O-])C(=O)[O-])N=C(O)C(C)N=C(O)C(C)N=C(O)C(CCC(=N)O)N=C(O)CN=C(O)C(CCC(=O)[O-])N=C(O)C(CC(C)C)N=C(O)C(Cc1ccc([O-])cc1)N=C(O)C(CO)N=C(O)C(CO)N=C(O)C(N=C(O)C(CC(=O)[O-])N=C(O)C(CO)N=C(O)C(N=C(O)C(Cc1ccccc1)N=C(O)C(N=C(O)CN=C(O)C(CCC(=O)[O-])N=C(O)C(C)(C)NC(=O)C([NH3+])Cc1cnc[n-]1)C(C)O)C(C)O)C(C)C)C(=O)NC(C)C(=O)NC(Cc1c[nH]c2ccccc12)C(=O)NC(CC(C)C)C(=O)NC(C(=O)NC(CCCNC(N)=[NH2+])C(O)=NCC(O)=NC(CCCNC(N)=[NH2+])C(O)=NCC(=O)[O-])C(C)C,UZLCMCAOBNSJNH-UHFFFAOYSA-H,less,DICTrank_concern,1.0
+DICTrank,ponesimod,CCC[NH+]=C1SC(=Cc2ccc(OCC(O)CO)c(Cl)c2)C(=O)N1c1ccccc1C,LPAUOXUZGSBGDU-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,tapentadol hydrochloride,CCC(c1cccc([O-])c1)C(C)C[NH+](C)C,KWTWDQCKEHXFFR-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,levetiracetam,CCC(C(N)=O)[NH+]1CCCC1=O,HPHUVLMMVZITSG-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,lisinopril,[NH3+]CCCCC([NH2+]C(CCc1ccccc1)C(=O)[O-])C(=O)[NH+]1CCCC1C(=O)[O-],RLAWWYSOJDYHDC-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,leuprolide acetate,CCNC(=O)C1CCC[NH+]1C(=O)C(CCCNC(N)=[NH2+])NC(=O)C(CC(C)C)NC(=O)C(CC(C)C)NC(=O)C(Cc1ccc([O-])cc1)NC(=O)C(CO)NC(=O)C(Cc1c[nH]c2ccccc12)NC(=O)C(Cc1cnc[n-]1)NC(=O)C1CCC(=O)N1,MMBQZBKFKFZVPB-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,bremelanotide,CCCCC(NC(C)=O)C(=O)NC1CC(=O)NCCCCC(C(=O)[O-])NC(=O)C(Cc2c[nH]c3ccccc23)NC(=O)C(CCC[NH+]=C(N)N)NC(=O)C(Cc2ccccc2)NC(=O)C(Cc2c[n-]cn2)NC1=O,YPIAKTRPTQCKOK-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,baclofen,[NH3+]CC(CC(=O)[O-])c1ccc(Cl)cc1,KPYSYYIEGFHWSV-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,porfimer sodium,CCC1=C(C)c2cc3[nH]c(cc4[nH]c(cc5nc(cc1n2)C(C)=C5C(C)O)c(C)c4CCC(=O)[O-])c(CCC(=O)[O-])c3C,JHTJXRHUXKHEIE-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,caspofungin acetate,CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(O)C([NH2+]CC[NH3+])NC(=O)C2C(O)CC[NH+]2C(=O)C(C(O)CC[NH3+])NC(=O)C(C(O)C(O)c2ccc([O-])cc2)NC(=O)C2CC(O)C[NH+]2C(=O)C(C(C)O)NC1=O,JYIKNQVWKBUSNH-UHFFFAOYSA-R,less,DICTrank_concern,1.0
+DICTrank,glatiramer acetate,[NH3+]C(Cc1ccc([O-])cc1)C(=O)[O-],OUYCCCASQSFEME-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,siponimod,CCc1cc(C(C)=NOCc2ccc(C3CCCCC3)c(C(F)(F)F)c2)ccc1C[NH+]1CC(C(=O)[O-])C1,KIHYPELVXPAIDH-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,pyrimethamine,CCc1[n-]c(=N)[n-]c(=N)c1-c1ccc(Cl)cc1,ADFCGNCDSBOWOU-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,chlorthalidone,NS(=O)(=O)c1cc(C2(O)NC(=O)c3ccccc32)ccc1Cl,JIVPVXMEBJLZRO-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,clevipidine,CCCC(=O)OCOC(=O)C1=C(C)N=C(C)C(C(=O)OC)C1c1cccc(Cl)c1Cl,PLWGSEYKEKXMIX-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,tiopronin,CC(S)C(=O)NCC(=O)[O-],YTGJWQPHMWSCST-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,avacopan,Cc1ccc(NC(=O)C2CCC[NH+](C(=O)c3c(C)cccc3F)C2c2ccc([NH2+]C3CCCC3)cc2)cc1C(F)(F)F,PUKBOVABABRILL-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,dichlorphenamide,NS(=O)(=O)c1cc(Cl)c(Cl)c(S(N)(=O)=O)c1,GJQPMPFPNINLKP-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,sufentanil,CCC(=O)N(c1ccccc1)C1(COC)CC[NH+](CCc2cccs2)CC1,GGCSSNBKKAUURC-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,abaloparatide,CCC(C)C(N=C(O)C(CO)N=C(O)C(CCCC[NH3+])N=C(O)CN=C(O)C(CCCC[NH3+])N=C(O)C(CC(=O)[O-])N=C(O)C(Cc1cnc[n-]1)N=C(O)C(CC(C)C)N=C(O)C(CC(C)C)N=C(O)C(CCC(=N)O)N=C(O)C(Cc1cnc[n-]1)N=C(O)C(CCC(=O)[O-])N=C(O)C(CO)N=C(O)C(NC(=O)C(C)[NH3+])C(C)C)C(=O)NC(CCC(N)=O)C(=O)NC(CC(=O)[O-])C(=O)NC(CC(C)C)C(=O)NC(CCCNC(N)=[NH2+])C(=O)NC(CCCNC(N)=[NH2+])C(O)=NC(CCCNC(N)=[NH2+])C(O)=NC(CCC(=O)[O-])C(O)=NC(CC(C)C)C(O)=NC(CC(C)C)C(O)=NC(CCC(=O)[O-])C(O)=NC(CCCC[NH3+])C(O)=NC(CC(C)C)C(O)=NC(CC(C)C)C(O)=NC(C)(C)C(O)=NC(CCCC[NH3+])C(O)=NC(CC(C)C)C(O)=NC(Cc1cnc[n-]1)C(O)=NC(C(O)=NC(C)C(N)=O)C(C)O,YYLNHHBQRKCKQF-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,ethacrynic acid,C=C(CC)C(=O)c1ccc(OCC(=O)[O-])c(Cl)c1Cl,AVOLMBLBETYQHX-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,metolazone,Cc1ccccc1[NH+]1C(=O)c2cc(S(N)(=O)=O)c(Cl)cc2[NH2+]C1C,AQCHWTWZEMGIFD-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,indapamide,CC1Cc2ccccc2N1[N-]C(=O)c1ccc(Cl)c(S(N)(=O)=O)c1,DIWQVNXTUVIBCG-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,ziconotide acetate,CSCCC1N=C(O)C(CC(C)C)N=C(O)C(CCCNC(N)=[NH2+])N=C(O)C(CO)N=C(O)C2CSSCC3N=C(O)C(CO)N=C(O)CN=C(O)C(C(C)O)N=C(O)C(CSSCC([NH3+])C(=O)NC(CCCC[NH3+])C(=O)NCC(=O)NC(CCCC[NH3+])C(=O)NCC(=O)NC(C)C(O)=NC(CCCC[NH3+])C(O)=N2)N=C(O)C(CSSCC(C(=N)O)N=C(O)C(CCCC[NH3+])N=C(O)CN=C(O)C(CO)N=C(O)C(CCCNC(N)=[NH2+])NC3=O)NC(=O)C(CC(=O)[O-])NC(=O)C(Cc2ccc([O-])cc2)NC1=O,BPKIMPVREBSLAJ-UHFFFAOYSA-S,less,DICTrank_concern,1.0
+DICTrank,alprazolam,Cc1nnc2n1-c1ccc(Cl)cc1C(c1ccccc1)=NC2,VREFGVBLTWBCJP-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,chlorothiazide,NS(=O)(=O)c1cc2c(cc1Cl)[NH+]=CNS2(=O)=O,JBMKAUGHUNFTOL-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,hydrochlorothiazide,NS(=O)(=O)c1cc2c(cc1Cl)NCNS2(=O)=O,JZUFKLXOESDKRF-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,diazoxide,CC1=[NH+]S(=O)(=O)c2cc(Cl)ccc2N1,GDLBFKVLRPITMI-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,zonisamide,NS(=O)(=O)Cc1noc2ccccc12,UBQNRHZMVUUOMG-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,fomepizole,Cc1cn[n-]c1,YQKQUHVBFFADLG-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,teriparatide,CCC(C)C(N=C(O)C(CCC(=O)[O-])N=C(O)C(CO)N=C(O)C(N=C(O)C([NH3+])CO)C(C)C)C(=O)NC(CCC(=N)O)C(=O)NC(CC(C)C)C(=O)NC(CCSC)C(=O)NC(Cc1cnc[n-]1)C(=O)NC(CC(N)=O)C(O)=NC(CC(C)C)C(O)=NCC(O)=NC(CCCC[NH3+])C(O)=NC(Cc1cnc[n-]1)C(O)=NC(CC(C)C)C(O)=NC(CC(N)=O)C(O)=NC(CO)C(O)=NC(CCSC)C(O)=NC(CCC(=O)[O-])C(O)=NC(CCCNC(N)=[NH2+])C(O)=NC(C(O)=NC(CCC(=O)[O-])C(O)=NC(Cc1c[nH]c2ccccc12)C(O)=NC(CC(C)C)C(O)=NC(CCCNC(N)=[NH2+])C(O)=NC(CCCC[NH3+])C(O)=NC(CCCC[NH3+])C(O)=NC(CC(C)C)C(O)=NC(CCC(N)=O)C(O)=NC(CC(=O)[O-])C(O)=NC(C(O)=NC(Cc1cnc[n-]1)C(O)=NC(CC(N)=O)C(O)=NC(Cc1ccccc1)C(=O)[O-])C(C)C)C(C)C,NTISQSRCUHBZQQ-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,viltolarsen,Cc1cn(C2C[NH+](P(=O)(OCC3C[NH+](P(=O)(OCC4C[NH+](P(=O)(OCC5C[NH+](P(=O)(OCC6C[NH+](P(=O)(OCC7C[NH+](P(=O)(OCC8C[NH+](P(=O)(OCC9C[NH+](P(=O)(OCC%10C[NH+](P(=O)(OCC%11C[NH+](P(=O)(OCC%12C[NH+](P(=O)(OCC%13C[NH+](P(=O)(OCC%14C[NH+](P(=O)(OCC%15C[NH+](P(=O)(OCC%16C[NH+](P(=O)(OCC%17C[NH+](P(=O)(OCC%18C[NH+](P(=O)(OCC%19C[NH+](P(=O)(OCC%20C[NH2+]CC(n%21ccc(=N)[n-]c%21=O)O%20)[NH+](C)C)CC(n%20cc(C)c(=O)[n-]c%20=O)O%19)[NH+](C)C)CC(n%19cc(C)c(=O)[n-]c%19=O)O%18)[NH+](C)C)CC(n%18cnc%19c(=O)nc(N)[n-]c%19%18)O%17)[NH+](C)C)CC(n%17cc(C)c(=O)[n-]c%17=O)O%16)[NH+](C)C)CC(n%16cnc%17c([O-])nc(=N)[n-]c%17%16)O%15)[NH+](C)C)CC(n%15cnc%16c([O-])nc(=N)[n-]c%16%15)O%14)[NH+](C)C)CC(n%14cnc%15c(N)ncnc%15%14)O%13)[NH+](C)C)CC(n%13cnc%14c(N)ncnc%14%13)O%12)[NH+](C)C)CC(n%12cnc%13c([O-])nc(=N)[n-]c%13%12)O%11)[NH+](C)C)CC(n%11cc(C)c([O-])nc%11=O)O%10)[NH+](C)C)CC(n%10ccc(=N)nc%10[O-])O9)[NH+](C)C)CC(n9cc(C)c([O-])nc9=O)O8)[NH+](C)C)CC(n8cc(C)c([O-])nc8=O)O7)[NH+](C)C)CC(n7cnc8c([O-])nc(=N)[n-]c87)O6)[NH+](C)C)CC(n6cnc7c([O-])nc(N)nc76)O5)[NH+](C)C)CC(n5ccc(N)nc5=O)O4)[NH+](C)C)CC(n4ccc(=N)nc4[O-])O3)[NH+](C)C)CC(COP(=O)([NH+](C)C)[NH+]3CC(COP(=O)([NH+](C)C)[NH+]4CC(CO)OC(n5ccc(N)nc5=O)C4)OC(n4ccc(N)nc4=O)C3)O2)c(=O)nc1[O-],OOUGBPAXJGGLCH-UHFFFAOYSA-A,less,DICTrank_concern,1.0
+DICTrank,inotersen,COCCOC1C(O)C(COP(O)(=S)OC2C(COP(O)(=S)OC3C(COP(O)(=S)OC4C(COP(O)(=S)OC5C(COP(O)(=S)OC6CC(n7cnc8c(N)ncnc87)OC6COP(O)(=S)OC6CC(n7cnc8c(N)ncnc87)OC6COP(O)(=S)OC6CC(n7cnc8c(=O)nc(N)[n-]c87)OC6COP(O)(=S)OC6CC(n7cc(C)c(=O)[n-]c7=O)OC6COP(O)(=S)OC6CC(n7cnc8c(N)ncnc87)OC6COP(O)(=S)OC6CC(n7cc(C)c(=N)[n-]c7=O)OC6COP(O)(=S)OC6CC(n7cnc8c(N)ncnc87)OC6COP(O)(=S)OC6CC(n7cc(C)c(=O)[n-]c7=O)OC6COP(O)(=S)OC6CC(n7cc(C)c(=O)[n-]c7=O)OC6COP(O)(=S)OC6CC(n7cnc8c([O-])nc(=N)[n-]c87)OC6COP(O)(=S)OC6C(COP(O)(=S)OC7C(COP(O)(=S)OC8C(COP(O)(=S)OC9C(COP(O)(=S)OC%10C(CO)OC(n%11cc(C)c([O-])nc%11=O)C%10OCCOC)OC(n%10cc(C)c(N)nc%10=O)C9OCCOC)OC(n9cc(C)c([O-])nc9=O)C8OCCOC)OC(n8cc(C)c([O-])nc8=O)C7OCCOC)OC(n7cnc8c([O-])nc(N)nc87)C6OCCOC)OC(n6cnc7c(N)ncnc76)C5OCCOC)OC(n5cc(C)c([O-])nc5=O)C4OCCOC)OC(n4cc(C)c(N)nc4=O)C3OCCOC)OC(n3cc(C)c(N)nc3=O)C2OCCOC)OC1n1cc(C)c(N)nc1=O,RPSMXOGGFPZTAS-UHFFFAOYSA-B,less,DICTrank_concern,1.0
+DICTrank,verteporfin for injection,C=Cc1c(C)c2[nH]c1=Cc1[nH]c(c(=CCC(=O)[O-])c1C)=Cc1[nH]c(c(C)c1CCC(=O)OC)C=C1N=C(C=2)C2=CC=C(C(=O)OC)C(C(=O)OC)C12C,BVGAXBBUIHTBCY-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,nelfinavir mesylate,Cc1c([O-])cccc1C(=O)NC(CSc1ccccc1)C(O)C[NH+]1CC2CCCCC2CC1C(=O)NC(C)(C)C,QAGYKUNXZHXKMR-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,opicapone,Cc1c(Cl)c(C)[n+]([O-])c(Cl)c1-c1noc(-c2cc([O-])c([O-])c([N+](=O)[O-])c2)n1,ASOADIZOVZTJSR-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,lansoprazole,Cc1c(OCC(F)(F)F)ccnc1C[S+](O)c1nc2ccccc2[n-]1,VUMWDAKRMSFXHU-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,etravirine,Cc1cc(C#N)cc(C)c1Oc1[n-]c(=Nc2ccc(C#N)cc2)[n-]c(=N)c1Br,IJGXTGPJSSGKEJ-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,torsemide,Cc1cccc(N=c2cc[n-]cc2S(=O)(=O)[N-]C(=O)[NH2+]C(C)C)c1,OFDNVGOBPDEBJV-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,isocarboxazid,Cc1cc(C(=O)[N-]NCc2ccccc2)no1,XYMWHZZTFCKFCN-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,gemfibrozil,Cc1ccc(C)c(OCCCC(C)(C)C(=O)[O-])c1,HEMJJKBWTPKOJG-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,tolcapone,Cc1ccc(C(=O)c2cc([O-])c([O-])c([N+](=O)[O-])c2)cc1,MIQPIUSUKVNLNT-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,tirofiban,CCCCS(=O)(=O)NC(Cc1ccc(OCCCCC2CC[NH2+]CC2)cc1)C(=O)[O-],COKMIXFXJJXBQG-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,bexarotene,C=C(c1ccc(C(=O)[O-])cc1)c1cc2c(cc1C)C(C)(C)CCC2(C)C,NAVMQTYZDKMPEU-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,zidovudine,Cc1cn(C2CC(N=[N+]=[N-])C(CO)O2)c(=O)[n-]c1=O,HBOMLICNUCNMMY-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,furosemide,NS(=O)(=O)c1cc(C(=O)[O-])c(NCc2ccco2)cc1Cl,ZZUFCTLCJUWOSV-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,carisoprodol,CCCC(C)(COC(N)=O)COC(=O)NC(C)C,OFZCIYFFPZCNJE-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,pindolol,CC(C)[NH2+]CC(O)COc1cccc2[nH]ccc12,JZQKKSLKJUAGIC-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,meprobamate,CCCC(C)(COC(N)=O)COC(N)=O,NPPQSCRMBWNHMW-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,varenicline tartrate,c1cnc2cc3c(cc2n1)C1C[NH2+]CC3C1,JQSHBVHOMNKWFT-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,belumosudil,CC(C)NC(=O)COc1cccc(-c2nc(=Nc3ccc4[n-]ncc4c3)c3ccccc3[n-]2)c1,ANUBIVXYFZMOFN-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,anastrozole,CC(C)(C#N)c1cc(Cn2cncn2)cc(C(C)(C)C#N)c1,YBBLVLTVTVSKRW-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,famciclovir,CC(=O)OCC(CCn1cnc2c[n-]c(=N)nc21)COC(C)=O,SROHUIDFLFEBLG-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,alprostadil,CCCCCC(O)C=CC1C(O)CC(=O)C1CCCCCCC(=O)[O-],GMVPRGQOIOIIMI-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,ergotamine tartrate,C[NH+]1CC(C(=O)NC2(C)OC3(O)C4CCC[NH+]4C(=O)C(Cc4ccccc4)[NH+]3C2=O)=CC2c3cccc4[nH]cc(c34)CC21,UDWYQEMSGZBOBQ-UHFFFAOYSA-Q,less,DICTrank_concern,1.0
+DICTrank,norepinephrine bitartrate,[NH3+]CC(O)c1ccc([O-])c([O-])c1,SFLSHLFXELFNJZ-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,vinorelbine,CCC1=CC2C[NH+](C1)Cc1c([nH]c3ccccc13)C(C(=O)OC)(c1cc3c(cc1OC)[NH+](C)C1C(O)(C(=O)OC)C(OC(C)=O)C4(CC)C=CC[NH+]5CCC31C54)C2,GBABOYUKABKIAF-UHFFFAOYSA-Q,less,DICTrank_concern,1.0
+DICTrank,abiraterone acetate,CC(=O)OC1CCC2(C)C(=CCC3C2CCC2(C)C(c4cccnc4)=CCC32)C1,UVIQSJCZCSLXRZ-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,acetohydroxamic acid,CC(O)=NO,RRUDCFGSUDOHDG-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,hydroxyprogesterone caproate,CCCCCC(=O)OC1(C(C)=O)CCC2C3CC=C4CC(=O)CCC4(C)C3CCC21C,VPEJMHYFGCNXLM-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,acetaminophen,CC(=O)Nc1ccc([O-])cc1,RZVAJINKPMORJF-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,kit for the preparation of technetium tc 99m exametazime for leukocyte labeling,CC(=NO)C(C)[NH2+]CC(C)(C)C[NH2+]C(C)C(C)=NO,BPNZYADGDZPRTK-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,acalabrutinib,CC#CC(=O)[NH+]1CCCC1c1nc(-c2ccc(C(=O)N=c3cccc[n-]3)cc2)c2c(=N)[n-]ccn12,PCHGJLHTNBAYAA-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,daptomycin,CCCCCCCCCC(=O)NC(Cc1c[nH]c2ccccc12)C(=O)NC(CC(N)=O)C(=O)NC(CC(=O)[O-])C(=O)NC1C(=O)NCC(=O)NC(CCC[NH3+])C(=O)NC(CC(=O)[O-])C(O)=NC(C)C(O)=NC(CC(=O)[O-])C(O)=NCC(O)=NC(CO)C(O)=NC(C(C)CC(=O)[O-])C(O)=NC(CC(=O)c2ccccc2N)C(=O)OC1C,DOAKLVKFURWEDJ-UHFFFAOYSA-K,less,DICTrank_concern,1.0
+DICTrank,vasopressin,NC(=[NH2+])NCCCC(NC(=O)C1CCC[NH+]1C(=O)C1CSSCC([NH3+])C(=O)NC(Cc2ccc([O-])cc2)C(=O)NC(Cc2ccccc2)C(=O)NC(CCC(N)=O)C(=O)NC(CC(N)=O)C(=O)N1)C(O)=NCC(N)=O,KBZOIRJILGZLEJ-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,isotretinoin,CC(C=CC1=C(C)CCCC1(C)C)=CC=CC(C)=CC(=O)[O-],SHGAZHPCJJPHSC-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,teriflunomide,CC(=O)C(C#N)C(=O)Nc1ccc(C(F)(F)F)cc1,NABQBYDEMLGCEO-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,romidepsin,CCC1=NC(=O)C2CSSCCC=CC(CC(=O)NC(C(C)C)C(=O)N2)OC(=O)C(C(C)C)NC1=O,SOOPLNPQGWJZHY-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,carbinoxamine maleate,C[NH+](C)CCOC(c1ccc(Cl)cc1)c1ccccn1,OJFSXZCBGQGRNV-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,trimipramine maleate,CC(CN1c2ccccc2CCc2ccccc21)C[NH+](C)C,ZSCDBOWYZJWBIY-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,pralatrexate,C#CCC(Cc1cnc2[n-]c(=N)[n-]c(=N)c2n1)c1ccc(C(=O)NC(CCC(=O)[O-])C(=O)[O-])cc1,NNJGRFNGCCXXLD-UHFFFAOYSA-J,less,DICTrank_concern,1.0
+DICTrank,phendimetrazine tartrate,CC1C(c2ccccc2)OCC[NH+]1C,MFOCDFTXLCYLKU-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,liraglutide,CCCCCCCCCCCCCCCC(=O)NC(CCC(=O)NCCCCC(N=C(O)C(C)N=C(O)C(C)N=C(O)C(CCC(=N)O)N=C(O)CN=C(O)C(CCC(=O)[O-])N=C(O)C(CC(C)C)N=C(O)C(Cc1ccc([O-])cc1)N=C(O)C(CO)N=C(O)C(CO)N=C(O)C(N=C(O)C(CC(=O)[O-])N=C(O)C(CO)N=C(O)C(N=C(O)C(Cc1ccccc1)N=C(O)C(N=C(O)CNC(=O)C(CCC(=O)[O-])NC(=O)C(C)NC(=O)C([NH3+])Cc1cnc[n-]1)C(C)O)C(C)O)C(C)C)C(=O)NC(CCC(=O)[O-])C(=O)NC(Cc1ccccc1)C(=O)NC(C(O)=NC(C)C(O)=NC(Cc1c[nH]c2ccccc12)C(O)=NC(CC(C)C)C(O)=NC(C(O)=NC(CCCNC(N)=[NH2+])C(O)=NCC(O)=NC(CCCNC(N)=[NH2+])C(O)=NCC(=O)[O-])C(C)C)C(C)CC)C(=O)[O-],LRWMVUJLVFSVFZ-UHFFFAOYSA-I,less,DICTrank_concern,1.0
+DICTrank,succimer,O=C([O-])C(S)C(S)C(=O)[O-],ACTRVOBWPAIOHC-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,balsalazide disodium,O=C([O-])CCNC(=O)c1ccc(N=Nc2ccc([O-])c(C(=O)[O-])c2)cc1,IPOKCKJONYRRHP-UHFFFAOYSA-K,less,DICTrank_concern,1.0
+DICTrank,brexpiprazole,O=c1ccc2ccc(OCCCC[NH+]3CCN(c4cccc5sccc45)CC3)cc2[n-]1,ZKIAIYBUSXZPLP-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,allopurinol,O=c1[n-]cnc2[n-]ncc12,FUEBOPVIMOXHCV-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,aripiprazole lauroxil,CCCCCCCCCCCC(=O)OCN1C(=O)CCc2ccc(OCCCC[NH+]3CCN(c4cccc(Cl)c4Cl)CC3)cc21,DDINXHAORAAYAD-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,methylergonovine maleate,CCC(CO)NC(=O)C1=CC2c3cccc4[nH]cc(c34)CC2[NH+](C)C1,PEMKDARQKHHFQF-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,perindopril erbumine,CCCC([NH2+]C(C)C(=O)[NH+]1C(C(=O)[O-])CC2CCCCC21)C(=O)OCC,IPVQLZZIHOAWMC-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,metyrapone,CC(C)(C(=O)c1cccnc1)c1cccnc1,FJLBFSROUSIWMA-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,simvastatin,CCC(C)(C)C(=O)OC1CC(C)C=C2C=CC(C)C(CCC3CC(O)CC(=O)O3)C21,RYMZZMVNJRMUDD-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,atropine sulfate,C[NH+]1C2CCC1CC(OC(=O)C(CO)c1ccccc1)C2,RKUNBYITZUJHSG-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,telmisartan,CCCc1nc2c(C)cc(-c3nc4ccccc4n3C)cc2n1Cc1ccc(-c2ccccc2C(=O)[O-])cc1,RMMXLENWKUUMAY-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,rivastigmine tartrate,CC[NH+](C)C(=O)Oc1cccc(C(C)[NH+](C)C)c1,XSVMFMHYUFZWBK-UHFFFAOYSA-P,less,DICTrank_concern,1.0
+DICTrank,dasiglucagon,CC(C)CC(N=C(O)C(Cc1c[nH]c2ccccc12)N=C(O)C(CCCC[NH3+])N=C(O)C(N=C(O)C(Cc1ccccc1)N=C(O)C(CCC(=O)[O-])N=C(O)C(CCC(=O)[O-])N=C(O)C(C)N=C(O)C(CCCNC(N)=[NH2+])N=C(O)C(C)N=C(O)C(C)(C)N=C(O)C(CC(=O)[O-])N=C(O)C(CC(C)C)N=C(O)C(Cc1ccc([O-])cc1)N=C(O)C(CCCC[NH3+])N=C(O)C(CO)N=C(O)C(Cc1ccc([O-])cc1)N=C(O)C(CC(=O)[O-])N=C(O)C(CO)N=C(O)C(N=C(O)C(Cc1ccccc1)N=C(O)C(N=C(O)CNC(=O)C(CCC(N)=O)NC(=O)C(CO)NC(=O)C([NH3+])Cc1cnc[n-]1)C(C)O)C(C)O)C(C)C)C(=O)NC(CCC(=O)[O-])C(=O)NC(CO)C(=O)NC(C(=O)[O-])C(C)O,XRODZTQIPGYATA-UHFFFAOYSA-I,less,DICTrank_concern,1.0
+DICTrank,valsartan,CCCCC(=O)[NH+](Cc1ccc(-c2ccccc2-c2nn[n-]n2)cc1)C(C(=O)[O-])C(C)C,PFBBFBWIKFELAX-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,misoprostol,CCCCC(C)(O)CC=CC1C(O)CC(=O)C1CCCCCCC(=O)OC,OJLOPKGSLYJEMD-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,sotorasib,C=CC(=O)[NH+]1CC[NH+](c2nc(=O)n(-c3c(C)ccnc3C(C)C)c3nc(-c4c([O-])cccc4F)c(F)cc23)C(C)C1,NXQKSXLFSAEQCZ-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,difelikefalin,CC(C)CC(NC(=O)C(Cc1ccccc1)NC(=O)C([NH3+])Cc1ccccc1)C(=O)NC(CCCC[NH3+])C(=O)[NH+]1CCC([NH3+])(C(=O)[O-])CC1,FWMNVWWHGCHHJJ-UHFFFAOYSA-Q,less,DICTrank_concern,1.0
+DICTrank,lanreotide acetate,CC(=O)C(NC(=O)C1CSSCC(NC(=O)C([NH3+])Cc2ccc3ccccc3c2)C(=O)NC(Cc2ccc([O-])cc2)C(=O)NC(Cc2c[nH]c3ccccc23)C(=O)NC(CCCC[NH3+])C(=O)NC(C(C)C)C(=O)N1)C(N)O,HFBLFEOAXLEEAV-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,lubiprostone,CCCCC(F)(F)C(=O)CCC1C(O)CC(=O)C1CCCCCCC(=O)[O-],DBVFKLAGQHYVGQ-UHFFFAOYSA-M,less,DICTrank_concern,1.0
+DICTrank,phytonadione,CC(C=Cc1c(C)c([O-])c2ccccc2c1[O-])=CCCC(C)CCCC(C)CCCC(C)C,LLVIVPAPYJXADK-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,levorphanol tartrate,C[NH+]1CCC23CCCCC2C1Cc1ccc([O-])cc13,JAQUASYNZVUNQP-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,bempedoic acid,CC(C)(CCCCCC(O)CCCCCC(C)(C)C(=O)[O-])C(=O)[O-],HYHMLYSLQUKXKP-UHFFFAOYSA-L,less,DICTrank_concern,1.0
+DICTrank,nadolol,CC(C)(C)[NH2+]CC(O)COc1cccc2c1CC(O)C(O)C2,VWPOSFSPZNDTMJ-UHFFFAOYSA-O,less,DICTrank_concern,1.0
+DICTrank,finasteride,CC(C)(C)NC(=O)C1CCC2C3CCC4NC(=O)C=CC4(C)C3CCC12C,DBEPLOCGEIEOCV-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,flutamide,CC(C)C(=O)Nc1ccc([N+](=O)[O-])c(C(F)(F)F)c1,MKXKFYHWDHIYRV-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,riluzole,N=c1[n-]c2ccc(OC(F)(F)F)cc2s1,OKZXTNFURUMZEP-UHFFFAOYSA-N,less,DICTrank_concern,1.0
+DICTrank,lamivudine,N=c1ccn(C2CSC(CO)O2)c(=O)[n-]1,JTEGQNOMFQHVDC-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,amikacin sulfate,[NH3+]CCC(=O)C(O)[NH2+]C1CC([NH3+])C(OC2OC(C[NH3+])C(O)C(O)C2O)C(O)C1OC1OC(CO)C(O)C([NH3+])C1O,WZGFRDSZMKBKLU-UHFFFAOYSA-S,no,DICTrank_concern,0.0
+DICTrank,streptomycin,C[NH2+]C1C(OC2C(OC3C(O)C(O)C([NH+]=C(N)N)C(O)C3[NH+]=C(N)N)OC(C)C2(O)C=O)OC(CO)C(O)C1O,UCSJYZPVAKXKNQ-UHFFFAOYSA-Q,no,DICTrank_concern,0.0
+DICTrank,emtricitabine,N=c1[n-]c(=O)n(C2CSC(CO)O2)cc1F,XQSPYNMVSIKCOC-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,entecavir,C=C1C(CO)C(O)CC1n1cnc2c(=O)[n-]c(=N)[n-]c21,NFACCQJIEGLMSP-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,thioguanine,N=c1[n-]c(=S)c2[n-]cnc2[n-]1,GCVIEMNNWNHWEP-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,isoniazid,N[N-]C(=O)c1ccncc1,OSGOEONOZAIVFX-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,vorapaxar,CCOC(=O)NC1CCC2C(C1)CC1C(=O)OC(C)C1C2C=Cc1ccc(-c2cccc(F)c2)cn1,ZBGXUVOIWDMMJE-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,cefixime,C=CC1=C(C(=O)[O-])[NH+]2C(=O)C(=NC(=O)C([NH2+]OCC(=O)[O-])c3csc(=N)[n-]3)C2SC1,WIMNZALNADXDJF-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,eltrombopag olamine,Cc1ccc(-n2[n-]c(C)c(N=Nc3cccc(-c4cccc(C(=O)[O-])c4)c3[O-])c2=O)cc1C,SZBBGDRIOHRVES-UHFFFAOYSA-K,no,DICTrank_concern,0.0
+DICTrank,folic acid,N=c1[n-]c(=O)c2nc(CNc3ccc(C(=O)NC(CCC(=O)[O-])C(=O)[O-])cc3)cnc2[n-]1,SCRAJBHUKHRKRW-UHFFFAOYSA-J,no,DICTrank_concern,0.0
+DICTrank,levoleucovorin,N=c1[n-]c2c(c(=O)[n-]1)[NH+](C=O)C(CNc1ccc(C(=O)NC(CCC(=O)[O-])C(=O)[O-])cc1)CN2,GAOLOWGPQVKVFT-UHFFFAOYSA-K,no,DICTrank_concern,0.0
+DICTrank,dalfampridine,N=c1cc[n-]cc1,FDYNUOKTHRTWEG-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,olaparib,O=C(c1cc(Cc2n[n-]c(=O)c3ccccc23)ccc1F)[NH+]1CC[NH+](C(=O)C2CC2)CC1,FDLYAMZZIXQODN-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,cefadroxil hemihydrate,CC1=C(C(=O)[O-])[NH+]2C(=O)C(NC(=O)C([NH3+])c3ccc([O-])cc3)C2SC1,BOEGTKLJZSQCCD-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,urea c-13,NC(N)=O,XSQUKJJJFZCRTK-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,sucralfate,O=S(=O)([O-])OCC1OC(OC2(COS(=O)(=O)[O-])OC(COS(=O)(=O)[O-])C(OS(=O)(=O)[O-])C2OS(=O)(=O)[O-])C(OS(=O)(=O)[O-])C(OS(=O)(=O)[O-])C1OS(=O)(=O)[O-],WEPNHBQBLCNOBB-UHFFFAOYSA-F,no,DICTrank_concern,0.0
+DICTrank,trimetrexate glucuronate,COc1cc(NCc2ccc3[n-]c(=N)[n-]c(=N)c3c2C)cc(OC)c1OC,COEGWEVDGVNBFB-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,fluorodopa f18,[NH3+]C(Cc1cc([O-])c([O-])cc1F)C(=O)[O-],PAXWQORCRCBOCU-UHFFFAOYSA-L,no,DICTrank_concern,0.0
+DICTrank,piflufolastat f-18,O=C([O-])CCC(NC(=O)NC(CCCCNC(=O)c1ccc(F)nc1)C(=O)[O-])C(=O)[O-],OLWVRJUNLXQDSP-UHFFFAOYSA-K,no,DICTrank_concern,0.0
+DICTrank,hydroxyurea,NC(O)=[NH+]O,VSNHCAURESNICA-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,ezetimibe,O=C1C(CCC(O)c2ccc(F)cc2)C(c2ccc([O-])cc2)[NH+]1c1ccc(F)cc1,OLNTVTPDXPETLC-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,fluciclovine f-18,[NH3+]C1(C(=O)[O-])CC(F)C1,NTEDWGYJNHZKQW-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,deferasirox,O=C([O-])c1ccc(-n2nc(-c3ccccc3[O-])nc2-c2ccccc2[O-])cc1,BOFQWVMAQOTZIW-UHFFFAOYSA-K,no,DICTrank_concern,0.0
+DICTrank,pitavastatin magnesium,O=C([O-])CC(O)CC(O)C=Cc1c(C2CC2)nc2ccccc2c1-c1ccc(F)cc1,VGYFMXBACGZSIL-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,larotrectinib,O=C(Nc1cnn2ccc([NH+]3CCCC3c3cc(F)ccc3F)nc12)[NH+]1CCC(O)C1,NYNZQNWKBKUAII-UHFFFAOYSA-P,no,DICTrank_concern,0.0
+DICTrank,isosorbide,OC1COC2C(O)COC12,KLDXJTOLSGUMSJ-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,naloxegol oxalate,C=CC[NH+]1CCC23c4c5ccc([O-])c4OC2C(OCCOCCOCCOCCOCCOCCOCCOC)CCC3(O)C1C5,XNKCCCKFOQNXKV-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,glycerol phenylbutyrate,O=C(CCCc1ccccc1)OCC(COC(=O)CCCc1ccccc1)OC(=O)CCCc1ccccc1,ZSDBFLMJVAGKOU-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,pyrazinamide,NC(=O)c1cnccn1,IPEHBUMCGVEMRF-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,carglumic acid,NC(=O)NC(CCC(=O)[O-])C(=O)[O-],LCQLHJZYVOQKHU-UHFFFAOYSA-L,no,DICTrank_concern,0.0
+DICTrank,tenofovir disoproxil fumarate,CC(C)OC(=O)OCOP(=O)(COC(C)Cn1cnc2c(=N)[n-]cnc21)OCOC(=O)OC(C)C,HIZSKIKAVOFGSZ-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,tenofovir alafenamide,CC(C)OC(=O)C(C)[NH2+]P(=O)(COC(C)Cn1cnc2c(=N)[n-]cnc21)Oc1ccccc1,QWIUPFAEEOLHJD-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,rimegepant sulfate,[NH3+]C1c2cccnc2C(OC(=O)[NH+]2CCC(n3c(=O)[n-]c4ncccc43)CC2)CCC1c1cccc(F)c1F,KRNAOFGYEFKHPB-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,sonidegib,Cc1c(C(=O)Nc2ccc(N3CC(C)OC(C)C3)nc2)cccc1-c1ccc(OC(F)(F)F)cc1,VZZJRYRQSPEMTK-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,ceftriaxone,CON=C(C(O)=NC1C(=O)[NH+]2C(C(=O)[O-])=C(CSc3[n-]c(=O)c(=O)[n-][n+]3C)CSC12)c1csc(=N)[n-]1,JXSPPQSUXAGAGV-UHFFFAOYSA-L,no,DICTrank_concern,0.0
+DICTrank,ceftazidime,CC(C)(ON=C(C(=O)NC1C(=O)[NH+]2C(C(=O)[O-])=C(C[n+]3ccccc3)CSC12)c1csc(=N)[n-]1)C(=O)[O-],ORFOPKXBNMVMKC-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,clorazepate dipotassium,O=c1nc2ccc(Cl)cc2c(-c2ccccc2)nc1C(O)O,KMQVJWKQJQYIKY-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,nevirapine,Cc1ccnc2c1NC(=O)c1cccnc1[NH+]2C1CC1,NQDJXKOVJZTUJA-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,miglitol,OCC[NH+]1CC(O)C(O)C(O)C1CO,IBAQFPQHRJAVAV-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,sodium oxybate,O=C([O-])CCCO,SJZRECIVHVDYJC-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,atovaquone,[O-]c1c(C2=CCC(c3ccc(Cl)cc3)CC2)c([O-])c2ccccc2c1[O-],JAUORDHNHDCTAS-UHFFFAOYSA-K,no,DICTrank_concern,0.0
+DICTrank,tromethamine,[NH3+]C(CO)(CO)CO,LENZDBCJOHFCAS-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,vigabatrin,C=CC([NH3+])CCC(=O)[O-],PJDFLNIOAUIZSL-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,empagliflozin,OCC1OC(c2ccc(Cl)c(Cc3ccc(OC4CCOC4)cc3)c2)C(O)C(O)C1O,OBWASQILIWPZMG-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,lactulose,OCC1OC(OC2C(CO)OC(O)(CO)C2O)C(O)C(O)C1O,JCQLYHFGKNRPGE-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,glutamine,NC(=O)CCC([NH3+])C(=O)[O-],ZDXPYRJPNDTMRX-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,chlorambucil,O=C([O-])CCCc1ccc(N(CCCl)CCCl)cc1,JCKYGMPEJWAADB-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,tafenoquine succinate,COc1cc(C)c2c(Oc3cccc(C(F)(F)F)c3)c(OC)cc([NH2+]C(C)CCC[NH3+])c2n1,LBHLFPGPEGDCJG-UHFFFAOYSA-P,no,DICTrank_concern,0.0
+DICTrank,atorvastatin calcium,CC(C)c1c(C(=O)Nc2ccccc2)c(-c2ccccc2)c(-c2ccc(F)cc2)n1CCC(O)CC(O)CC(=O)[O-],XUKUURHRXDUEBC-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,ampicillin,CC1(C)SC2C(NC(=O)C([NH3+])c3ccccc3)C(=O)[NH+]2C1C(=O)[O-],AVKUERGKIZMTKX-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,quazepam,Fc1ccccc1C1=NCC(=S)N(CC(F)(F)F)c2ccc(Cl)cc21,IKMPWMZBZSAONZ-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,triamterene capsules,N=c1[n-]c(=N)c2nc(-c3ccccc3)c(=N)[n-]c2[n-]1,HVDOHVORHBRHDN-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,thiamine hydrochloride,Cc1nc(=N)c(C[n+]2csc(CCO)c2C)c[n-]1,TVUOJYBSYQXPSD-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,neomycin sulfate,[NH3+]CC1OC(OC2C(CO)OC(OC3C(O)C([NH3+])CC([NH3+])C3OC3OC(C[NH3+])C(O)C(O)C3[NH3+])C2O)C([NH3+])C(O)C1O,PGBHMTALBVVCIT-UHFFFAOYSA-T,no,DICTrank_concern,0.0
+DICTrank,sevelamer hydrochloride,C=CC[NH3+],VVJKKWFAADXIJK-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,fenofibric acid,CC(C)(Oc1ccc(C(=O)c2ccc(Cl)cc2)cc1)C(=O)[O-],MQOBSOSZFYZQOK-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,betaine,C[N+](C)(C)CC(=O)[O-],KWIUHFFTVRNATP-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,levocarnitine,C[N+](C)(C)CC(O)CC(=O)[O-],PHIQHXFUZVPYII-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,choline c-11,C[N+](C)(C)CCO,OEYIOHPDSNJKLS-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,acarbose,CC1OC(OC2C(CO)OC(OC(C(=O)C(O)CO)C(O)CO)C(O)C2O)C(O)C(O)C1[NH2+]C1C=C(CO)C(O)C(O)C1O,QOOXKCQTBVDROE-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,setmelanotide,CC(=O)NC(CCC[NH+]=C(N)N)C(=O)NC1CSSCC(C(N)=O)NC(=O)C(Cc2c[nH]c3ccccc23)NC(=O)C(CCC[NH+]=C(N)N)NC(=O)C(Cc2ccccc2)NC(=O)C(Cc2cnc[n-]2)NC(=O)C(C)NC1=O,KXRAMXOLGQJDLQ-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,cabotegravir,CC1COC2Cn3cc(C(=O)NCc4ccc(F)cc4F)c(=O)c([O-])c3C(=O)[NH+]12,WCWSTNLSLKSJPK-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,duvelisib,CC(N=c1[n-]cnc2[n-]cnc12)c1cc2cccc(Cl)c2c(=O)n1-c1ccccc1,DOQGCKRJRNESHK-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,chenodiol,CC(CCC(=O)[O-])C1CCC2C3C(O)CC4CC(O)CCC4(C)C3CCC12C,RUDATBOHQWOJDD-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,oxandrolone,CC12COC(=O)CC1CCC1C2CCC2(C)C1CCC2(C)O,QSLJIVKCVHQPLV-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,atogepant,Cc1c(-c2c(F)ccc(F)c2F)cc(NC(=O)C2CN=C3CC4(CC3C2)C(=O)Nc2ncccc24)c(=O)n1CC(F)(F)F,ATSHAOWKQDRLOO-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,ubrogepant,Cc1c(-c2ccccc2)cc(NC(=O)C2CN=C3CC4(CC3C2)C(=O)Nc2ncccc24)c(=O)n1CC(F)(F)F,RNVBVCACVRMYTN-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,lanthanum carbonate,O=C([O-])[O-],BVKZGUZCCUSVTD-UHFFFAOYSA-L,no,DICTrank_concern,0.0
+DICTrank,fludeoxyglucose f-18,OCC1OC(O)C(F)C(O)C1O,ZCXUVYAZINUVJD-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,tazemetostat,CC[NH+](c1cc(-c2ccc(C[NH+]3CCOCC3)cc2)cc(C(=O)NCc2c(C)cc(C)[n-]c2=O)c1C)C1CCOCC1,KNDLMNVSCMCBLP-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,nitisinone,O=C1CCCC(=O)C1C(=O)c1ccc(C(F)(F)F)cc1[N+](=O)[O-],OUBCNLGXQFSTLU-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,chloramphenicol sodium succinate,O=C([O-])CCC(=O)OCC(NC(=O)C(Cl)Cl)C(O)c1ccc([N+](=O)[O-])cc1,LIRCDOVJWUGTMW-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,rabeprazole sodium,COCCCOc1ccnc(C[S+](O)c2nc3ccccc3[n-]2)c1C,LKQSVGARAMZJHW-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,elagolix,COc1cccc(-c2c(C)n(Cc3c(F)cccc3C(F)(F)F)c(=O)n(CC([NH2+]CCCC(=O)[O-])c3ccccc3)c2=O)c1F,HEAUOKZIVMZVQL-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,paromomycin sulfate,[NH3+]CC1OC(OC2C(CO)OC(OC3C(O)C([NH3+])CC([NH3+])C3OC3OC(CO)C(O)C(O)C3[NH3+])C2O)C([NH3+])C(O)C1O,UOZODPSAJZTQNH-UHFFFAOYSA-S,no,DICTrank_concern,0.0
+DICTrank,kit for the preparation of gallium ga 68 gozetotide injection,O=C([O-])CCc1ccc([O-])c(C[NH+](CC[NH+](CC(=O)[O-])Cc2cc(CCC(=O)NCCCCCC(=O)NCCCCC(NC(=O)NC(CCC(=O)[O-])C(=O)[O-])C(=O)[O-])ccc2[O-])CC(=O)[O-])c1,QJUIUFGOTBRHKP-UHFFFAOYSA-H,no,DICTrank_concern,0.0
+DICTrank,ceftibuten dihydrate,N=c1[n-]c(C(CCC(=O)[O-])C(=O)N=C2C(=O)[NH+]3C(C(=O)[O-])=CCSC23)cs1,XZXPNNYOPUUZTO-UHFFFAOYSA-L,no,DICTrank_concern,0.0
+DICTrank,voxelotor,CC(C)n1nccc1-c1ncccc1COc1cccc([O-])c1C=O,FWCVZAQENIZVMY-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,selexipag,CC(C)[NH+](CCCCOCC(=O)[N-]S(C)(=O)=O)c1cnc(-c2ccccc2)c(-c2ccccc2)n1,QXWZQTURMXZVHJ-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,darunavir,CC(C)C[NH+](CC(O)C(Cc1ccccc1)NC(=O)OC1COC2OCCC12)S(=O)(=O)c1ccc(N)cc1,CJBJHOAVZSMMDJ-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,cobicistat,CC(C)c1nc(C[NH+](C)C(=O)NC(CC[NH+]2CCOCC2)C(=O)NC(CCC(Cc2ccccc2)NC(=O)OCc2cncs2)Cc2ccccc2)cs1,ZCIGNRJZKPOIKD-UHFFFAOYSA-P,no,DICTrank_concern,0.0
+DICTrank,rosuvastatin,CC(C)=c1nc(N(C)S(C)(=O)=O)nc(-c2ccc(F)cc2)c1=CCC(O)CC(O)CC(=O)[O-],DRLXVNRHGMULCY-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,ixazomib,CC(C)CC(NC(=O)CNC(=O)c1cc(Cl)ccc1Cl)B1OC(=O)C(CC(=O)[O-])(CC(=O)[O-])O1,MBOMYENWWXQSNW-UHFFFAOYSA-L,no,DICTrank_concern,0.0
+DICTrank,plecanatide,CC(C)CC(N=C(O)C1CSSCC2N=C(O)C(CC(C)C)N=C(O)C(CCC(=O)[O-])N=C(O)C(N=C(O)C(CCC(=O)[O-])N=C(O)C(CC(=O)[O-])N=C(O)C([NH3+])CC(=N)O)CSSCC(NC(=O)C(C)NC(=O)C(C(C)C)NC(=O)C(CC(N)=O)NC(=O)C(C(C)C)NC2=O)C(=O)NC(C(C)O)C(=O)NCC(=O)N1)C(=O)[O-],NSPHQWLKCGGCQR-UHFFFAOYSA-K,no,DICTrank_concern,0.0
+DICTrank,molnupiravir,CC(C)C(=O)OCC1OC(n2ccc(=NO)[n-]c2=O)C(O)C1O,RVDAWWZBAQIQSO-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,gabapentin enacarbil,CC(OC(=O)NCC1(CC(=O)[O-])CCCCC1)OC(=O)C(C)C,TZDUHAJSIBHXDL-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,nateglinide,CC(C)C1CCC(C(=O)NC(Cc2ccccc2)C(=O)[O-])CC1,OELFLUMRDSZNSF-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,penicillamine,CC(C)(S)C([NH3+])C(=O)[O-],VVNCNSJFMMFHPL-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,pantoprazole,COc1ccnc(C[S+](O)c2nc3cc(OC(F)F)ccc3[n-]2)c1OC,BAWFOUUZISIBNG-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,ivacaftor,CC(C)(C)c1cc(C(C)(C)C)c(NC(=O)c2c[n-]c3ccccc3c2=O)cc1[O-],MZRYGFBDJXDCCV-UHFFFAOYSA-L,no,DICTrank_concern,0.0
+DICTrank,adefovir dipivoxil,CC(C)(C)C(=O)OCOP(=O)(COCCn1cnc2c(=N)[n-]cnc21)OCOC(=O)C(C)(C)C,GVKMPENMIMAFOV-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,acetylsalicylic acid,CC(=O)Oc1ccccc1C(=O)[O-],BSYNRYMUTXBXSQ-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,nitazoxanide,CC(=O)Oc1ccccc1C(=O)N=c1[n-]cc([N+](=O)[O-])s1,YQNQNVDNTFHQSW-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,uridine triacetate,CC(=O)OCC1OC(n2ccc(=O)[n-]c2=O)C(OC(C)=O)C1OC(C)=O,AUFUWRKPQLGTGF-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,heparin sodium,CC(=O)NC1C(O)OC(COS(=O)(=O)[O-])C(OC2OC(C(=O)[O-])C(OC3OC(CO)C(OC4OC(C(=O)[O-])C(O)C(O)C4OS(=O)(=O)[O-])C(OS(=O)(=O)[O-])C3NS(=O)(=O)[O-])C(O)C2OS(=O)(=O)[O-])C1O,HTTJABKRGRZYRN-UHFFFAOYSA-G,no,DICTrank_concern,0.0
+DICTrank,acetazolamide,CC(=O)N=c1[n-]nc(S(N)(=O)=O)s1,PPCFSEIOYQJRDN-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,palbociclib,CC(=O)c1c(C)c2c[n-]c(=Nc3ccc(N4CC[NH2+]CC4)cn3)nc2n(C2CCCC2)c1=O,JTMWKGGHAUHKIY-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,ganirelix acetate,CCNC(NCCCCC(NC(=O)C(Cc1ccc([O-])cc1)NC(=O)C(CO)NC(=O)C(Cc1cccnc1)NC(=O)C(Cc1ccc(Cl)cc1)NC(=O)C(Cc1ccc2ccccc2c1)NC(C)=O)C(=O)NC(CC(C)C)C(=O)NC(CCCCNC(NCC)=[NH+]CC)C(=O)[NH+]1CCCC1C(=O)NC(C)C(N)=O)=[NH+]CC,GJNXBNATEDXMAK-UHFFFAOYSA-P,no,DICTrank_concern,0.0
+DICTrank,pentosan polysulfate sodium,O=S(=O)([O-])OC1C(O)COC(OC2COC(O)C(OS(=O)(=O)[O-])C2OS(=O)(=O)[O-])C1OS(=O)(=O)[O-],FCCNSUIJIOOXEZ-UHFFFAOYSA-J,no,DICTrank_concern,0.0
+DICTrank,colistimethate sodium,CCC(C)CCCCC(=O)NC(CC[NH2+]CS(=O)(=O)[O-])C(=O)NC(C(=O)NC(CC[NH2+]CS(=O)(=O)[O-])C(=O)NC1CCNC(=O)C(C(C)O)NC(=O)C(CC[NH2+]CS(=O)(=O)[O-])NC(=O)C(CC[NH2+]CS(=O)(=O)[O-])NC(=O)C(CC(C)C)NC(=O)C(CC(C)C)NC(=O)C(CC[NH2+]CS(=O)(=O)[O-])NC1=O)C(C)O,BSSIRFLGSWHWDE-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,polymyxin b,CCC(C)CCCCC(=O)NC(CC[NH3+])C(=O)NC(C(=O)NC(CC[NH3+])C(=O)NC1CCNC(=O)C(C(C)O)NC(=O)C(CC[NH3+])NC(=O)C(CC[NH3+])NC(=O)C(CC(C)C)NC(=O)C(Cc2ccccc2)NC(=O)C(CC[NH3+])NC1=O)C(C)O,WQVJHHACXVLGBL-UHFFFAOYSA-S,no,DICTrank_concern,0.0
+DICTrank,methenamine hippurate,O=C([O-])CNC(=O)c1ccccc1,QIAFMBKCNZACKA-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,capreomycin,NC(=O)N=CC1NC(=O)C(CNC(=O)CC([NH3+])CCC[NH3+])NC(=O)C(CO)NC(=O)C([NH3+])CNC(=O)C(C2CC[NH+]=C(N)N2)NC1=O,FESHLGPIHDQLIM-UHFFFAOYSA-R,no,DICTrank_concern,0.0
+DICTrank,stiripentol,CC(C)(C)C(O)C=Cc1ccc2c(c1)OCO2,IBLNKMRFIPWSOY-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,ceftizoxime sodium,CON=C(C(=O)NC1C(=O)[NH+]2C(C(=O)[O-])=CCSC12)c1csc(=N)[n-]1,NKWROUZCAVFVKL-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,sodium iothalamate i-125 injection,CNC(=O)c1c(I)c(NC(C)=O)c(I)c(C(=O)[O-])c1I,UXIGWFXRQKWHHA-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,isosulfan blue,CCN(CC)c1ccc(C(=C2C=CC(=[N+](CC)CC)C=C2)c2cc(S(=O)(=O)[O-])ccc2S(=O)(=O)[O-])cc1,YFKDCGWIINMRQY-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,fulvestrant,CC12CCC3c4ccc([O-])cc4CC(CCCCCCCCC[S+](O)CCCC(F)(F)C(F)(F)F)C3C1CCC2O,SHDRLYFPFHJQCU-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,levonorgestrel,C#CC1(O)CCC2C3CC=C4CC(=O)CCC4C3CCC21CC,LYRBZVWRTAFWPO-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,norethindrone,C#CC1(O)CCC2C3CC=C4CC(=O)CCC4C3CCC21C,QGQUHXSBTSDAML-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,drospirenone,CC12CCC(=O)C=C1C1CC1C1C2CCC2(C)C1C1CC1C21CCC(=O)O1,METQSPRSQINEEU-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,fluoroestradiol f 18,CC12CCC3c4ccc([O-])cc4CCC3C1CC(F)C2O,KDLLNMRYZGUVMA-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,tecovirimat monohydrate,O=C(Nn1c([O-])c2c(c1[O-])C1C=CC2C2CC12)c1ccc(C(F)(F)F)cc1,PFTCYSLXMGONAY-UHFFFAOYSA-L,no,DICTrank_concern,0.0
+DICTrank,ascorbic acid,[O-]c1oc(C(O)CO)c([O-])c1[O-],LPYXWGMUVRGUOY-UHFFFAOYSA-K,no,DICTrank_concern,0.0
+DICTrank,fidaxomicin,CCc1c(Cl)c([O-])c(Cl)c([O-])c1C(=O)OC1C(C)OC(OCC2=CC=CCC(O)C(C)=CC(CC)C(OC3OC(C)(C)C(OC(=O)C(C)C)C(O)C3O)C(C)=CC(C)=CCC(C(C)O)OC2=O)C(OC)C1O,ZVGNESXIJDCBKN-UHFFFAOYSA-L,no,DICTrank_concern,0.0
+DICTrank,cholic acid,CC(CCC(=O)[O-])C1CCC2C3C(O)CC4CC(O)CCC4(C)C3CC(O)C12C,BHQCQFFYRZLCQQ-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,obeticholic acid,CCC1C(O)C2C3CCC(C(C)CCC(=O)[O-])C3(C)CCC2C2(C)CCC(O)CC12,ZXERDUOLZKYMJM-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,valrubicin,CCCCC(=O)OCC(=O)C1(O)C=C(OC2CC(NC(=O)C(F)(F)F)C(O)C(C)O2)c2c(c([O-])c3c([O-])c4cccc(OC)c4c([O-])c3c2[O-])C1,TWNRWNXYVFLAMA-UHFFFAOYSA-J,no,DICTrank_concern,0.0
+DICTrank,dactinomycin,Cc1ccc(C(=O)NC2C(=O)NC(C(C)C)C(=O)[NH+]3CCCC3C(=O)[NH+](C)CC(=O)[NH+](C)C(C(C)C)C(=O)OC2C)c2c1Oc1c(C)c([O-])c(N)c(C(=O)N=C3C(=O)NC(C(C)C)C(=O)[NH+]4CCCC4C(=O)[NH+](C)CC(=O)[NH+](C)C(C(C)C)C(=O)OC3C)c1N2,GSADSJFVCHVKRH-UHFFFAOYSA-S,no,DICTrank_concern,0.0
+DICTrank,prussian blue insoluble capsules,C#N,LELOWRISYMNNSU-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,maralixibat chloride,CCCCC1(CCCC)CS(=O)(=O)c2ccc(N(C)C)cc2C(c2ccc(OCc3ccc(C[N+]45CC[NH+](CC4)CC5)cc3)cc2)C1O,STPKWKPURVSAJF-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,pyridostigmine bromide,C[n+]1cccc(OC(=O)[NH+](C)C)c1,RVOLLAQWKVFTGE-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,auranofin,CC(=O)OCC1OC(S)C(OC(C)=O)C(OC(C)=O)C1OC(C)=O,SFOZKJGZNOBSHF-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,flortaucipir f-18,Fc1ccc(-c2ccc3c(c2)[nH]c2ccncc23)cn1,GETAAWDSFUCLBS-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,indium in-111 oxyquinoline,[O-]c1cccc2cccnc12,MCJGNVYPOGVAJF-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,ferric maltol,Cc1occc(=O)c1[O-],XPCTZQVDEJYUGT-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,maribavir,CC(C)N=c1[n-]c2cc(Cl)c(Cl)cc2n1C1OC(CO)C(O)C1O,OUVKVSBKECIVAD-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,baloxavir marboxil,COC(=O)OCOc1c2n(ccc1=O)[NH+](C1c3ccccc3SCc3c1ccc(F)c3F)C1COCC[NH+]1C2=O,RZVPBGBYGMDSBG-UHFFFAOYSA-P,no,DICTrank_concern,0.0
+DICTrank,indocyanine green,CC1(C)C(=CC=CC=CC=CC2=[N+](CCCCS(=O)(=O)[O-])c3ccc4ccccc4c3C2(C)C)N(CCCCS(=O)(=O)[O-])c2ccc3ccccc3c21,BDBMLMBYCXNVMC-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,warfarin sodium,CC(=O)CC(c1ccccc1)c1c([O-])c2ccccc2oc1=O,PJVWKTKQMONHTI-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,trypan blue,Cc1cc(-c2ccc(N=Nc3c(S(=O)(=O)[O-])cc4cc(S(=O)(=O)[O-])cc(N)c4c3[O-])c(C)c2)ccc1N=Nc1c(S(=O)(=O)[O-])cc2cc(S(=O)(=O)[O-])cc(N)c2c1[O-],ZBNARPCCDMHDDV-UHFFFAOYSA-H,no,DICTrank_concern,0.0
+DICTrank,fondaparinux sodium,COC1OC(COS(=O)(=O)[O-])C(OC2OC(C(=O)[O-])C(OC3OC(COS(=O)(=O)[O-])C(OC4OC(C(=O)[O-])C(OC5OC(COS(=O)(=O)[O-])C(O)C(O)C5NS(=O)(=O)[O-])C(O)C4O)C(OS(=O)(=O)[O-])C3NS(=O)(=O)[O-])C(O)C2OS(=O)(=O)[O-])C(O)C1NS(=O)(=O)[O-],KANJSNBRCNMZMV-UHFFFAOYSA-D,no,DICTrank_concern,0.0
+DICTrank,mipomersen sodium,COCCOC1C(O)C(COP(=O)(O)SC2C(COP(=O)(O)SC3C(COP(=O)(O)SC4C(COP(=O)(O)SC5C(COP(=O)(O)SC6CC(n7cc(C)c(=N)[n-]c7=O)OC6COP(=O)(O)SC6CC(n7cc(C)c(=O)[n-]c7=O)OC6COP(=O)(O)SC6CC(n7cc(C)c(=O)[n-]c7=O)OC6COP(=O)(O)SC6CC(n7cc(C)c(=N)[n-]c7=O)OC6COP(=O)(O)SC6CC(n7cnc8c(=O)nc(N)[n-]c87)OC6COP(=O)(O)SC6CC(n7cc(C)c([O-])nc7=O)OC6COP(=O)(O)SC6CC(n7cc(C)c(=N)nc7[O-])OC6COP(=O)(O)SC6CC(n7cc(C)c([O-])nc7=O)OC6COP(=O)(O)SC6CC(n7cnc8c([O-])nc(=N)[n-]c87)OC6COP(=O)(O)SC6CC(n7cnc8c(N)ncnc87)OC6COP(=O)(O)SC6C(COP(=O)(O)SC7C(COP(=O)(O)SC8C(COP(=O)(O)SC9C(COP(=O)(O)SC%10C(CO)OC(n%11cnc%12c([O-])nc(=N)[n-]c%12%11)C%10OCCOC)OC(n%10cc(C)c(=N)nc%10[O-])C9OCCOC)OC(n9cc(C)c(=N)nc9[O-])C8OCCOC)OC(n8cc(C)c([O-])nc8=O)C7OCCOC)OC(n7cc(C)c(N)nc7=O)C6OCCOC)OC(n6cnc7c([O-])nc(N)nc76)C5OCCOC)OC(n5cc(C)c(N)nc5=O)C4OCCOC)OC(n4cnc5c(N)ncnc54)C3OCCOC)OC(n3cc(C)c(N)nc3=O)C2OCCOC)OC1n1cc(C)c(=N)nc1[O-],JMHIHYFPEWXVJD-UHFFFAOYSA-A,no,DICTrank_concern,0.0
+DICTrank,cefazolin,Cc1nnc(SC=C2CSC3C(NC(=O)Cn4cnnn4)C(=O)[NH+]3C2C(=O)[O-])s1,ZQRBOBGLJZHCAN-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,piperacillin sodium,CC[NH+]1CC[NH+](C(=O)NC(C(=O)NC2C(=O)[NH+]3C2SC(C)(C)C3C(=O)[O-])c2ccccc2)C(=O)C1=O,IVBHGBMCVLDMKU-UHFFFAOYSA-P,no,DICTrank_concern,0.0
+DICTrank,dolutegravir sodium,CC1CCOC2Cn3cc(C(=O)NCc4ccc(F)cc4F)c(=O)c([O-])c3C(=O)[NH+]12,RHWKPHLQXYSBKR-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,fosdenopterin hydrobromide,N=c1[n-]c2c(c(=O)[n-]1)[NH2+]C1C([NH2+]2)OC2COP([O])(=O)OC2C1(O)O,DBKAOVDHGPSROO-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,cefuroxime sodium,CON=C(C(=O)NC1C(=O)[NH+]2C(C(=O)[O-])=C(COC(N)=O)CSC12)c1ccco1,JFPVXVDWJQMJEE-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,gavilax,OCCO,LYCAIKOWRPUZTN-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,human secretin,CC(C)CC(N=C(O)C(CC(C)C)N=C(O)C(CCCNC(N)=[NH2+])N=C(O)C(CCC(=N)O)N=C(O)C(CC(C)C)N=C(O)C(CCCNC(N)=[NH2+])N=C(O)C(C)N=C(O)CN=C(O)C(CCC(=O)[O-])N=C(O)C(CCCNC(N)=[NH2+])N=C(O)C(CC(C)C)N=C(O)C(CCCNC(N)=[NH2+])N=C(O)C(CO)N=C(O)C(CC(C)C)N=C(O)C(CCC(=O)[O-])N=C(O)C(CO)N=C(O)C(N=C(O)C(Cc1ccccc1)N=C(O)C(N=C(O)CN=C(O)C(CC(=O)[O-])NC(=O)C(CO)NC(=O)C([NH3+])Cc1cnc[n-]1)C(C)O)C(C)O)C(=O)NC(CCC(N)=O)C(=O)NCC(=O)NC(CC(C)C)C(=O)NC(C(N)=O)C(C)C,QYLIGQOWAIFRKL-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,avatrombopag maleate,O=C(N=c1[n-]c(-c2cc(Cl)cs2)c(N2CC[NH+](C3CCCCC3)CC2)s1)c1cnc(N2CCC(C(=O)[O-])CC2)c(Cl)c1,PRLVUIUWVKQZQQ-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,neratinib,CCOc1cc2[n-]cc(C#N)c(=Nc3ccc(OCc4ccccn4)c(Cl)c3)c2cc1NC(=O)C=CC[NH+](C)C,KLNJALXMINFOPV-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,cefprozil,CC=CC1=C(C(=O)[O-])[NH+]2C(=O)C(NC(=O)C([NH3+])c3ccc([O-])cc3)C2SC1,WDLWHQDACQUCJR-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,amoxicillin,CC1(C)SC2C(NC(=O)C([NH3+])c3ccc([O-])cc3)C(=O)[NH+]2C1C(=O)[O-],LSQZJLSUYDQPKJ-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,etoposide,COc1cc(C2c3cc4c(cc3C(OC3OC5COC(C)OC5C(O)C3O)C3COC(=O)C23)OCO4)cc(OC)c1[O-],VJJPUSNTGOMMGY-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,ibrexafungerp,CC(C)C(C)C1(C)CCC2(C)C3CCC4C5(COCC4(C)C(OCC(C)([NH3+])C(C)(C)C)C(n4ncnc4-c4ccncc4)C5)C3=CCC2(C)C1C(=O)[O-],BODYFEUFKHPRCK-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,icatibant,NC(=[NH2+])NCCCC([NH3+])C(=O)NC(CCC[NH+]=C(N)N)C(=O)[NH+]1CCCC1C(=O)[NH+]1CC(O)CC1C(=O)NCC(=O)NC(Cc1cccs1)C(=O)NC(CO)C(=O)[NH+]1Cc2ccccc2CC1C(=O)[NH+]1C(C(=O)NC(CCC[NH+]=C(N)N)C(=O)[O-])CC2CCCCC21,QURWXBZNHXJZBE-UHFFFAOYSA-U,no,DICTrank_concern,0.0
+DICTrank,lovastatin,CCC(C)C(=O)OC1CC(C)C=C2C=CC(C)C(CCC3CC(O)CC(=O)O3)C21,PCZOHLXUXFIOCF-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,colesevelam,C=CC[NH2+]CCCCCC[N+](C)(C)C,YXEBKWHSNZQQPQ-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,dimethyl sulfoxide,C[S+](C)O,QVIGVNQJQRRBIE-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,fenofibrate,CC(C)OC(=O)C(C)(C)Oc1ccc(C(=O)c2ccc(Cl)cc2)cc1,YMTINGFKWWXKFG-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,methsuximide,C[NH+]1C(=O)CC(C)(c2ccccc2)C1=O,AJXPJJZHWIXJCJ-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,streptozocin,C[NH+](N=O)C(=O)NC(C=O)C(O)C(O)C(O)CO,AGRCPNMCOXLKFO-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,casimersen,C[NH+](C)P(=O)(OCC1C[NH2+]CC(n2ccc(=N)[n-]c2=O)O1)[NH+]1CC[NH+](C(=O)OCCOCCOCCO)CC1,KTQVJPYTGHFWJB-UHFFFAOYSA-Q,no,DICTrank_concern,0.0
+DICTrank,dacarbazine,C[NH+](C)N=Nc1[n-]cnc1C(N)=O,NSMKJXYHSAZSJE-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,afatinib,C[NH+](C)C=CCC(=O)Nc1cc2c(=Nc3ccc(F)c(Cl)c3)[n-]cnc2cc1OC1CCOC1,JRADBPKDABEBNE-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,tigecycline,CN(C)c1cc(NC(=O)C[NH2+]C(C)(C)C)c([O-])c2c([O-])c3c(cc12)CC1C([NH+](C)C)C(=O)C(C(N)=O)C(=O)C1(O)C3O,HFGTWXXQCHUAMV-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,lomustine,O=N[NH+](CCCl)C(=O)NC1CCCCC1,GQYIWUVLTXOXAJ-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,chlorzoxazone,O=c1[n-]c2cc(Cl)ccc2o1,TZFWDZFKRBELIQ-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,rivaroxaban,O=C(NCC1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,KGFYHTZWPPHNLQ-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,mitotane,Clc1ccc(C(c2ccccc2Cl)C(Cl)Cl)cc1,JWBOIMRXGHLCPP-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,migalastat hydrochloride,OCC1[NH2+]CC(O)C(O)C1O,LXBIFEVIBLOUGU-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,cysteine hydrochloride,[NH3+]C(CS)C(=O)[O-],XUJNEKJLAYXESH-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,arginine hydrochloride,NC(=[NH2+])NCCCC([NH3+])C(=O)[O-],ODKSFYDXXFIFQN-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,trimethoprim hydrochloride,COc1cc(Cc2c[n-]c(=N)[n-]c2=N)cc(OC)c1OC,GSWGXGMVFTUYAC-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,trimethobenzamide hydrochloride,COc1cc(C(=O)NCc2ccc(OCC[NH+](C)C)cc2)cc(OC)c1OC,FEZBIKUBAYAZIU-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,chlordiazepoxide hydrochloride,C[NH+]=C1C=[N+](O)C(c2ccccc2)c2cc(Cl)ccc2N1,SIVJIQWQYUUJKQ-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,ticlopidine hydrochloride,Clc1ccccc1C[NH+]1CCc2sccc2C1,PHWBOXQYWZNQIN-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,trientine hydrochloride,[NH3+]CC[NH2+]CC[NH2+]CC[NH3+],VILCJCGEZXAXTO-UHFFFAOYSA-R,no,DICTrank_concern,0.0
+DICTrank,hexaminolevulinate hydrochloride,CCCCCCOC(=O)CCC(=O)C[NH3+],RYQOILLJDKPETL-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,clindamycin palmitate hydrochloride,CCCCCCCCCCCCCCCC(=O)OC1C(SC)OC(C(NC(=O)C2CC(CCC)C[NH+]2C)C(C)Cl)C(O)C1O,OYSKUZDIHNKWLV-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,clindamycin hydrochloride,CCCC1CC(C(=O)NC(C(C)Cl)C2OC(SC)C(O)C(O)C2O)[NH+](C)C1,KDLRVYVGXIQJDK-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,pyridoxine hci,Cc1ncc(CO)c(CO)c1[O-],LXNHXLLTXMVWPM-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,rilpivirine hydrochloride,Cc1cc(C=CC#N)cc(C)c1N=c1cc[n-]c(=Nc2ccc(C#N)cc2)[n-]1,BUTPXUIJKWKHCG-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,topotecan,CCC1(O)C(=O)OCc2c1cc1n(c2=O)Cc2cc3c(C[NH+](C)C)c([O-])ccc3nc2-1,UCFGDBYHRUNTLO-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,methimazole,Cn1cc[n-]c1=S,PMRYVIKBURPHAH-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,azathioprine,Cn1cnc([N+](=O)[O-])c1Sc1ncnc2[n-]cnc12,KTAPWKXZMODIJZ-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,clobazam,CN1C(=O)CC(=O)N(c2ccccc2)c2cc(Cl)ccc21,CXOXHMZGEKVPMT-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,lurbinectedin,COc1ccc2[nH]c3c(c2c1)CC[NH2+]C31CSC2c3c(OC(C)=O)c(C)c4c(c3C(COC1=O)[NH+]1C(O)C3Cc5cc(C)c(OC)c([O-])c5C(C21)[NH+]3C)OCO4,YDDMIZRDDREKEP-UHFFFAOYSA-P,no,DICTrank_concern,0.0
+DICTrank,colchicine,COc1cc2c(c(OC)c1OC)-c1ccc(OC)c(=O)cc1C(NC(C)=O)CC2,IAKHMKGGTNLKSZ-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,crofelemer,COc1ccccc1CNC(=O)c1cc(-c2ccccc2)on1,JDNAIBCYTQGWFC-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,ultramicrosize griseofulvin,COC1=CC(=O)CC(C)C12Oc1c(Cl)c(OC)cc(OC)c1C2=O,DDUHZTYCFQRHIY-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,nelarabine,COc1[n-]c(=N)nc2c1ncn2C1OC(CO)C(O)C1O,WFFMTCACKYDDDD-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,gefitinib,COc1cc2[n-]cnc(=Nc3ccc(F)c(Cl)c3)c2cc1OCCC[NH+]1CCOCC1,PUDPQRPVHJECCO-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,colchicine,COc1cc2ccc(=NC(C)=O)c3c(c2c(OC)c1OC)CCC(=O)C(O)C3,WYANWKCDHBJVRZ-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,dacomitinib,COc1cc2[n-]cnc(=Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)C=CC[NH+]1CCCCC1,JIPRUEYWXXGSOW-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,eluxadoline,COc1ccc(C[NH+](C(=O)C([NH3+])Cc2c(C)cc(C(N)=O)cc2C)C(C)c2nc(-c3ccccc3)c[n-]2)cc1C(=O)[O-],PHXIICMGYFTIEP-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,mebendazole,COC(=O)N=c1[n-]c2ccc(C(=O)c3ccccc3)cc2[n-]1,CVHJIACXRVJKCH-UHFFFAOYSA-L,no,DICTrank_concern,0.0
+DICTrank,monomethyl fumarate,COC(=O)C=CC(=O)[O-],NKHAVTQWNUWKEO-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,valacyclovir,CC(C)C([NH3+])C(=O)OCCOCn1cnc2c(=O)[n-]c(=N)[n-]c21,ZRMVZMIMHABUOE-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,diroximel fumarate,COC(=O)C=CC(=O)OCCn1c([O-])ccc1[O-],ZXGIHWUHYINXLE-UHFFFAOYSA-L,no,DICTrank_concern,0.0
+DICTrank,ioflupane i-123,COC(=O)C1C(c2ccc(I)cc2)CC2CCC1[NH+]2CCCF,HXWLAJVUJSVENX-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,cefditoren pivoxil,CON=C(C(=O)NC1C(=O)[NH+]2C(C(=O)OCOC(=O)C(C)(C)C)=C(C=Cc3scnc3C)CSC12)c1csc(=N)[n-]1,ZBNDDILDVVLSQF-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,rifaximin,COC1C=COC2(C)Oc3c(C)c([O-])c4c([O-])c(c5c(nc6cc(C)ccn65)c4c3C2=O)NC(=O)C(C)=CC=CC(C)C(O)C(C)C(O)C(C)C(OC(C)=O)C1C,NZCRJKRKKOLAOJ-UHFFFAOYSA-L,no,DICTrank_concern,0.0
+DICTrank,rifamycin,COC1C=COC2(C)Oc3c(C)c([O-])c4c([O-])c(cc([O-])c4c3C2=O)NC(=O)C(C)=CC=CC(C)C(O)C(C)C(O)C(C)C(OC(C)=O)C1C,HJYYPODYNSCCOU-UHFFFAOYSA-K,no,DICTrank_concern,0.0
+DICTrank,cefotetan,COC1([NH2+]C(O)=c2sc(=C(C(N)=O)C(=O)[O-])s2)C(=O)[NH+]2C(C(=O)[O-])=C(CSc3nnnn3C)CSC21,SMRZELGKBINBNK-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,florbetaben f 18,CNc1ccc(C=Cc2ccc(OCCOCCOCCF)cc2)cc1,NCWZOASIUQVOFA-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,capmatinib,CNC(=O)c1ccc(-c2cnc3ncc(Cc4ccc5ncccc5c4)n3n2)cc1F,LIOLIMKSCNQPLV-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,temozolomide,Cn1nnc2c(C(N)=O)ncn2c1=O,BPEGJWRSRHCHSN-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,methazolamide,CC(=O)N=c1sc(S(N)(=O)=O)nn1C,FLOSMHQXBMRNHR-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,trilaciclib,C[NH+]1CCN(c2ccc(N=c3nc4c(c[n-]3)cc3n4C4(CCCCC4)CNC3=O)nc2)CC1,XTSAPKLXZUPWCB-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,tepotinib hydrochloride,C[NH+]1CCC(COc2cnc(-c3cccc(Cn4nc(-c5cccc(C#N)c5)ccc4=O)c3)nc2)CC1,AHYMHWXQRWRBKT-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,dimethyl fumarate,COC(=O)C=CC(=O)OC,LDCRTTXIJACKKU-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,rolapitant,CC(OCC1(c2ccccc2)CCC2(CCC(=O)N2)C[NH2+]1)c1cc(C(F)(F)F)cc(C(F)(F)F)c1,FIVSJYGQAIEMOC-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,dalbavancin,C[NH2+]C1C(=O)Nc2c([O-])[n-]c(c([O-])[n-]c3c4cc(c(OC5OC(C(=O)[O-])C(O)C(O)C5NC(=O)CCCCCCCCC(C)C)c(c4)oc4ccc2cc4)Oc2ccc(cc2Cl)C(O)c2[n-]c([O-])c(c4ccc([O-])c(c4)c4c(OC5OC(CO)C(O)C(O)C5O)cc([O-])cc4c(=C(O)[NH2+]CCC[NH+](C)C)[n-]c2[O-])NC=3O)-c2cc(cc([O-])c2Cl)Oc2cc1ccc2[O-],KARZNHPQSPYXRU-UHFFFAOYSA-H,no,DICTrank_concern,0.0
+DICTrank,cholestyramine,CCC(CC(C)c1ccccc1)c1ccc(C[N+](C)(C)C)cc1,BSMYVBKDBCUVBF-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,ramelteon,CCC(=O)NCCC1CCc2ccc3c(c21)CCO3,YLXDSYKOBKBWJQ-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,tasimelteon,CCC(=O)NCC1CC1c1cccc2c1CCO2,PTOIAAWZLUQTIO-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,triazolam,Cc1nnc2n1-c1ccc(Cl)cc1C(c1ccccc1Cl)=NC2,JOFWLTCLBGQGBO-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,risdiplam,Cc1cn2nc(-c3cc(=O)n4cc(N5CC[NH2+]C6(CC6)C5)ccc4n3)cc(C)c2n1,ASKZRYGFUPSJPN-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,nusinersen,COCCOC1C(OP(O)(=S)OCC2OC(n3cc(C)c(=O)[n-]c3=O)C(OCCOC)C2OP(O)(=S)OCC2OC(n3cc(C)c(=O)[n-]c3=O)C(OCCOC)C2OP(O)(=S)OCC2OC(n3cc(C)c([O-])nc3=O)C(OCCOC)C2OP(O)(=S)OCC2OC(n3cc(C)c(=N)[n-]c3=O)C(OCCOC)C2OP(O)(=S)OCC2OC(n3cnc4c(N)ncnc43)C(OCCOC)C2OP(O)(=S)OCC2OC(n3cc(C)c([O-])nc3=O)C(OCCOC)C2OP(O)(=S)OCC2OC(n3cnc4c(N)ncnc43)C(OCCOC)C2OP(O)(=S)OCC2OC(n3cnc4c(N)ncnc43)C(OCCOC)C2OP(O)(=S)OCC2OC(n3cc(C)c([O-])nc3=O)C(OCCOC)C2OP(O)(=S)OCC2OC(n3cnc4c(=O)nc(N)[n-]c43)C(OCCOC)C2OP(O)(=S)OCC2OC(n3cc(C)c(N)nc3=O)C(OCCOC)C2OP(O)(=S)OCC2OC(n3cc(C)c([O-])nc3=O)C(OCCOC)C2OP(O)(=S)OCC2OC(n3cnc4c([O-])nc(N)nc43)C(OCCOC)C2OP(O)(=S)OCC2OC(n3cnc4c([O-])nc(N)nc43)C(OCCOC)C2O)C(COP(O)(=S)OC2C(COP(O)(=S)OC3C(COP(O)(=S)OC4C(CO)OC(n5cc(C)c([O-])nc5=O)C4OCCOC)OC(n4cc(C)c(=N)[n-]c4=O)C3OCCOC)OC(n3cnc4c(N)ncnc43)C2OCCOC)OC1n1cc(C)c(N)nc1=O,MDUZDCRESAVKEU-UHFFFAOYSA-B,no,DICTrank_concern,0.0
+DICTrank,pirfenidone,Cc1ccc(=O)n(-c2ccccc2)c1,ISWRGOKTTBVCFA-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,stavudine,Cc1cn(C2C=CC(CO)O2)c(=O)[n-]c1=O,XNKLLVCARDGLGL-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,edoxaban tosylate,C[NH+]1CCc2nc(C(=O)NC3CC(C(=O)[NH+](C)C)CCC3NC(=O)C(=O)N=c3ccc(Cl)c[n-]3)sc2C1,RTNUALVFVCDCNJ-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,peramivir,CCC(CC)C(NC(C)=O)C1C([NH+]=C(N)N)CC(C(=O)[O-])C1O,XRQDFNLINLXZLB-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,naldemedine,CC(C)(NC(=O)C1CC2(O)C3Cc4ccc([O-])c5c4C2(CC[NH+]3CC2CC2)C(O5)C1=O)c1nc(-c2ccccc2)no1,CZMKSZPFKORSET-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,mebrofenin,Cc1cc(C)c(NC(=O)C[NH+](CC(=O)[O-])CC(=O)[O-])c(C)c1Br,MHPZZZZLAQGTHT-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,meclizine hydrochloride,Cc1cccc(C[NH+]2CC[NH+](C(c3ccccc3)c3ccc(Cl)cc3)CC2)c1,OCJYIGYOJCODJL-UHFFFAOYSA-P,no,DICTrank_concern,0.0
+DICTrank,cephalexin,CC1=C(C(=O)[O-])[NH+]2C(=O)C(NC(=O)C([NH3+])c3ccccc3)C2SC1,ZAIPMKNFIOOWCQ-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,canagliflozin,Cc1ccc(C2OC(CO)C(O)C(O)C2O)cc1Cc1ccc(-c2ccc(F)cc2)s1,XTNGUQKDFGDXSJ-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,pafolacianine injection,CC1(C)C(=CC=C2CCCC(C=CC3=[N+](CCCCS(=O)(=O)[O-])c4ccc(S(=O)(=O)[O-])cc4C3(C)C)=C2Oc2ccc(CC(NC(=O)c3ccc(NCc4cnc5[n-]c(=N)[n-]c(=O)c5n4)cc3)C(=O)[O-])cc2)N(CCCCS(=O)(=O)[O-])c2ccc(S(=O)(=O)[O-])cc21,PDXNSXLPXJFETD-UHFFFAOYSA-H,no,DICTrank_concern,0.0
+DICTrank,venetoclax,CC1(C)CCC(C[NH+]2CCN(c3ccc(C(=O)[N-]S(=O)(=O)c4ccc(NCC5CCOCC5)c([N+](=O)[O-])c4)c(Oc4cnc5[nH]ccc5c4)c3)CC2)=C(c2ccc(Cl)cc2)C1,IYERTJHBPMVWQK-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,ursosiol,CC1(C)CCC2(C)C(=C3CCC4C5(C)CCC(O)C(C)(C)C5CCC4(C)C3(C)CC2O)C1,RTLXJEJRLWILSU-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,idelalisib,CCC(N=c1[n-]cnc2[n-]cnc12)c1nc2cccc(F)c2c(=O)n1-c1ccccc1,ZNGOBIHUIFWPCL-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,exenatide,CCC(C)C(N=C(O)C(Cc1ccccc1)N=C(O)C(CC(C)C)N=C(O)C(CCCNC(N)=[NH2+])N=C(O)C(N=C(O)C(C)N=C(O)C(CCC(=O)[O-])N=C(O)C(CCC(=O)[O-])N=C(O)C(CCC(=O)[O-])N=C(O)C(CCSC)N=C(O)C(CCC(=N)O)N=C(O)C(CCCC[NH3+])N=C(O)C(CO)N=C(O)C(CC(C)C)N=C(O)C(CC(=O)[O-])N=C(O)C(CO)N=C(O)C(N=C(O)C(Cc1ccccc1)N=C(O)C(N=C(O)CN=C(O)C(CCC(=O)[O-])N=C(O)CNC(=O)C([NH3+])Cc1cnc[n-]1)C(C)O)C(C)O)C(C)C)C(=O)NC(CCC(=O)[O-])C(=O)NC(Cc1c[nH]c2ccccc12)C(=O)NC(CC(C)C)C(=O)NC(CCCC[NH3+])C(=O)NC(CC(N)=O)C(O)=NCC(O)=NCC(=O)[NH+]1CCCC1C(O)=NC(CO)C(O)=NC(CO)C(O)=NCC(O)=NC(C)C(=O)[NH+]1CCCC1C(=O)[NH+]1CCCC1C(=O)[NH+]1CCCC1C(O)=NC(CO)C(N)=O,VTKGILYMBCYYCT-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,pramlintide acetate,CCC(C)C(N=C(O)C1CCC[NH+]1C(=O)CN=C(O)C(Cc1ccccc1)N=C(O)C(CC(=N)O)N=C(O)C(CC(=N)O)N=C(O)C(CO)N=C(O)C(CO)N=C(O)C(Cc1cnc[n-]1)N=C(O)C(N=C(O)C(CC(C)C)N=C(O)C(Cc1ccccc1)N=C(O)C(CC(=N)O)N=C(O)C(C)N=C(O)C(CC(C)C)N=C(O)C(CCCNC(N)=[NH2+])N=C(O)C(CCC(=N)O)N=C(O)C(N=C(O)C(C)N=C(O)C(CS)N=C(O)C(N=C(O)C(C)N=C(O)C(N=C(O)C(CC(=N)O)N=C(O)C(CS)N=C(O)C([NH3+])CCCC[NH3+])C(C)O)C(C)O)C(C)O)C(C)C)C(=O)NC(CC(C)C)C(=O)[NH+]1CCCC1C(=O)[NH+]1CCCC1C(=O)NC(C(=O)NC(CC(N)=O)C(=O)NC(C(=O)NCC(O)=NC(CO)C(O)=NC(CC(N)=O)C(O)=NC(C(O)=NC(Cc1ccc([O-])cc1)C(N)=O)C(C)O)C(C)C)C(C)O,CUZXPDFNHWNYQC-UHFFFAOYSA-R,no,DICTrank_concern,0.0
+DICTrank,secnidazole,Cc1ncc([N+](=O)[O-])n1CC(C)O,KPQZUUQMTUIKBP-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,zileuton,CC(c1cc2ccccc2s1)N(O)C(N)=O,MWLSOWXNZPKENC-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,metaxalone,Cc1cc(C)cc(OCC2CNC(=O)O2)c1,IMWZZHHPURKASS-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,umbralisib,CC(C)Oc1ccc(-c2nn(C(C)c3oc4ccc(F)cc4c(=O)c3-c3cccc(F)c3)c3[n-]cnc(=N)c23)cc1F,CBAMKBSMIPTSDA-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,tipranavir,CCCC1(CCc2ccccc2)CC(=O)C(C(CC)c2cccc(NS(=O)(=O)c3ccc(C(F)(F)F)cn3)c2)C(=O)O1,MYXACKZCYFKMTE-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,primidone,CCC1(c2ccccc2)C(=O)NCNC1=O,DQMZLTXERSFNPB-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,cefepime,CON=C(C(=O)NC1C(=O)[NH+]2C(C(=O)[O-])=C(C[N+]3(C)CCCC3)CSC12)c1csc(=N)[n-]1,HVFLCNVBZFFHBT-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,tobramycin sulfate,[NH3+]CC1OC(OC2C([NH3+])CC([NH3+])C(OC3OC(CO)C(O)C([NH3+])C3O)C2O)C([NH3+])CC1O,NLVFBUXFDBBNBW-UHFFFAOYSA-S,no,DICTrank_concern,0.0
+DICTrank,finerenone,CCOc1ncc(C)c2c1C(c1ccc(C#N)cc1OC)C(C(N)=O)C(C)=N2,SWMKDVDOUGHTGK-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,dapagliflozin,CCOc1ccc(Cc2cc(C3OC(CO)C(O)C(O)C3O)ccc2Cl)cc1,JVHXJTBJCFBINQ-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,ertugliflozin,CCOc1ccc(Cc2cc(C34OCC(CO)(O3)C(O)C(O)C4O)ccc2Cl)cc1,MCIACXAZCBVDEE-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,apremilast,CCOc1cc(C(CS(C)(=O)=O)[NH+]2C(=O)c3cccc(NC(C)=O)c3C2=O)ccc1OC,IMOZEMNVLZVGJZ-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,melphalan flufenamide,CCOC(=O)C(Cc1ccc(F)cc1)NC(=O)C([NH3+])Cc1ccc(N(CCCl)CCCl)cc1,YQZNKYXGZSVEHI-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,telotristat ethyl,CCOC(=O)C([NH3+])Cc1ccc(-c2cc(OC(c3ccc(Cl)cc3-n3ccc(C)n3)C(F)(F)F)[n-]c(=N)n2)cc1,GZMQZWOCEOTUMH-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,infigratinib,CC[NH+]1CCN(c2ccc(N=c3cc([NH+](C)C(=O)Nc4c(Cl)c(OC)cc(OC)c4Cl)[n-]cn3)cc2)CC1,QDKIOEUYYMQSPX-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,istradefylline,CCn1c(=O)c2c(nc(C=Cc3ccc(OC)c(OC)c3)n2C)n(CC)c1=O,IQVRBWUUXZMOPW-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,ethotoin,CCn1c([O-])c(-c2ccccc2)[n-]c1=O,IUFKTQMPUVMSNE-UHFFFAOYSA-L,no,DICTrank_concern,0.0
+DICTrank,brilliant blue g,CCOc1ccc(Nc2ccc(C(=C3C=CC(=[N+](CC)Cc4cccc(S(=O)(=O)[O-])c4)C=C3C)c3ccc(N(CC)Cc4cccc(S(=O)(=O)[O-])c4)cc3C)cc2)cc1,YVNQAIFQFWTPLQ-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,brivaracetam,CCCC1CC(=O)[NH+](C(CC)C(N)=O)C1,MSYKRHVOOPPJKU-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,albendazole,CCCSc1ccc2[n-]c(=NC(=O)OC)[n-]c2c1,MXPUXWCESBWVOF-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+DICTrank,probenecid,CCC[NH+](CCC)S(=O)(=O)c1ccc(C(=O)[O-])cc1,DBABZHXKTCFAPX-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,benzonatate,CCCCNc1ccc(C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC)cc1,MAFMQEKGGFWBAB-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,miglustat,CCCC[NH+]1CC(O)C(O)C(O)C1CO,UQRORFVVSGFNRO-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,lusutrombopag,CCCCCCOC(C)c1cccc(-c2csc(=NC(=O)c3cc(Cl)c(C=C(C)C(=O)[O-])c(Cl)c3)[n-]2)c1OC,RISOUOAUZQRUQW-UHFFFAOYSA-L,no,DICTrank_concern,0.0
+DICTrank,orlistat,CCCCCCCCCCCC(CC1OC(=O)C1CCCCCC)OC(=O)C(CC(C)C)NC=O,AHLBNYSZXLDEJQ-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,triheptanoin,CCCCCCC(=O)OCC(COC(=O)CCCCCC)OC(=O)CCCCCC,PJHKBYALYHRYSK-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,cannabidiol,C=C(C)C1CCC(C)=CC1c1c([O-])cc(CCCCC)cc1[O-],QHMBSVQNZZTUGM-UHFFFAOYSA-L,no,DICTrank_concern,0.0
+DICTrank,odevixibat,CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(OCC(=O)NC(C(=O)NC(CC)C(=O)[O-])c3ccc([O-])cc3)cc2S(=O)(=O)N1,XULSCZPZVQIMFM-UHFFFAOYSA-L,no,DICTrank_concern,0.0
+DICTrank,propylthiouracil,CCCc1cc(=O)[n-]c(=S)[n-]1,KNAHARQHSZJURB-UHFFFAOYSA-L,no,DICTrank_concern,0.0
+DICTrank,ethionamide,CCc1cc(C([NH3+])=S)ccn1,AEOCXXJPGCBFJA-UHFFFAOYSA-O,no,DICTrank_concern,0.0
+DICTrank,ethosuximide,CCC1(C)CC(=O)NC1=O,HAPOVYFOVVWLRS-UHFFFAOYSA-N,no,DICTrank_concern,0.0
+DICTrank,disulfiram,CC[NH+](CC)C(=S)SSC(=S)[NH+](CC)CC,AUZONCFQVSMFAP-UHFFFAOYSA-P,no,DICTrank_concern,0.0
+DICTrank,mercaptopurine,S=c1[n-]cnc2[n-]cnc12,NRKSOJNEWHCOOP-UHFFFAOYSA-M,no,DICTrank_concern,0.0
+CredibleMeds_QTdrugs,Abarelix,CC(=O)N[C@H](Cc1ccc2ccccc2c1)C(=O)N[C@H](Cc1ccc(Cl)cc1)C(=O)N[C@H](Cc1cccnc1)C(=O)N[C@@H](CO)C(=O)N(C)[C@@H](Cc1ccc(O)cc1)C(=O)N[C@H](CC(N)=O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCCNC(C)C)C(=O)N1CCC[C@H]1C(=O)N[C@H](C)C(N)=O,AIWRTTMUVOZGPW-HSPKUQOVSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Aclarubicin,CC[C@@]1(O)C[C@H](O[C@H]2C[C@H](N(C)C)[C@H](O[C@H]3C[C@H](O)[C@H](O[C@H]4CCC(=O)[C@H](C)O4)[C@H](C)O3)[C@H](C)O2)c2c(cc3c(c2O)C(=O)c2c(O)cccc2C3=O)[C@H]1C(=O)OC,USZYSDMBJDPRIF-SVEJIMAYSA-N,Known Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Adagrasib,C=C(F)C(=O)N1CCN(c2nc(OC[C@@H]3CCCN3C)nc3c2CCN(c2cccc4cccc(Cl)c24)C3)C[C@@H]1CC#N,PEMUGDMSUDYLHU-ZEQRLZLVSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Alimemazine (Trimeprazine),CC(CN(C)C)CN1c2ccccc2Sc2ccccc21,ZZHLYYDVIOPZBE-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Arformoterol,COc1ccc(C[C@@H](C)NC[C@H](O)c2ccc(O)c(NC=O)c2)cc1,BPZSYCZIITTYBL-YJYMSZOUSA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Arsenic trioxide,O=[As]O[As]=O,IKWTVSLWAPBBKU-UHFFFAOYSA-N,Known Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Artenimol/piperaquine,C[C@@H]1CC[C@H]2[C@@H](C)C(O)O[C@@H]3O[C@@]4(C)CC[C@@H]1[C@]32OO4,BJDCWCLMFKKGEE-HVDUHBCDSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Bendroflumethiazide (Bendrofluazide),NS(=O)(=O)c1cc2c(cc1C(F)(F)F)NC(Cc1ccccc1)NS2(=O)=O,HDWIHXWEUNVBIY-UHFFFAOYSA-N,Conditional Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Bilastine,CCOCCn1c(C2CCN(CCc3ccc(C(C)(C)C(=O)O)cc3)CC2)nc2ccccc21,ACCMWZWAEFYUGZ-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Carbetocin,CC[C@H](C)[C@@H]1NC(=O)[C@H](Cc2ccc(OC)cc2)NC(=O)CCCSC[C@@H](C(=O)N2CCC[C@H]2C(=O)N[C@@H](CC(C)C)C(=O)NCC(N)=O)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCC(N)=O)NC1=O,NSTRIRCPWQHTIA-DTRKZRJBSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Cesium Chloride,[Cs],TVFDJXOCXUVLDH-UHFFFAOYSA-N,Known Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Chloral hydrate,OC(O)C(Cl)(Cl)Cl,RNFNDJAIBTYOQL-UHFFFAOYSA-N,Conditional Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Chlorprothixene,CN(C)CC/C=C1/c2ccccc2Sc2ccc(Cl)cc21,WSPOMRSOLSGNFJ-AUWJEWJLSA-N,Known Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Clofazimine,CC(C)N=c1cc2n(-c3ccc(Cl)cc3)c3ccccc3nc-2cc1Nc1ccc(Cl)cc1,WDQPAMHFFCXSNU-UHFFFAOYSA-N,Conditional Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Clotiapine,CN1CCN(C2=Nc3ccccc3Sc3ccc(Cl)cc32)CC1,KAAZGXDPUNNEFN-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Cyamemazine (Cyamepromazine),CC(CN(C)C)CN1c2ccccc2Sc2ccc(C#N)cc21,SLFGIOIONGJGRT-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Dexmethylphenidate,COC(=O)[C@H](c1ccccc1)[C@H]1CCCCN1,DUGOZIWVEXMGBE-CHWSQXEVSA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Dextroamphetamine (Dexamfetamine),C[C@H](N)Cc1ccccc1,KWTSXDURSIMDCE-QMMMGPOBSA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Eperisone,CCc1ccc(C(=O)C(C)CN2CCCCC2)cc1,SQUNAWUMZGQQJD-UHFFFAOYSA-N,Conditional Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Epinephrine (Adrenaline),CNC[C@H](O)c1ccc(O)c(O)c1,UCTWMZQNUQWSLP-VIFPVBQESA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Esomeprazole,COc1ccc2[nH]c([S@@](=O)Cc3ncc(C)c(OC)c3C)nc2c1,SUBDBMMJDZJVOS-DEOSSOPVSA-N,Conditional Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Ezogabine (Retigabine),CCOC(=O)Nc1ccc(NCc2ccc(F)cc2)cc1N,PCOBBVZJEWWZFR-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Fenfluramine,CCNC(C)Cc1cccc(C(F)(F)F)c1,DBGIVFWFUFKIQN-UHFFFAOYSA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Fenoterol,CC(Cc1ccc(O)cc1)NCC(O)c1cc(O)cc(O)c1,LSLYOANBFKQKPT-UHFFFAOYSA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Fluorouracil (5-FU),O=c1[nH]cc(F)c(=O)[nH]1,GHASVSINZRGABV-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Flupentixol,OCCN1CCN(CC/C=C2/c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,NJMYODHXAKYRHW-DVZOWYKESA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Formoterol,COc1ccc(CC(C)NCC(O)c2ccc(O)c(NC=O)c2)cc1,BPZSYCZIITTYBL-UHFFFAOYSA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Garenoxacin,C[C@H]1NCc2cc(-c3ccc4c(=O)c(C(=O)O)cn(C5CC5)c4c3OC(F)F)ccc21,NJDRXTDGYFKORP-LLVKDONJSA-N,Conditional Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Gatifloxacin,COc1c(N2CCNC(C)C2)c(F)cc2c(=O)c(C(=O)O)cn(C3CC3)c12,XUBOMFCQGDBHNK-UHFFFAOYSA-N,Known Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Gepirone,CC1(C)CC(=O)N(CCCCN2CCN(c3ncccn3)CC2)C(=O)C1,QOIGKGMMAGJZNZ-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Givinostat,CCN(CC)Cc1ccc2cc(COC(=O)Nc3ccc(C(=O)NO)cc3)ccc2c1,YALNUENQHAQXEA-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Hydroquinidine (Dihydroquinidine),CC[C@H]1CN2CCC1C[C@@H]2[C@@H](O)c1ccnc2ccc(OC)cc12,LJOQGZACKSYWCH-NBGVHYBESA-N,Known Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Indacaterol,CCc1cc2c(cc1CC)CC(NC[C@H](O)c1ccc(O)c3[nH]c(=O)ccc13)C2,QZZUEBNBZAPZLX-QFIPXVFZSA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Isoflurane,FC(F)OC(Cl)C(F)(F)F,PIWKPBJCKXDKJR-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Isoproterenol (isoprenaline),CC(C)NCC(O)c1ccc(O)c(O)c1,JWZZKOKVBUJMES-UHFFFAOYSA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Ketanserin,O=C(c1ccc(F)cc1)C1CCN(CCn2c(=O)[nH]c3ccccc3c2=O)CC1,FPCCSQOGAWCVBH-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Lacidipine,CCOC(=O)C1=C(C)NC(C)=C(C(=O)OCC)C1c1ccccc1/C=C/C(=O)OC(C)(C)C,GKQPCPXONLDCMU-CCEZHUSRSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Levalbuterol (Levsalbutamol),CC(C)(C)NC[C@H](O)c1ccc(O)c(CO)c1,NDAUXUAQIAJITI-LBPRGKRZSA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Levomepromazine (Methotrimeprazine),COc1ccc2c(c1)N(C[C@H](C)CN(C)C)c1ccccc1S2,VRQVVMDWGGWHTJ-CQSZACIVSA-N,Known Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Levomethadone (levamethadone),CCC(=O)C(C[C@@H](C)N(C)C)(c1ccccc1)c1ccccc1,USSIQXCVUWKGNF-QGZVFWFLSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Levomethamphetamine (Levmetamfetamine),CN[C@H](C)Cc1ccccc1,MYWUZJCMWCOHBA-SECBINFHSA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Levosulpiride,CCN1CCC[C@H]1CNC(=O)c1cc(S(N)(=O)=O)ccc1OC,BGRJTUBHPOOWDU-NSHDSACASA-N,Known Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Lisdexamfetamine,C[C@@H](Cc1ccccc1)NC(=O)[C@@H](N)CCCCN,VOBHXZCDAVEXEY-JSGCOSHPSA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Maprotiline,CNCCCC12CCC(c3ccccc31)c1ccccc12,QSLMDECMDJKHMQ-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Meglumine antimoniate,CNC[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO,MBBZMMPHUWSWHV-BDVNFPICSA-N,Known Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Melperone,CC1CCN(CCCC(=O)c2ccc(F)cc2)CC1,DKMFBWQBDIGMHM-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Metronidazole,Cc1ncc([N+](=O)[O-])n1CCO,VAOCPAMSLUNLGC-UHFFFAOYSA-N,Conditional Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Mianserin,CN1CCN2c3ccccc3Cc3ccccc3C2C1,UEQUQVLFIPOEMF-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Nifekalant,Cn1c(NCCN(CCO)CCCc2ccc([N+](=O)[O-])cc2)cc(=O)n(C)c1=O,OEBPANQZQGQPHF-UHFFFAOYSA-N,Known Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Norfloxacin,CCn1cc(C(=O)O)c(=O)c2cc(F)c(N3CCNCC3)cc21,OGJPXUAPXNRGGI-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Olodaterol,COc1ccc(CC(C)(C)NC[C@H](O)c2cc(O)cc3c2OCC(=O)N3)cc1,COUYJEVMBVSIHV-SFHVURJKSA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Opipramol,OCCN1CCN(CCCN2c3ccccc3C=Cc3ccccc32)CC1,YNZFUWZUGRBMHL-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Oxymetazoline,Cc1cc(C(C)(C)C)c(O)c(C)c1CC1=NCCN1,WYWIFABBXFUGLM-UHFFFAOYSA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Pacritinib,C1=C/COCc2cc(ccc2OCCN2CCCC2)Nc2nccc(n2)-c2cccc(c2)COC/1,HWXVIOGONBBTBY-ONEGZZNKSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Palonosetron,O=C1c2cccc3c2[C@H](CCC3)CN1[C@@H]1CN2CCC1CC2,CPZBLNMUGSZIPR-NVXWUHKLSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Pazopanib,Cc1ccc(Nc2nccc(N(C)c3ccc4c(C)n(C)nc4c3)n2)cc1S(N)(=O)=O,CUIHSIWYWATEQL-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Phenylephrine,CNC[C@H](O)c1cccc(O)c1,SONNWYBIRXJNDC-VIFPVBQESA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Phenylpropanolamine,CC(N)C(O)c1ccccc1,DLNKOYKMWOXYQA-UHFFFAOYSA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Pipamperone,NC(=O)C1(N2CCCCC2)CCN(CCCC(=O)c2ccc(F)cc2)CC1,AXKPFOAXAHJUAG-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Prothipendyl,CN(C)CCCN1c2ccccc2Sc2cccnc21,JTTAUPUMOLRVRA-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Pseudoephedrine,CN[C@@H](C)[C@@H](O)c1ccccc1,KWGRBVOPPLSCSI-WCBMZHEXSA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Quizartinib,CC(C)(C)c1cc(NC(=O)Nc2ccc(-c3cn4c(n3)sc3cc(OCCN5CCOCC5)ccc34)cc2)no1,CVWXJKQAOSCOAB-UHFFFAOYSA-N,Known Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Remdesivir,CCC(CC)COC(=O)[C@H](C)N[P@](=O)(OC[C@H]1O[C@@](C#N)(c2ccc3c(N)ncnn23)[C@H](O)[C@@H]1O)Oc1ccccc1,RWWYLEGWBNMMLJ-YSOARWBDSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Ritodrine,C[C@@H](NCCc1ccc(O)cc1)[C@@H](O)c1ccc(O)cc1,IOVGROKTTNBUGK-SJKOYZFVSA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Salmeterol,OCc1cc(C(O)CNCCCCCCOCCCCc2ccccc2)ccc1O,GIIZNNXWQWCKIB-UHFFFAOYSA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Serdexmethylphenidate,COC(=O)[C@H](c1ccccc1)[C@H]1CCCCN1C(=O)OC[n+]1cccc(C(=O)N[C@@H](CO)C(=O)[O-])c1,UBZPNQRBUOBBLN-PWRODBHTSA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Sevoflurane,FCOC(C(F)(F)F)C(F)(F)F,DFEYYRMXOJXZRJ-UHFFFAOYSA-N,Known Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Sitafloxacin,N[C@@H]1CN(c2c(F)cc3c(=O)c(C(=O)O)cn([C@@H]4C[C@@H]4F)c3c2Cl)CC12CC2,PNUZDKCDAWUEGK-CYZMBNFOSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Sulpiride,CCN1CCCC1CNC(=O)c1cc(S(N)(=O)=O)ccc1OC,BGRJTUBHPOOWDU-UHFFFAOYSA-N,Known Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Sultopride,CCN1CCCC1CNC(=O)c1cc(S(=O)(=O)CC)ccc1OC,UNRHXEPDKXPRTM-UHFFFAOYSA-N,Known Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Telaprevir,CCC[C@H](NC(=O)[C@@H]1[C@H]2CCC[C@H]2CN1C(=O)[C@@H](NC(=O)[C@@H](NC(=O)c1cnccn1)C1CCCCC1)C(C)(C)C)C(=O)C(=O)NC1CC1,BBAWEDCPNXPBQM-GDEBMMAJSA-N,Conditional Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Terlipressin,NCCCC[C@H](NC(=O)[C@@H]1CCCN1C(=O)[C@@H]1CSSC[C@H](NC(=O)CNC(=O)CNC(=O)CN)C(=O)N[C@@H](Cc2ccc(O)cc2)C(=O)N[C@@H](Cc2ccccc2)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CC(N)=O)C(=O)N1)C(=O)NCC(N)=O,BENFXAYNYRLAIU-QSVFAHTRSA-N,Known Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Tiapride,CCN(CC)CCNC(=O)c1cc(S(C)(=O)=O)ccc1OC,JTVPZMFULRWINT-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Tipiracil/Trifluridine,N=C1CCCN1Cc1[nH]c(=O)[nH]c(=O)c1Cl,QQHMKNYGKVVGCZ-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Tropisetron,CN1[C@@H]2CC[C@H]1C[C@@H](OC(=O)c1c[nH]c3ccccc13)C2,ZNRGQMMCGHDTEI-ITGUQSILSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Vilanterol/fluticasone furoate,CCC(=O)O[C@]1(C(=O)SCF)[C@H](C)C[C@H]2[C@@H]3C[C@H](F)C4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@@]21C,WMWTYOKRWGGJOA-CENSZEJFSA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,Xylometazoline (Xylomethazoline),Cc1cc(C(C)(C)C)cc(C)c1CC1=NCCN1,HUCJFAOMUPXHDK-UHFFFAOYSA-N,Special Risk,CredibleMeds_TdP,
+CredibleMeds_QTdrugs,ziftomenib,CNc1nc(NC2CCN(Cc3ccc4c(cc(C#N)n4C[C@H](C)N4CCN(S(C)(=O)=O)CC4)c3C)CC2)c2cc(CC(F)(F)F)sc2n1,BGGALFIXXQOTPY-NRFANRHFSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Zotepine,CN(C)CCOC1=Cc2ccccc2Sc2ccc(Cl)cc21,HDOZVRUNCMBHFH-UHFFFAOYSA-N,Possible Risk,CredibleMeds_TdP,1.0
+CredibleMeds_QTdrugs,Zuclopenthixol (Zuclopentixol),OCCN1CCN(CC/C=C2/c3ccccc3Sc3ccc(Cl)cc32)CC1,WFPIAZLQTJBIFN-DVZOWYKESA-N,Possible Risk,CredibleMeds_TdP,1.0

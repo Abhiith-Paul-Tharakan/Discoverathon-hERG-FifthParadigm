@@ -1,0 +1,16 @@
+{
+  "combined_unique_compounds": 16650,
+  "holdout_compounds": 3331,
+  "train_compounds": 13319,
+  "holdout_fraction_overall": 0.2001,
+  "holdout_fraction_of_labelled": 0.2001,
+  "scaffold_overlap_train_vs_holdout": 0,
+  "blocker_frac_overall": 0.4882,
+  "blocker_frac_holdout": 0.4884,
+  "blocker_frac_train": 0.4882,
+  "holdout_with_blocker_label": 3331,
+  "holdout_with_pic50": 2058,
+  "train_with_pic50": 8258,
+  "n_holdout_scaffolds": 1586,
+  "seed": 42
+}

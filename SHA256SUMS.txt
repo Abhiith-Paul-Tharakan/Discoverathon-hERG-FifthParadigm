@@ -1,0 +1,12 @@
+# SHA-256 checksums for checkpoints/ (the 4 files master_predict.py loads at inference).
+# Verify after cloning + running download_checkpoints.sh:
+#   cd checkpoints && sha256sum -c ../SHA256SUMS.txt
+#
+# Regenerate this file yourself with (run from checkpoints/):
+#   sha256sum herg_combined_dataset_holdout.joblib pic50_regressor.joblib \
+#       cb_ft_pure_results/cb_ft_final.pt cb_ft_pure_results/cb_ft_scaler.joblib \
+#       > ../SHA256SUMS.txt
+4884beb352c0278d94c7b8989d285eaed2d49a51418b064c141b9b557f051983  herg_combined_dataset_holdout.joblib
+c117dfc4f5e3bfd1deddc8e79365ef0720d4501a69cc8aa7d9ec735f8bbd90ed  pic50_regressor.joblib
+b0c3dce86d42de3ec8e63faf00de9bca546b020715c5ff92e483411ebc9aab9e  cb_ft_pure_results/cb_ft_final.pt
+2f9019adfdfdc48fd486d3ce76d9c53ad586feb9421b6456533b70653a151a6e  cb_ft_pure_results/cb_ft_scaler.joblib

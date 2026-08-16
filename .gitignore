@@ -1,0 +1,16 @@
+# Claude Code scratch state -- not project content
+.claude/
+**/.claude/
+
+# Python
+__pycache__/
+*.pyc
+
+# Discarded per review (2026-08-17): untitled screenshot, no reference anywhere in the repo
+Pasted image.png
+
+# ---- The one checkpoint excluded from git (see README "Model checkpoints") ------------------
+# REQUIRED at inference but >100 MB (GitHub push limit) -- hosted on a GitHub Release, fetched
+# by download_checkpoints.sh. The other 3 required checkpoints (checkpoints/pic50_regressor.joblib,
+# checkpoints/cb_ft_pure_results/*) are small enough to commit directly and are NOT ignored.
+checkpoints/herg_combined_dataset_holdout.joblib

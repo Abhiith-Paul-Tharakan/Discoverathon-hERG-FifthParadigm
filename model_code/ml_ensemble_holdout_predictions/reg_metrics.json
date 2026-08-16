@@ -1,0 +1,36 @@
+{
+  "held_out": {
+    "MAE": 0.4712994310056908,
+    "RMSE": 0.6856933727228407,
+    "R2": 0.4088552308000828,
+    "n": 2058,
+    "Pearson": 0.6409415805288624,
+    "Spearman": 0.6488067410828992,
+    "held_out_in_AD_fraction": 0.5331732212548784,
+    "MAE_in_AD": 0.46003484644670994
+  },
+  "cv_rmse_by_model": {
+    "rf_400": 0.6741571509686339,
+    "et_600": 0.6564355786083831,
+    "xgb": 0.6592887288169796,
+    "lgbm": 0.6246476569429527,
+    "catboost": 0.6806984634795512
+  },
+  "best_family": "lgbm",
+  "config": {
+    "data": "Data/herg_combined_dataset/herg_combined_dataset.csv",
+    "smiles_col": "smiles",
+    "pic50_col": "pIC50",
+    "id_col": "compound_chembl_id",
+    "require_exact": true,
+    "holdout_ids": "Data/holdout_out/holdout_inchikeys.csv",
+    "holdout_frac": 0.2,
+    "cv_folds": 5,
+    "ad_knn_k": 5,
+    "fp_bits": 2048,
+    "y_scramble_repeats": 0,
+    "seed": 42,
+    "device": "auto",
+    "out_dir": "herg_run/reg_results"
+  }
+}
