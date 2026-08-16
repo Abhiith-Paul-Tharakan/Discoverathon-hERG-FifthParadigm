@@ -10,26 +10,22 @@
 # are already present after `git clone` -- this script still checksums them
 # so a single command verifies the whole checkpoints/ directory is intact.
 #
-# ---- fill these in before tagging the release -------------------------------
-REPO="ORG/REPO"              # e.g. "novartis-discoverathon/herg-challenge2"
+# ---- release location -------------------------------------------------------
+REPO="Abhiith-Paul-Tharakan/Discoverathon-hERG-FifthParadigm"
 TAG="checkpoints-v1"         # the GitHub Release tag the checkpoint was uploaded to
 # -------------------------------------------------------------------------------
-
 set -euo pipefail
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 CKPT_DIR="$HERE/checkpoints"
 mkdir -p "$CKPT_DIR/cb_ft_pure_results"
-
 LARGE_FILE="herg_combined_dataset_holdout.joblib"
 URL="https://github.com/${REPO}/releases/download/${TAG}/${LARGE_FILE}"
-
 if [ -f "$CKPT_DIR/$LARGE_FILE" ]; then
     echo "[download_checkpoints] $LARGE_FILE already present, skipping download."
 else
     echo "[download_checkpoints] fetching $LARGE_FILE from $URL ..."
     curl -fL --retry 3 -o "$CKPT_DIR/$LARGE_FILE" "$URL"
 fi
-
 for f in pic50_regressor.joblib cb_ft_pure_results/cb_ft_final.pt cb_ft_pure_results/cb_ft_scaler.joblib; do
     if [ ! -f "$CKPT_DIR/$f" ]; then
         echo "[download_checkpoints] ERROR: $f is missing." >&2
@@ -38,7 +34,6 @@ for f in pic50_regressor.joblib cb_ft_pure_results/cb_ft_final.pt cb_ft_pure_res
         exit 1
     fi
 done
-
 echo "[download_checkpoints] verifying SHA-256 checksums ..."
 cd "$CKPT_DIR"
 sha256sum -c "$HERE/SHA256SUMS.txt"
