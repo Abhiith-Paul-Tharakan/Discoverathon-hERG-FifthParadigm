@@ -180,7 +180,7 @@ keeping only HIGH-confidence predictions raises ROC-AUC to **0.889 at 58% covera
   validation-only). All sources and versions are documented in `data/`.
 - **Tools:** RDKit, scikit-learn, XGBoost / LightGBM / CatBoost, PyTorch + HuggingFace Transformers
   (ChemBERTa).
-- **AI assistance:** AI coding assistants were used for implementation and refactoring; the scientific
+- **AI assistance:** AI coding assistants (Claude Pro) were used for implementation and refactoring; the scientific
   reasoning, model choices, and analysis are the team's own.
 
 ---
