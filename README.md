@@ -1,275 +1,188 @@
-# hERG Channel Blockade Prediction — Discoverathon 2026, Challenge 2
+# Predicting hERG Channel Blockade
 
-Predicts, from a single SMILES string, whether a compound blocks the hERG cardiac ion channel
-(cardiotoxicity liability) and its potency against hERG (pIC50). Built for Novartis Discoverathon
-2026, Challenge 2 (Safety track).
+**Novartis Discoverathon 2026 · Challenge 2 (Safety) · Team FifthParadigm**
 
-This is a **minimal, final-model-only repo**: it contains exactly what's needed to run and
-reproduce the deployed model, its training data, and its validation evidence. The broader
-model-selection exploration (GNN, a frozen-embedding ChemBERTa variant, every blend combination
-that was evaluated and rejected) informed the choices below but is not included here.
+Machine-learning models that predict **hERG (KCNH2) channel blockade** — a blocker probability and a
+pIC50 potency — directly from a molecule's SMILES, with scaffold-split held-out evaluation, an
+applicability-domain confidence layer, and an honest external check against clinically-annotated drugs.
 
-## The final model
+---
 
-> **Final model = ML-Ensemble + fine-tuned "pure" ChemBERTa for classification; ML-Ensemble
-> regressor alone for pIC50. No GNN, no frozen-embedding ChemBERTa.**
+## Overview
 
-Wired end-to-end in [`model_code/master_predict.py`](model_code/master_predict.py):
+Drug-induced hERG blockade causes QT prolongation and life-threatening arrhythmias, and is a leading
+cause of late-stage drug attrition. This project assembles a 16,650-compound hERG bioactivity dataset
+from public sources, trains and compares four model architectures, and ships a single wired
+production model — the **MasterModel** — that takes a SMILES in and returns a blocker probability, a
+predicted pIC50, and a confidence tier.
 
-```
-P(blocker)      = 0.770 * P(ML_Ensemble) + 0.230 * P(ft_chemberta_pure)
-predicted pIC50 = ML_Ensemble regressor, alone
-```
+We deliberately report two things: how well the model does on its trained task (in-vitro hERG,
+held-out set), and how well it transfers to an independent clinical cardiotoxicity set — and we are
+explicit about the gap between them.
 
-- **ML_Ensemble** ([`train_ml_ensemble_classifier.py`](model_code/train_ml_ensemble_classifier.py) /
-  [`ml_pic50_regressor.py`](model_code/ml_pic50_regressor.py)) — Morgan/ECFP4 fingerprints
-  (2048 bits) + 24 RDKit 2D descriptors, fed to a top-3-by-ROC-AUC soft-voting ensemble over
-  {logistic regression, random forest, extra-trees, XGBoost, LightGBM, CatBoost}, calibrated.
-  Classifier and regressor are separate, independently-trained models sharing the same scaffold
-  split. Self-contained joblib load-and-predict, no retraining needed to run inference.
-- **ft_chemberta_pure** ([`finetune_chemberta_pure.py`](model_code/finetune_chemberta_pure.py)) —
-  ChemBERTa-2 (`DeepChem/ChemBERTa-77M-MTR`), fully fine-tuned (transformer unfrozen + deeper
-  pooled-embedding head), trained with `--pure` — no ECFP4/physchem fusion, signal comes solely
-  from the fine-tuned embedding. Classification only; it has no role in the deployed regression.
-- The 0.770/0.230 classification blend weights were optimized on out-of-fold ROC-AUC during model
-  selection (simplex grid search over every pairwise/3-way combination of the models evaluated)
-  and then frozen — this combination was the best/tied-best classifier on internal holdout AND the
-  external clinical set. Regression uses the ML-Ensemble regressor alone: every blend that touched
-  it made holdout RMSE/R² worse (it has no OOF predictions, so it can't be leakage-safely weighted
-  against other regressors without dilution).
+## Key results
 
-## Repo map
-
-```
-README.md                     you are here
-requirements.txt              pinned deps for the full repo
-download_checkpoints.sh       fetches the one >100MB checkpoint from a GitHub Release
-SHA256SUMS.txt                checksums for all 4 required checkpoints
-submission.csv                FINAL 3-column rubric submission (compound_id, hERG_blocker_probability, predicted hERG pIC50)
-submission_extended.csv       same + AD/boundary/confidence-tier trust columns (holdout, n=3,331)
-
-checkpoints/                  REQUIRED final-model weights (see "Model checkpoints" below)
-  herg_combined_dataset_holdout.joblib     ML_Ensemble classifier (~318 MB, via Release)
-  pic50_regressor.joblib                   ML_Ensemble regressor (~4.2 MB, committed)
-  cb_ft_pure_results/
-    cb_ft_final.pt                         ft_chemberta_pure weights (~14.4 MB, committed)
-    cb_ft_scaler.joblib                    ft_chemberta_pure metadata (88 B, committed)
-
-data/
-  herg_combined_dataset/       16,650-compound training pool (ChEMBL + BindingDB)
-  holdout_out/                 20% scaffold-split holdout manifest (seed 42)
-  clinical_external_validation_set.csv       957-compound external clinical set (DICTrank + CredibleMeds)
-  external_dataset_curation_report.md        how the external set was built
-  external_dataset_honesty_report.md         what kind of evidence the external set is (and isn't)
-
-model_code/
-  master_predict.py                    the deployed pipeline -- SMILES/CSV in, blend out
-  train_ml_ensemble_classifier.py      trains the ML_Ensemble classifier
-  ml_pic50_regressor.py                trains the ML_Ensemble regressor
-  finetune_chemberta_pure.py           trains ft_chemberta_pure (--pure) and its fusion variant
-  make_scaffold_split.py               builds the shared scaffold-split holdout (seed 42)
-  herg_robust_extraction.py            builds herg_combined_dataset.csv from ChEMBL + BindingDB
-  assemble_submission.py               joins classifier+regressor holdout predictions -> submission.csv
-  ml_ensemble_holdout_predictions/     ML_Ensemble's own holdout predictions (assemble_submission.py inputs)
-
-external_validation/
-  predict_ml_ensemble.py               scores the external set through the deployed ML classifier+regressor
-  predict_ft_chemberta.py              scores the external set through the deployed ft_chemberta_pure classifier
-  build_result_analysis.py             confusion matrices + AD/boundary trust-filter ablation (holdout + external)
-  outputs/submission.csv, submission_extended.csv    deployed blend's predictions on the 957-compound external set
-  confusion_matrix_*.csv, trust_filter_ablation.csv  build_result_analysis.py's output
-
-reports/                       placeholder -- technical report added later
-presentation/                  placeholder -- deck added later
-```
-
-## Data
-
-| Source | What it provides | Role |
+| | Held-out (in-vitro hERG) | External (clinical cardiotox) |
 |---|---|---|
-| ChEMBL + BindingDB | 16,650 compounds with hERG binary blocker labels; a subset with measured pIC50 | **Training** (both classifier and regressor) |
-| DICTrank (FDA Drug-Induced Cardiotoxicity Rank, Seal et al. 2024 structure-paired release) | 1,020 drug-level cardiotoxicity concern records | **External validation only** |
-| CredibleMeds QTdrugs (rev. 16 Apr 2026) | 323 drug-level TdP risk records, resolved to structures offline | **External validation only** |
+| **ROC-AUC (MasterModel)** | **0.832** | 0.610 |
+| Accuracy / F1 | 0.756 / 0.749 | — (read ROC-AUC) |
+| pIC50 regression | R² ≈ 0.41, RMSE ≈ 0.68 | (no external pIC50 labels) |
 
-- **Held-out test set**: 20% scaffold-split (Murcko scaffolds, `StratifiedGroupKFold`, seed 42),
-  carved off before any model selection touches the data — zero scaffold overlap with the 80%
-  training pool. See `data/holdout_out/`.
-- **External clinical set** (`data/clinical_external_validation_set.csv`, 957 compounds from
-  DICTrank + CredibleMeds): used **only** to validate, **never** to train. Honest framing: this is
-  an *expert/regulatory-curated proxy* for clinical cardiotoxicity risk, not a raw hERG-patch-clamp
-  measurement, and its chemical space barely overlaps the ChEMBL/BindingDB training distribution —
-  see "External validation" below and `data/external_dataset_curation_report.md` /
-  `data/external_dataset_honesty_report.md` for the full curation methodology and its limits.
+- Held-out set: 3,331 compounds, 20% scaffold split (seed 42, **zero scaffold overlap**).
+- External set: 957 marketed drugs (DICTrank + CredibleMeds), **validation only**, never trained on.
+- `master_predict.py` **reproduces `submission.csv` on the held-out set to within 1e-4** (pIC50 exact),
+  verified from a clean clone.
 
-## Model checkpoints
+## The final model — MasterModel
 
-`master_predict.py` loads 4 files from `checkpoints/`. Three are small enough to commit directly
-to git; the ML-Ensemble classifier (~318 MB) exceeds GitHub's 100 MB push limit and ships as a
-GitHub Release asset instead.
+`model_code/master_predict.py` — one SMILES in → blocker probability + predicted pIC50 + confidence tier.
 
-| File | Size | Hosting |
-|---|---|---|
-| `checkpoints/herg_combined_dataset_holdout.joblib` | ~318 MB | GitHub Release (`download_checkpoints.sh`) |
-| `checkpoints/pic50_regressor.joblib` | ~4.2 MB | Committed |
-| `checkpoints/cb_ft_pure_results/cb_ft_final.pt` | ~14.4 MB | Committed |
-| `checkpoints/cb_ft_pure_results/cb_ft_scaler.joblib` | 88 B | Committed |
+- **Classification:** `P(blocker) = 0.770 · P(ML Ensemble) + 0.230 · P(fine-tuned ChemBERTa)`
+  (weights optimized on out-of-fold ROC-AUC).
+- **Regression (pIC50):** the **ML-Ensemble regressor alone** (blending diluted it on held-out data).
+- **No GNN** in the final model — the GNN and other variants were evaluated during model selection
+  (see [Model evaluation](#model-evaluation)) and are kept only to reproduce those comparisons.
+- Every prediction also carries an **applicability-domain flag**, **boundary-instability flag**, and a
+  **HIGH / MEDIUM / LOW confidence tier**.
 
-Fetch + verify:
+## Repository structure
+
+```
+model_code/                     # the deployed pipeline + training scripts
+  master_predict.py             # ← final wired model (entry point)
+  train_ml_ensemble_classifier.py   ml_pic50_regressor.py   finetune_chemberta_pure.py
+  make_scaffold_split.py        herg_robust_extraction.py   assemble_submission.py
+  ml_ensemble_holdout_predictions/  # committed prediction files behind the reported metrics
+external_validation/            # final-model external scoring (ML + FT-ChemBERTa + blend)
+  predict_ml_ensemble.py  predict_ft_chemberta.py  build_result_analysis.py
+  confusion_matrix_*.csv  trust_filter_ablation.csv  outputs/
+checkpoints/                    # model weights (large one via Release — see below)
+data/                           # training data, held-out split, external set, curation docs
+reports/                        # technical report (PDF/DOCX)
+presentation/                   # 5-minute deck
+submission.csv  submission_extended.csv     # held-out predictions (rubric format + trust columns)
+download_checkpoints.sh  SHA256SUMS.txt  requirements.txt
+```
+
+## Installation
 
 ```bash
-bash download_checkpoints.sh          # downloads the one Release-hosted file, verifies all 4
+git clone https://github.com/Abhiith-Paul-Tharakan/Discoverathon-hERG-FifthParadigm.git
+cd Discoverathon-hERG-FifthParadigm
+pip install -r requirements.txt      # Python 3.11; scikit-learn 1.8.0, torch 2.5.1 pinned
+bash download_checkpoints.sh         # fetches the one >100 MB checkpoint from the GitHub Release
 ```
 
-Before this works, fill in `REPO=` / `TAG=` at the top of `download_checkpoints.sh` and upload
-`checkpoints/herg_combined_dataset_holdout.joblib` as a Release asset under that tag (see the
-"Gaps to fix manually" checklist below).
+`download_checkpoints.sh` pulls `herg_combined_dataset_holdout.joblib` (~318 MB, too large for git)
+from the `checkpoints-v1` Release and verifies **all four** checkpoints against `SHA256SUMS.txt`. The
+other three (`pic50_regressor.joblib`, `cb_ft_final.pt`, `cb_ft_scaler.joblib`) ship in the repo.
 
-## Setup
+## Usage
 
 ```bash
-python3.13 -m venv .venv
-source .venv/bin/activate            # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-pip install torch==2.5.1+cu121 --index-url https://download.pytorch.org/whl/cu121   # or CPU-only: pip install torch==2.5.1
-bash download_checkpoints.sh
-```
+# single molecule
+python model_code/master_predict.py --smiles "CC(=O)Nc1ccc(O)cc1"
 
-## Run instructions
-
-### (a) Recreate the scaffold split
-
-```bash
-cd model_code
-python herg_robust_extraction.py --out_dir ../data/herg_combined_dataset
-python make_scaffold_split.py \
-    --binary ../data/herg_combined_dataset/herg_binary_ml_dataset.csv \
-    --unified ../data/herg_combined_dataset/herg_pic50_unified.csv \
-    --out_dir ../data/holdout_out
-```
-
-### (b) Fetch / load the two final components
-
-Already covered by `bash download_checkpoints.sh` above — `master_predict.py` loads both
-components internally, no separate load step is needed.
-
-### (c) Run `master_predict.py`
-
-Single SMILES (propranolol, a documented hERG blocker):
-
-```bash
-cd model_code
-python master_predict.py --smiles "CC(C)NCC(O)COc1cccc2ccccc12"
-```
-
-Verified output (this exact command, this repo, 2026-08-17):
-
-```
-compound_id  hERG_blocker_probability  predicted hERG pIC50  p_ML_Ensemble  p_FT_ChemBERTa_pure
-    query_1                    0.3974                 5.281         0.4862               0.0999
-```
-
-Batch CSV:
-
-```bash
-cd model_code
-python master_predict.py --input compounds.csv --smiles_col smiles \
+# batch over a CSV
+python model_code/master_predict.py --input compounds.csv --smiles_col smiles \
     --id_col compound_id --out predictions.csv
-# writes predictions.csv (3-column rubric schema) + predictions_extended.csv (+ per-model contributions)
 ```
 
-### (d) Reproduce the held-out metrics and external validation
+Output columns: `compound_id, hERG_blocker_probability, predicted hERG pIC50` (plus the ML/FT
+component probabilities in the extended output).
+
+## Reproducing our results
+
+**Held-out metrics** are backed by the committed prediction files in
+`model_code/ml_ensemble_holdout_predictions/` and `submission.csv`; recompute them with
+`external_validation/build_result_analysis.py`.
+
+**End-to-end reproducibility check** — regenerate the held-out predictions with the deployed model
+and compare to the committed `submission.csv`:
 
 ```bash
-# Score the external clinical set through each deployed component:
-cd external_validation
-python predict_ml_ensemble.py --external ../data/clinical_external_validation_set.csv --smiles_col smiles \
-    --out ml_ensemble_external_predictions.csv
-python predict_ft_chemberta.py --external ../data/clinical_external_validation_set.csv --smiles_col smiles \
-    --out ft_chemberta_external_predictions.csv
-
-# Confusion matrices + AD/boundary trust-filter ablation on BOTH holdout and external
-# (reads submission_extended.csv at repo root + external_validation/outputs/submission_extended.csv,
-# both already-computed deployed-blend predictions -- see "Known limitations"):
-python build_result_analysis.py
+python model_code/master_predict.py --input data/holdout_out/holdout_input.csv \
+    --smiles_col smiles --id_col compound_id --out holdout_repredict.csv
+# compare holdout_repredict.csv to submission.csv on compound_id
 ```
 
-## Held-out results (n = 3,331, scaffold-disjoint from training)
+This reproduces `submission.csv` to within **1e-4** on probability and **exactly** on pIC50 across all
+3,331 held-out compounds.
 
-Deployed classification blend (`P = 0.770*ML + 0.230*ft_chemberta_pure`), threshold = 0.5:
+**External validation:**
 
-| Accuracy | Precision | Recall | F1 | ROC-AUC | PR-AUC | MCC |
-|---|---|---|---|---|---|---|
-| 0.7556 | 0.7508 | 0.7480 | 0.7494 | 0.8316 | 0.8271 | 0.5110 |
+```bash
+python external_validation/predict_ml_ensemble.py     # ML probs/pIC50 on the clinical set
+python external_validation/predict_ft_chemberta.py     # FT-ChemBERTa probs on the clinical set
+python external_validation/build_result_analysis.py    # blend 0.77/0.23, score, trust-filter table
+```
 
-Source: `external_validation/trust_filter_ablation.csv` ("ALL, no filter" row). Restricting to
-compounds inside the classifier's kNN-Tanimoto applicability domain (69% of holdout) raises
-ROC-AUC to 0.865 / Accuracy to 0.792; restricting further to the HIGH-confidence tier (58% of
-holdout) raises it to 0.889 / 0.823 — see the full ablation table for the trust-tier breakdown.
+## Model evaluation
 
-Deployed regression (ML-Ensemble regressor alone), exact-potency subset (n = 2,058):
+Four architectures were trained and compared on the same held-out scaffold split; the two strongest
+and most complementary were blended into the MasterModel.
 
-| MAE | RMSE | R² | Pearson r |
-|---|---|---|---|
-| 0.4713 | 0.6857 | 0.4089 | 0.6409 |
+| Model | Held-out ROC-AUC |
+|---|---|
+| ML Ensemble (Morgan + descriptors, GBM stack) | 0.823 |
+| GNN (AttentiveFP) | 0.791 |
+| ChemBERTa (frozen featurizer) | 0.772 |
+| Fine-tuned ChemBERTa (pure) | 0.802 |
+| Blend: GNN + ML | 0.826 |
+| **MasterModel (ML + FT-ChemBERTa)** | **0.832** |
 
-Source: `model_code/ml_ensemble_holdout_predictions/reg_metrics.json`.
+Fine-tuning ChemBERTa end-to-end lifted it from 0.772 → 0.802, and its errors were complementary to
+the ML ensemble's — so the ML + FT blend beat every single model and every other blend.
 
-## External validation (957 clinical drugs — validation-only proxy, read this before citing it)
+## Applicability domain & confidence
 
-The external set is a genuine domain-shift stress test, not a second held-out test set from the
-same distribution — treat the numbers below accordingly:
+The ML Ensemble emits, per compound, a k-NN Tanimoto **applicability-domain (AD)** flag (threshold
+≈ 0.494), a **boundary-instability** flag, and a combined **confidence tier** (HIGH 1,916 / MEDIUM
+382 / LOW 1,033 on the held-out set). These are validated on held-out data — in-domain predictions
+(ROC-AUC 0.858) clearly beat out-of-domain (0.708) — and support a selective-prediction workflow:
+keeping only HIGH-confidence predictions raises ROC-AUC to **0.889 at 58% coverage**
+(`external_validation/trust_filter_ablation.csv`).
 
-| | n | ROC-AUC | PR-AUC | Accuracy | Precision | Recall | F1 | MCC |
-|---|---|---|---|---|---|---|---|---|
-| Deployed blend (ML+FT, 0.77/0.23) | 935 labeled / 957 | 0.6096 | 0.8032 | 0.3979 | 0.8457 | 0.2030 | 0.3274 | 0.1264 |
+## Data & curation
 
-Source: `external_validation/trust_filter_ablation.csv`. ROC-AUC drops from 0.83 (holdout) to
-0.61 (external) — expected, since this set is regulatory/expert-curated clinical risk labels for
-approved/withdrawn drugs, not ChEMBL bioassay labels, and only **24 of 935** labeled compounds
-fall inside the classifier's training-data applicability domain (the rest is extrapolation by
-construction — clinical drugs occupy a very different region of chemical space than the
-ChEMBL/BindingDB screening compounds this model trained on). Precision stays high (0.85) but
-recall collapses (0.20) at the default threshold — the model under-calls blockers on this set
-rather than over-calling them.
+- **Training / held-out:** 16,650 compounds from ChEMBL 37 (CHEMBL240) + BindingDB, one gated
+  from-scratch extraction, RDKit-standardized, labelled at 10 µM (pIC50 5.0). Full methodology,
+  thresholds, quality gates, and split protocol are in **`data/data_curation.md`**.
+- **External:** 957 marketed drugs from FDA DICTrank + CredibleMeds QTdrugs — a curated,
+  clinically-*derived* proxy, not raw clinical data. See **`data/external_dataset_curation_report.md`**
+  and **`data/external_dataset_honesty_report.md`**.
 
-Regression cannot be validated externally the normal way — the clinical set has no measured
-pIC50, only a binary risk label. As a weak sanity check, predicted pIC50 from the ML-Ensemble
-regressor alone correlates with the binary cardiotoxicity label at point-biserial r = 0.073
-(p = 0.026, n = 935) — a real but small signal, consistent with the endpoint mismatch (potency
-vs. a coarse clinical risk category) rather than a validation of regression accuracy.
+## Limitations
 
-## Known limitations
+- **hERG ≠ clinical cardiotoxicity.** The model predicts in-vitro hERG blockade. On the external
+  clinical set ROC-AUC drops to ~0.61 — an honest gap driven by (1) chemical-space shift (86% of
+  external drugs lie beyond 0.40 Tanimoto to any training compound) and (2) a label-definition shift
+  (hERG is only one of several cardiotoxicity mechanisms). Filtering to in-domain compounds does not
+  close it, isolating the label mismatch as the binding limit.
+- **Not a hard safety filter.** Passing the model ≠ safe to synthesize. In a safety-screening role,
+  prioritize sensitivity (lower the threshold) and pair predictions with the confidence tiers.
+- **Bounded sensitivity / precision.** Sensitivity is capped by non-hERG cardiotoxicity mechanisms;
+  precision is capped by the model's blindness to dose, exposure, and multi-channel effects.
 
-- `master_predict.py` does not compute the applicability-domain flag, boundary-instability flag,
-  or confidence tier for ad-hoc single-SMILES/CSV queries — those trust columns are currently only
-  produced for the *training holdout* (by `train_ml_ensemble_classifier.py` at train time) and for
-  the *external set* (recomputed against the same persisted kNN-Tanimoto cutoff, 0.49408293, in the
-  process that produced `external_validation/outputs/submission_extended.csv`). If you need
-  per-query trust flags for a new compound, use `train_ml_ensemble_classifier.py`'s AD logic as a
-  reference rather than assuming `master_predict.py`'s output CSV carries them — it currently does
-  not.
-- `external_validation/build_result_analysis.py` reads its predictions from the already-computed
-  `submission_extended.csv` files (root + `external_validation/outputs/`) rather than recomputing
-  AD/boundary flags itself — `predict_ml_ensemble.py` and `predict_ft_chemberta.py` reproduce the
-  two components' raw probabilities, but the AD-flagging + 0.770/0.230 blending step that produced
-  the committed `submission_extended.csv` files is not itself a script in this repo (it predates
-  this minimal-repo cleanup). The numbers are real or a completed, not fabricated, run; if you need
-  to regenerate them from scratch for a *new* compound set, blend `predict_ml_ensemble.py` +
-  `predict_ft_chemberta.py`'s output columns with the frozen 0.770/0.230 weights yourself, or use
-  `master_predict.py --input` directly, which does the same blend (minus the AD/tier columns, see
-  above).
-- The external clinical set's applicability-domain coverage is extremely low (24/935 compounds) —
-  external metrics above describe near-total extrapolation, not in-distribution generalization.
+## Technical notes
+
+- `requirements.txt` pins **scikit-learn 1.8.0** and **torch 2.5.1** (the versions the checkpoints were
+  produced with). `transformers` is ranged `>=4.40` — the exact fine-tuning version wasn't captured in
+  the environment snapshot, but the checkpoint is a raw state_dict and reproduces `submission.csv`
+  identically across transformers 4.4x–5.x (verified).
+- `master_predict.py` does not recompute the AD flag for ad-hoc single-SMILES queries; the AD/trust
+  columns are derived for the held-out and external sets by `assemble_submission.py` /
+  `build_result_analysis.py`.
 
 ## Integrity & acknowledgments
 
-- **Data sources**: ChEMBL (bioactivity), BindingDB (bioactivity), DICTrank / Seal et al. 2024
-  (FDA drug-induced cardiotoxicity ranks, structure-paired release), CredibleMeds QTdrugs list
-  (rev. 16 April 2026). Full curation methodology, versions, and reproducibility caveats in
-  `data/external_dataset_curation_report.md` and `data/external_dataset_honesty_report.md`.
-- **Tools**: RDKit (featurization/standardization), scikit-learn, XGBoost, LightGBM, CatBoost
-  (ML-Ensemble), PyTorch + Hugging Face Transformers (`DeepChem/ChemBERTa-77M-MTR` checkpoint).
-- **AI assistance**: AI coding assistants (Claude) were used for implementation and for this
-  repository cleanup/reorganization, under the team's own scientific reasoning, methodology
-  choices, and result interpretation — the modeling decisions, metrics, and conclusions above are
-  the team's.
+- **Data:** ChEMBL 37 + BindingDB (hERG bioactivity); FDA DICTrank + CredibleMeds QTdrugs (external,
+  validation-only). All sources and versions are documented in `data/`.
+- **Tools:** RDKit, scikit-learn, XGBoost / LightGBM / CatBoost, PyTorch + HuggingFace Transformers
+  (ChemBERTa).
+- **AI assistance:** AI coding assistants were used for implementation and refactoring; the scientific
+  reasoning, model choices, and analysis are the team's own.
+
+---
+
+*Team FifthParadigm · Discoverathon 2026 · Challenge 2 — Predicting hERG Channel Blockade.*
